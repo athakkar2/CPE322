@@ -12,11 +12,11 @@ There was an error downloading GTKWave using its corresponding MSYS2 package, so
 
 First I used some GHDL commands before using GTKWave to give a graphical representation of the Half Adder:
 
-'ghdl -a ha.vhdl
+`ghdl -a ha.vhdl
  ghdl -a ha_tb.vhdl
  ghdl -e ha_tb
- ghdl -r ha_tb --vcd=ha.vcd'
+ ghdl -r ha_tb --vcd=ha.vcd`
 
  Then I used the following command to open GTKWave and display the Half Adder file graphically:
 
- 'gtkwave ha.vcd'
+ `gtkwave ha.vcd`
