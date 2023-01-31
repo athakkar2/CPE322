@@ -12,11 +12,53 @@ There was an error downloading GTKWave using its corresponding MSYS2 package, so
 
 First I used some GHDL commands before using GTKWave to give a graphical representation of the Half Adder:
 
-'ghdl -a ha.vhdl
- ghdl -a ha_tb.vhdl
- ghdl -e ha_tb
- ghdl -r ha_tb --vcd=ha.vcd'
+```bash
+ghdl -a ha.vhdl
+ghdl -a ha_tb.vhdl
+ghdl -e ha_tb
+ghdl -r ha_tb --vcd=ha.vcd
+```
 
  Then I used the following command to open GTKWave and display the Half Adder file graphically:
 
- 'gtkwave ha.vcd'
+ ```bash
+ gtkwave ha.vcd
+ ```
+
+## Full Adder
+
+![GTKWave Output for Full Adder](fulladder.png)
+
+First I used some GHDL commands before using GTKWave to give a graphical representation of the Full Adder:
+
+```bash
+ghdl -a adder.vhdl
+ghdl -a adder_tb.vhdl
+ghdl -e adder_tb
+ghdl -r adder_tb --vcd=adder.vcd
+```
+
+ Then I used the following command to open GTKWave and display the Full Adder file graphically:
+
+ ```bash
+ gtkwave adder.vcd
+ ```
+
+## D Flip-Flop
+
+![GTKWave Output for D Flip-Flop](dflipflop.png)
+
+First I used some GHDL commands before using GTKWave to give a graphical representation of the Full Adder:
+
+```bash
+ghdl -a dff.vhdl
+ghdl -a dff_tb.vhdl
+ghdl -e dff_tb
+ghdl -r dff_tb --vcd=dff.vcd
+```
+
+ Then I used the following command to open GTKWave and display the D Flip-Flop file graphically:
+
+ ```bash
+ gtkwave dff.vcd
+ ```
