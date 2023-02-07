@@ -1,0 +1,1637 @@
+Script started on 2023-02-07 16:12:34-05:00 [TERM="xterm" TTY="/dev/pty0" COLUMNS="80" LINES="24"]
+[?2004h]0;~
+
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~[0m
+
+$ hostan[K[Kname
+[?2004l
+DESKTOP-HRIQRGI
+[?2004h]0;~
+
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~[0m
+
+$ env
+[?2004l
+ProgramFiles(x86)=C:\Program Files (x86)
+!::=::\
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+!C:=C:\msys64
+SHELL=/usr/bin/bash
+NUMBER_OF_PROCESSORS=8
+FPS_BROWSER_USER_PROFILE_STRING=Default
+PROCESSOR_LEVEL=6
+WD=C:\msys64\usr\bin\
+TERM_PROGRAM_VERSION=3.5.2
+platformcode=AN
+MINGW_PREFIX=/mingw64
+ERLANG_HOME=C:\Program Files\erl9.2
+PKG_CONFIG_PATH=/mingw64/lib/pkgconfig:/mingw64/share/pkgconfig
+USERDOMAIN_ROAMINGPROFILE=DESKTOP-HRIQRGI
+GRAIL=/c/msys64/home/thakk/GrailGUI
+HOSTNAME=DESKTOP-HRIQRGI
+MSYS2_PATH_TYPE=inherit
+PROGRAMFILES=C:\Program Files
+MSYSTEM=MINGW64
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+NIEXTCCOMPILERSUPP=C:\Program Files (x86)\National Instruments\Shared\ExternalCompilerSupport\C\
+ORIGINAL_TEMP=/c/Users/thakk/AppData/Local/Temp
+MINGW_CHOST=x86_64-w64-mingw32
+OS=Windows_NT
+HOMEDRIVE=C:
+VXIPNPPATH=C:\Program Files (x86)\IVI Foundation\VISA\
+RABBITMQ_NODENAME=rabbit@localhost
+MSYSTEM_CARCH=x86_64
+USERDOMAIN=DESKTOP-HRIQRGI
+PWD=/home/thakk
+USERPROFILE=C:\Users\thakk
+MANPATH=/mingw64/local/man:/mingw64/share/man:/usr/local/man:/usr/share/man:/usr/man:/share/man
+PRINTER=HP Officejet 4630 series [D635D4]
+TZ=America/New_York
+PTSMINSTALLPATH_X86=c:\Program Files (x86)\HP\HP ProtectTools Security Manager\Bin\
+MINGW_PACKAGE_PREFIX=mingw-w64-x86_64
+tmp=C:\Users\thakk\AppData\Local\Temp
+ALLUSERSPROFILE=C:\ProgramData
+ORIGINAL_PATH=/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/c/WINDOWS/system32:/c/WINDOWS:/c/WINDOWS/System32/Wbem:/c/WINDOWS/System32/WindowsPowerShell/v1.0:/c/WINDOWS/System32/OpenSSH:/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/c/Program Files/IVI Foundation/VISA/Win64/Bin:/c/Program Files (x86)/National Instruments/Shared/LabVIEW CLI:/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/c/Program Files/MATLAB/MATLAB Runtime/v92/runtime/win64:/c/Program Files/MATLAB/R2021b/runtime/win64:/c/Program Files/MATLAB/R2021b/bin:/c/Program Files/CMake/bin:/c/Users/thakk/Downloads/opencv/build/x64/vc15/bin:/c/Users/thakk/Downloads/opencv/build/x64/vc15/lib:/c/Users/thakk/Downloads/opencv/build/include:/c/eda/ghdl:/c/eda/gtkwave/bin:/c/Program Files/Git/cmd:/c/Users/thakk/AppData/Local/Programs/Python/Python311:/c/Users/thakk/AppData/Local/Programs/Python/Python311/Lib:/c/Users/thakk/AppData/Local/Programs/Python/Python311/Scripts:/c/Program Files/MySQL/MySQL Shell 8.0/bin:/c/Users/thakk/AppData/Local/Microsoft/WindowsApps:/c/Users/thakk/AppData/Local/atom/bin:/mingw64/bin:/usr/bin:/c/Users/thakk/AppData/Local/Programs/Microsoft VS Code/bin:/c/xampp/php:/c/Users/thakk/Downloads/opencv/build/x64/vc14:/mingw64/include/opencv4
+CommonProgramW6432=C:\Program Files\Common Files
+HOME=/home/thakk
+USERNAME=thakk
+PTSMINSTALLPATH=c:\Program Files\HP\HP ProtectTools Security Manager\Bin\
+NIDAQmxSwitchDir=C:\Program Files (x86)\National Instruments\NI-DAQ\Switch\
+OneDrive=C:\Users\thakk\OneDrive - stevens.edu
+COMSPEC=C:\WINDOWS\system32\cmd.exe
+RegionCode=NA
+APPDATA=C:\Users\thakk\AppData\Roaming
+SYSTEMROOT=C:\WINDOWS
+LOCALAPPDATA=C:\Users\thakk\AppData\Local
+PROMPT=$P$G
+BRB=C:\Program Files\HP\Sure Click\bin
+COMPUTERNAME=DESKTOP-HRIQRGI
+INFOPATH=/usr/local/info:/usr/share/info:/usr/info:/share/info
+RABBITMQ_BASE=C:\ProgramData\RabbitMQ
+BRS=C:\Program Files\HP\Sure Click\servers
+TERM=xterm
+LOGONSERVER=\\DESKTOP-HRIQRGI
+ZES_ENABLE_SYSMAN=1
+ACLOCAL_PATH=/mingw64/share/aclocal:/usr/share/aclocal
+USER=thakk
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+temp=C:\Users\thakk\AppData\Local\Temp
+TEMP=/tmp
+MSYSTEM_CHOST=x86_64-w64-mingw32
+SHLVL=2
+ORIGINAL_TMP=/c/Users/thakk/AppData/Local/Temp
+VS160COMCOMNTOOLS=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\Tools\
+PROCESSOR_REVISION=8e0c
+DriverData=C:\Windows\System32\Drivers\DriverData
+COMMONPROGRAMFILES=C:\Program Files\Common Files
+CONICON=mingw64.ico
+LC_CTYPE=en_US.UTF-8
+VXIPNPPATH64=C:\Program Files\IVI Foundation\VISA\
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 142 Stepping 12, GenuineIntel
+SESSIONNAME=Console
+PS1=\[\e]0;\w\a\]\n\[\e[32m\]\u@\h \[\e[35m\]$MSYSTEM\[\e[0m\] \[\e[33m\]\w\[\e[0m\]\n\$ 
+HOMEPATH=\Users\thakk
+XDG_DATA_DIRS=/mingw64/share/:/usr/local/share/:/usr/share/
+MSYSCON=mintty.exe
+TMP=/tmp
+CONFIG_SITE=/etc/config.site
+PATH=/mingw64/bin:/usr/local/bin:/usr/bin:/bin:/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/c/WINDOWS/system32:/c/WINDOWS:/c/WINDOWS/System32/Wbem:/c/WINDOWS/System32/WindowsPowerShell/v1.0:/c/WINDOWS/System32/OpenSSH:/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/c/Program Files/IVI Foundation/VISA/Win64/Bin:/c/Program Files (x86)/National Instruments/Shared/LabVIEW CLI:/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/c/Program Files/MATLAB/MATLAB Runtime/v92/runtime/win64:/c/Program Files/MATLAB/R2021b/runtime/win64:/c/Program Files/MATLAB/R2021b/bin:/c/Program Files/CMake/bin:/c/Users/thakk/Downloads/opencv/build/x64/vc15/bin:/c/Users/thakk/Downloads/opencv/build/x64/vc15/lib:/c/Users/thakk/Downloads/opencv/build/include:/c/eda/ghdl:/c/eda/gtkwave/bin:/c/Program Files/Git/cmd:/c/Users/thakk/AppData/Local/Programs/Python/Python311:/c/Users/thakk/AppData/Local/Programs/Python/Python311/Lib:/c/Users/thakk/AppData/Local/Programs/Python/Python311/Scripts:/c/Program Files/MySQL/MySQL Shell 8.0/bin:/c/Users/thakk/AppData/Local/Microsoft/WindowsApps:/c/Users/thakk/AppData/Local/atom/bin:/mingw64/bin:/usr/bin:/c/Users/thakk/AppData/Local/Programs/Microsoft VS Code/bin:/c/xampp/php:/c/Users/thakk/Downloads/opencv/build/x64/vc14:/mingw64/include/opencv4:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/path/to/GRAIL/bin:/c/msys64/home/thakk/GrailGUI/bin:/path/to/GRAIL/bin:/c/msys64/home/thakk/GrailGUI/bin
+ProgramW6432=C:\Program Files
+OnlineServices=Online Services
+MSYSTEM_PREFIX=/mingw64
+LOGINSHELL=bash
+RABBITMQ_CONFIG_FILE="C:\ProgramData\National Instruments\Skyline\RabbitMQ\rabbitmq"
+CONTITLE=MinGW x64
+WINDIR=C:\WINDOWS
+FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+PROCESSOR_ARCHITECTURE=AMD64
+PUBLIC=C:\Users\Public
+SYSTEMDRIVE=C:
+OneDriveCommercial=C:\Users\thakk\OneDrive - stevens.edu
+OLDPWD=/
+TERM_PROGRAM=mintty
+ProgramData=C:\ProgramData
+_=/usr/bin/env
+[?2004h]0;~
+
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~[0m
+
+$ ps
+[?2004l
+      PID    PPID    PGID     WINPID   TTY         UID    STIME COMMAND
+     1940    1939    1940      28484  pty0      197609 16:07:22 /usr/bin/bash
+     1939       1    1939      14532  ?         197609 16:07:22 /usr/bin/mintty
+     1927       1    1927      16156  cons0     197609 15:40:52 /usr/bin/bash
+     1985    1940    1985      17972  pty0      197609 16:12:34 /usr/bin/script
+     1999    1986    1999       9292  pty1      197609 16:12:47 /usr/bin/ps
+     1986    1985    1986      28260  pty1      197609 16:12:34 /usr/bin/bash
+[?2004h]0;~
+
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~[0m
+
+$ pwd
+[?2004l
+/home/thakk
+[?2004h]0;~
+
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~[0m
+
+$ git clone https://github.com/l[Kkevinwlu/iot.git
+[?2004l
+Cloning into 'iot'...
+remote: Enumerating objects: 17485, done.[K
+remote: Counting objects:   0% (1/199)[K
+remote: Counting objects:   1% (2/199)[K
+remote: Counting objects:   2% (4/199)[K
+remote: Counting objects:   3% (6/199)[K
+remote: Counting objects:   4% (8/199)[K
+remote: Counting objects:   5% (10/199)[K
+remote: Counting objects:   6% (12/199)[K
+remote: Counting objects:   7% (14/199)[K
+remote: Counting objects:   8% (16/199)[K
+remote: Counting objects:   9% (18/199)[K
+remote: Counting objects:  10% (20/199)[K
+remote: Counting objects:  11% (22/199)[K
+remote: Counting objects:  12% (24/199)[K
+remote: Counting objects:  13% (26/199)[K
+remote: Counting objects:  14% (28/199)[K
+remote: Counting objects:  15% (30/199)[K
+remote: Counting objects:  16% (32/199)[K
+remote: Counting objects:  17% (34/199)[K
+remote: Counting objects:  18% (36/199)[K
+remote: Counting objects:  19% (38/199)[K
+remote: Counting objects:  20% (40/199)[K
+remote: Counting objects:  21% (42/199)[K
+remote: Counting objects:  22% (44/199)[K
+remote: Counting objects:  23% (46/199)[K
+remote: Counting objects:  24% (48/199)[K
+remote: Counting objects:  25% (50/199)[K
+remote: Counting objects:  26% (52/199)[K
+remote: Counting objects:  27% (54/199)[K
+remote: Counting objects:  28% (56/199)[K
+remote: Counting objects:  29% (58/199)[K
+remote: Counting objects:  30% (60/199)[K
+remote: Counting objects:  31% (62/199)[K
+remote: Counting objects:  32% (64/199)[K
+remote: Counting objects:  33% (66/199)[K
+remote: Counting objects:  34% (68/199)[K
+remote: Counting objects:  35% (70/199)[K
+remote: Counting objects:  36% (72/199)[K
+remote: Counting objects:  37% (74/199)[K
+remote: Counting objects:  38% (76/199)[K
+remote: Counting objects:  39% (78/199)[K
+remote: Counting objects:  40% (80/199)[K
+remote: Counting objects:  41% (82/199)[K
+remote: Counting objects:  42% (84/199)[K
+remote: Counting objects:  43% (86/199)[K
+remote: Counting objects:  44% (88/199)[K
+remote: Counting objects:  45% (90/199)[K
+remote: Counting objects:  46% (92/199)[K
+remote: Counting objects:  47% (94/199)[K
+remote: Counting objects:  48% (96/199)[K
+remote: Counting objects:  49% (98/199)[K
+remote: Counting objects:  50% (100/199)[K
+remote: Counting objects:  51% (102/199)[K
+remote: Counting objects:  52% (104/199)[K
+remote: Counting objects:  53% (106/199)[K
+remote: Counting objects:  54% (108/199)[K
+remote: Counting objects:  55% (110/199)[K
+remote: Counting objects:  56% (112/199)[K
+remote: Counting objects:  57% (114/199)[K
+remote: Counting objects:  58% (116/199)[K
+remote: Counting objects:  59% (118/199)[K
+remote: Counting objects:  60% (120/199)[K
+remote: Counting objects:  61% (122/199)[K
+remote: Counting objects:  62% (124/199)[K
+remote: Counting objects:  63% (126/199)[K
+remote: Counting objects:  64% (128/199)[K
+remote: Counting objects:  65% (130/199)[K
+remote: Counting objects:  66% (132/199)[K
+remote: Counting objects:  67% (134/199)[K
+remote: Counting objects:  68% (136/199)[K
+remote: Counting objects:  69% (138/199)[K
+remote: Counting objects:  70% (140/199)[K
+remote: Counting objects:  71% (142/199)[K
+remote: Counting objects:  72% (144/199)[K
+remote: Counting objects:  73% (146/199)[K
+remote: Counting objects:  74% (148/199)[K
+remote: Counting objects:  75% (150/199)[K
+remote: Counting objects:  76% (152/199)[K
+remote: Counting objects:  77% (154/199)[K
+remote: Counting objects:  78% (156/199)[K
+remote: Counting objects:  79% (158/199)[K
+remote: Counting objects:  80% (160/199)[K
+remote: Counting objects:  81% (162/199)[K
+remote: Counting objects:  82% (164/199)[K
+remote: Counting objects:  83% (166/199)[K
+remote: Counting objects:  84% (168/199)[K
+remote: Counting objects:  85% (170/199)[K
+remote: Counting objects:  86% (172/199)[K
+remote: Counting objects:  87% (174/199)[K
+remote: Counting objects:  88% (176/199)[K
+remote: Counting objects:  89% (178/199)[K
+remote: Counting objects:  90% (180/199)[K
+remote: Counting objects:  91% (182/199)[K
+remote: Counting objects:  92% (184/199)[K
+remote: Counting objects:  93% (186/199)[K
+remote: Counting objects:  94% (188/199)[K
+remote: Counting objects:  95% (190/199)[K
+remote: Counting objects:  96% (192/199)[K
+remote: Counting objects:  97% (194/199)[K
+remote: Counting objects:  98% (196/199)[K
+remote: Counting objects:  99% (198/199)[K
+remote: Counting objects: 100% (199/199)[K
+remote: Counting objects: 100% (199/199), done.[K
+remote: Compressing objects:   1% (1/81)[K
+remote: Compressing objects:   2% (2/81)[K
+remote: Compressing objects:   3% (3/81)[K
+remote: Compressing objects:   4% (4/81)[K
+remote: Compressing objects:   6% (5/81)[K
+remote: Compressing objects:   7% (6/81)[K
+remote: Compressing objects:   8% (7/81)[K
+remote: Compressing objects:   9% (8/81)[K
+remote: Compressing objects:  11% (9/81)[K
+remote: Compressing objects:  12% (10/81)[K
+remote: Compressing objects:  13% (11/81)[K
+remote: Compressing objects:  14% (12/81)[K
+remote: Compressing objects:  16% (13/81)[K
+remote: Compressing objects:  17% (14/81)[K
+remote: Compressing objects:  18% (15/81)[K
+remote: Compressing objects:  19% (16/81)[K
+remote: Compressing objects:  20% (17/81)[K
+remote: Compressing objects:  22% (18/81)[K
+remote: Compressing objects:  23% (19/81)[K
+remote: Compressing objects:  24% (20/81)[K
+remote: Compressing objects:  25% (21/81)[K
+remote: Compressing objects:  27% (22/81)[K
+remote: Compressing objects:  28% (23/81)[K
+remote: Compressing objects:  29% (24/81)[K
+remote: Compressing objects:  30% (25/81)[K
+remote: Compressing objects:  32% (26/81)[K
+remote: Compressing objects:  33% (27/81)[K
+remote: Compressing objects:  34% (28/81)[K
+remote: Compressing objects:  35% (29/81)[K
+remote: Compressing objects:  37% (30/81)[K
+remote: Compressing objects:  38% (31/81)[K
+remote: Compressing objects:  39% (32/81)[K
+remote: Compressing objects:  40% (33/81)[K
+remote: Compressing objects:  41% (34/81)[K
+remote: Compressing objects:  43% (35/81)[K
+remote: Compressing objects:  44% (36/81)[K
+remote: Compressing objects:  45% (37/81)[K
+remote: Compressing objects:  46% (38/81)[K
+remote: Compressing objects:  48% (39/81)[K
+remote: Compressing objects:  49% (40/81)[K
+remote: Compressing objects:  50% (41/81)[K
+remote: Compressing objects:  51% (42/81)[K
+remote: Compressing objects:  53% (43/81)[K
+remote: Compressing objects:  54% (44/81)[K
+remote: Compressing objects:  55% (45/81)[K
+remote: Compressing objects:  56% (46/81)[K
+remote: Compressing objects:  58% (47/81)[K
+remote: Compressing objects:  59% (48/81)[K
+remote: Compressing objects:  60% (49/81)[K
+remote: Compressing objects:  61% (50/81)[K
+remote: Compressing objects:  62% (51/81)[K
+remote: Compressing objects:  64% (52/81)[K
+remote: Compressing objects:  65% (53/81)[K
+remote: Compressing objects:  66% (54/81)[K
+remote: Compressing objects:  67% (55/81)[K
+remote: Compressing objects:  69% (56/81)[K
+remote: Compressing objects:  70% (57/81)[K
+remote: Compressing objects:  71% (58/81)[K
+remote: Compressing objects:  72% (59/81)[K
+remote: Compressing objects:  74% (60/81)[K
+remote: Compressing objects:  75% (61/81)[K
+remote: Compressing objects:  76% (62/81)[K
+remote: Compressing objects:  77% (63/81)[K
+remote: Compressing objects:  79% (64/81)[K
+remote: Compressing objects:  80% (65/81)[K
+remote: Compressing objects:  81% (66/81)[K
+remote: Compressing objects:  82% (67/81)[K
+remote: Compressing objects:  83% (68/81)[K
+remote: Compressing objects:  85% (69/81)[K
+remote: Compressing objects:  86% (70/81)[K
+remote: Compressing objects:  87% (71/81)[K
+remote: Compressing objects:  88% (72/81)[K
+remote: Compressing objects:  90% (73/81)[K
+remote: Compressing objects:  91% (74/81)[K
+remote: Compressing objects:  92% (75/81)[K
+remote: Compressing objects:  93% (76/81)[K
+remote: Compressing objects:  95% (77/81)[K
+remote: Compressing objects:  96% (78/81)[K
+remote: Compressing objects:  97% (79/81)[K
+remote: Compressing objects:  98% (80/81)[K
+remote: Compressing objects: 100% (81/81)[K
+remote: Compressing objects: 100% (81/81), done.[K
+Receiving objects:   0% (1/17485)
+Receiving objects:   1% (175/17485)
+Receiving objects:   2% (350/17485)
+Receiving objects:   3% (525/17485)
+Receiving objects:   4% (700/17485)
+Receiving objects:   5% (875/17485)
+Receiving objects:   6% (1050/17485)
+Receiving objects:   7% (1224/17485)
+Receiving objects:   8% (1399/17485)
+Receiving objects:   9% (1574/17485)
+Receiving objects:  10% (1749/17485)
+Receiving objects:  11% (1924/17485)
+Receiving objects:  12% (2099/17485)
+Receiving objects:  13% (2274/17485)
+Receiving objects:  14% (2448/17485)
+Receiving objects:  15% (2623/17485)
+Receiving objects:  16% (2798/17485)
+Receiving objects:  17% (2973/17485)
+Receiving objects:  18% (3148/17485)
+Receiving objects:  19% (3323/17485)
+Receiving objects:  20% (3497/17485)
+Receiving objects:  21% (3672/17485)
+Receiving objects:  22% (3847/17485)
+Receiving objects:  23% (4022/17485)
+Receiving objects:  24% (4197/17485)
+Receiving objects:  25% (4372/17485)
+Receiving objects:  26% (4547/17485)
+Receiving objects:  27% (4721/17485)
+Receiving objects:  28% (4896/17485)
+Receiving objects:  29% (5071/17485)
+Receiving objects:  30% (5246/17485)
+Receiving objects:  31% (5421/17485)
+Receiving objects:  32% (5596/17485)
+Receiving objects:  33% (5771/17485)
+Receiving objects:  34% (5945/17485)
+Receiving objects:  35% (6120/17485)
+Receiving objects:  36% (6295/17485)
+Receiving objects:  37% (6470/17485)
+Receiving objects:  38% (6645/17485)
+Receiving objects:  39% (6820/17485)
+Receiving objects:  40% (6994/17485)
+Receiving objects:  41% (7169/17485)
+Receiving objects:  42% (7344/17485)
+Receiving objects:  43% (7519/17485)
+Receiving objects:  44% (7694/17485)
+Receiving objects:  45% (7869/17485)
+Receiving objects:  46% (8044/17485)
+Receiving objects:  47% (8218/17485)
+Receiving objects:  48% (8393/17485)
+Receiving objects:  49% (8568/17485)
+Receiving objects:  50% (8743/17485)
+Receiving objects:  51% (8918/17485)
+Receiving objects:  52% (9093/17485)
+Receiving objects:  53% (9268/17485)
+Receiving objects:  54% (9442/17485)
+Receiving objects:  55% (9617/17485)
+Receiving objects:  56% (9792/17485)
+Receiving objects:  57% (9967/17485), 23.38 MiB | 46.74 MiB/s
+Receiving objects:  58% (10142/17485), 23.38 MiB | 46.74 MiB/s
+Receiving objects:  59% (10317/17485), 23.38 MiB | 46.74 MiB/s
+Receiving objects:  60% (10491/17485), 23.38 MiB | 46.74 MiB/s
+Receiving objects:  61% (10666/17485), 23.38 MiB | 46.74 MiB/s
+Receiving objects:  62% (10841/17485), 23.38 MiB | 46.74 MiB/s
+Receiving objects:  63% (11016/17485), 23.38 MiB | 46.74 MiB/s
+Receiving objects:  64% (11191/17485), 23.38 MiB | 46.74 MiB/s
+Receiving objects:  65% (11366/17485), 23.38 MiB | 46.74 MiB/s
+Receiving objects:  66% (11541/17485), 23.38 MiB | 46.74 MiB/s
+Receiving objects:  67% (11715/17485), 23.38 MiB | 46.74 MiB/s
+Receiving objects:  68% (11890/17485), 23.38 MiB | 46.74 MiB/s
+Receiving objects:  69% (12065/17485), 23.38 MiB | 46.74 MiB/s
+Receiving objects:  70% (12240/17485), 23.38 MiB | 46.74 MiB/s
+Receiving objects:  71% (12415/17485), 23.38 MiB | 46.74 MiB/s
+Receiving objects:  72% (12590/17485), 23.38 MiB | 46.74 MiB/s
+Receiving objects:  73% (12765/17485), 23.38 MiB | 46.74 MiB/s
+Receiving objects:  74% (12939/17485), 23.38 MiB | 46.74 MiB/s
+Receiving objects:  75% (13114/17485), 23.38 MiB | 46.74 MiB/s
+Receiving objects:  76% (13289/17485), 23.38 MiB | 46.74 MiB/s
+Receiving objects:  77% (13464/17485), 23.38 MiB | 46.74 MiB/s
+Receiving objects:  78% (13639/17485), 23.38 MiB | 46.74 MiB/s
+Receiving objects:  79% (13814/17485), 23.38 MiB | 46.74 MiB/s
+Receiving objects:  80% (13988/17485), 23.38 MiB | 46.74 MiB/s
+Receiving objects:  81% (14163/17485), 23.38 MiB | 46.74 MiB/s
+Receiving objects:  82% (14338/17485), 23.38 MiB | 46.74 MiB/s
+Receiving objects:  83% (14513/17485), 23.38 MiB | 46.74 MiB/s
+Receiving objects:  84% (14688/17485), 23.38 MiB | 46.74 MiB/s
+Receiving objects:  85% (14863/17485), 23.38 MiB | 46.74 MiB/s
+Receiving objects:  86% (15038/17485), 23.38 MiB | 46.74 MiB/s
+Receiving objects:  87% (15212/17485), 23.38 MiB | 46.74 MiB/s
+Receiving objects:  88% (15387/17485), 23.38 MiB | 46.74 MiB/s
+Receiving objects:  89% (15562/17485), 23.38 MiB | 46.74 MiB/s
+Receiving objects:  90% (15737/17485), 23.38 MiB | 46.74 MiB/s
+Receiving objects:  91% (15912/17485), 23.38 MiB | 46.74 MiB/s
+Receiving objects:  92% (16087/17485), 23.38 MiB | 46.74 MiB/s
+Receiving objects:  93% (16262/17485), 23.38 MiB | 46.74 MiB/s
+Receiving objects:  94% (16436/17485), 23.38 MiB | 46.74 MiB/s
+Receiving objects:  95% (16611/17485), 23.38 MiB | 46.74 MiB/s
+Receiving objects:  96% (16786/17485), 23.38 MiB | 46.74 MiB/s
+Receiving objects:  97% (16961/17485), 23.38 MiB | 46.74 MiB/s
+Receiving objects:  98% (17136/17485), 23.38 MiB | 46.74 MiB/s
+Receiving objects:  99% (17311/17485), 23.38 MiB | 46.74 MiB/s
+remote: Total 17485 (delta 91), reused 174 (delta 80), pack-reused 17286[K
+Receiving objects: 100% (17485/17485), 23.38 MiB | 46.74 MiB/s
+Receiving objects: 100% (17485/17485), 27.37 MiB | 46.86 MiB/s, done.
+Resolving deltas:   0% (0/11823)
+Resolving deltas:   1% (119/11823)
+Resolving deltas:   2% (237/11823)
+Resolving deltas:   3% (355/11823)
+Resolving deltas:   4% (473/11823)
+Resolving deltas:   5% (592/11823)
+Resolving deltas:   6% (710/11823)
+Resolving deltas:   7% (828/11823)
+Resolving deltas:   8% (946/11823)
+Resolving deltas:   9% (1065/11823)
+Resolving deltas:  10% (1183/11823)
+Resolving deltas:  11% (1301/11823)
+Resolving deltas:  12% (1420/11823)
+Resolving deltas:  13% (1537/11823)
+Resolving deltas:  14% (1656/11823)
+Resolving deltas:  15% (1774/11823)
+Resolving deltas:  16% (1892/11823)
+Resolving deltas:  17% (2010/11823)
+Resolving deltas:  18% (2129/11823)
+Resolving deltas:  19% (2247/11823)
+Resolving deltas:  20% (2365/11823)
+Resolving deltas:  21% (2483/11823)
+Resolving deltas:  22% (2602/11823)
+Resolving deltas:  23% (2720/11823)
+Resolving deltas:  24% (2838/11823)
+Resolving deltas:  25% (2956/11823)
+Resolving deltas:  26% (3074/11823)
+Resolving deltas:  27% (3193/11823)
+Resolving deltas:  28% (3311/11823)
+Resolving deltas:  29% (3430/11823)
+Resolving deltas:  30% (3547/11823)
+Resolving deltas:  31% (3666/11823)
+Resolving deltas:  32% (3784/11823)
+Resolving deltas:  33% (3902/11823)
+Resolving deltas:  34% (4020/11823)
+Resolving deltas:  35% (4139/11823)
+Resolving deltas:  36% (4258/11823)
+Resolving deltas:  37% (4376/11823)
+Resolving deltas:  38% (4493/11823)
+Resolving deltas:  39% (4611/11823)
+Resolving deltas:  40% (4730/11823)
+Resolving deltas:  41% (4848/11823)
+Resolving deltas:  42% (4966/11823)
+Resolving deltas:  43% (5085/11823)
+Resolving deltas:  44% (5203/11823)
+Resolving deltas:  45% (5321/11823)
+Resolving deltas:  46% (5439/11823)
+Resolving deltas:  47% (5557/11823)
+Resolving deltas:  48% (5676/11823)
+Resolving deltas:  49% (5794/11823)
+Resolving deltas:  50% (5912/11823)
+Resolving deltas:  51% (6030/11823)
+Resolving deltas:  52% (6148/11823)
+Resolving deltas:  53% (6267/11823)
+Resolving deltas:  54% (6385/11823)
+Resolving deltas:  55% (6503/11823)
+Resolving deltas:  56% (6621/11823)
+Resolving deltas:  57% (6740/11823)
+Resolving deltas:  58% (6858/11823)
+Resolving deltas:  59% (6976/11823)
+Resolving deltas:  60% (7094/11823)
+Resolving deltas:  61% (7213/11823)
+Resolving deltas:  62% (7331/11823)
+Resolving deltas:  63% (7449/11823)
+Resolving deltas:  64% (7567/11823)
+Resolving deltas:  65% (7685/11823)
+Resolving deltas:  66% (7805/11823)
+Resolving deltas:  67% (7922/11823)
+Resolving deltas:  68% (8040/11823)
+Resolving deltas:  69% (8161/11823)
+Resolving deltas:  70% (8277/11823)
+Resolving deltas:  71% (8396/11823)
+Resolving deltas:  72% (8515/11823)
+Resolving deltas:  73% (8631/11823)
+Resolving deltas:  74% (8750/11823)
+Resolving deltas:  75% (8868/11823)
+Resolving deltas:  76% (8986/11823)
+Resolving deltas:  77% (9104/11823)
+Resolving deltas:  78% (9222/11823)
+Resolving deltas:  79% (9341/11823)
+Resolving deltas:  80% (9459/11823)
+Resolving deltas:  81% (9577/11823)
+Resolving deltas:  82% (9696/11823)
+Resolving deltas:  83% (9814/11823)
+Resolving deltas:  84% (9932/11823)
+Resolving deltas:  85% (10051/11823)
+Resolving deltas:  86% (10168/11823)
+Resolving deltas:  87% (10287/11823)
+Resolving deltas:  88% (10406/11823)
+Resolving deltas:  89% (10523/11823)
+Resolving deltas:  90% (10641/11823)
+Resolving deltas:  91% (10759/11823)
+Resolving deltas:  92% (10880/11823)
+Resolving deltas:  93% (10996/11823)
+Resolving deltas:  94% (11115/11823)
+Resolving deltas:  95% (11234/11823)
+Resolving deltas:  96% (11352/11823)
+Resolving deltas:  97% (11469/11823)
+Resolving deltas:  98% (11587/11823)
+Resolving deltas:  99% (11705/11823)
+Resolving deltas: 100% (11823/11823)
+Resolving deltas: 100% (11823/11823), done.
+Updating files:   3% (14/388)
+Updating files:   4% (16/388)
+Updating files:   5% (20/388)
+Updating files:   6% (24/388)
+Updating files:   7% (28/388)
+Updating files:   8% (32/388)
+Updating files:   9% (35/388)
+Updating files:  10% (39/388)
+Updating files:  11% (43/388)
+Updating files:  12% (47/388)
+Updating files:  13% (51/388)
+Updating files:  14% (55/388)
+Updating files:  15% (59/388)
+Updating files:  16% (63/388)
+Updating files:  17% (66/388)
+Updating files:  18% (70/388)
+Updating files:  19% (74/388)
+Updating files:  19% (77/388)
+Updating files:  20% (78/388)
+Updating files:  21% (82/388)
+Updating files:  22% (86/388)
+Updating files:  23% (90/388)
+Updating files:  24% (94/388)
+Updating files:  25% (97/388)
+Updating files:  26% (101/388)
+Updating files:  27% (105/388)
+Updating files:  28% (109/388)
+Updating files:  29% (113/388)
+Updating files:  30% (117/388)
+Updating files:  31% (121/388)
+Updating files:  32% (125/388)
+Updating files:  33% (129/388)
+Updating files:  34% (132/388)
+Updating files:  35% (136/388)
+Updating files:  36% (140/388)
+Updating files:  37% (144/388)
+Updating files:  38% (148/388)
+Updating files:  39% (152/388)
+Updating files:  39% (155/388)
+Updating files:  40% (156/388)
+Updating files:  41% (160/388)
+Updating files:  42% (163/388)
+Updating files:  43% (167/388)
+Updating files:  44% (171/388)
+Updating files:  45% (175/388)
+Updating files:  46% (179/388)
+Updating files:  47% (183/388)
+Updating files:  48% (187/388)
+Updating files:  49% (191/388)
+Updating files:  50% (194/388)
+Updating files:  51% (198/388)
+Updating files:  52% (202/388)
+Updating files:  53% (206/388)
+Updating files:  54% (210/388)
+Updating files:  55% (214/388)
+Updating files:  56% (218/388)
+Updating files:  57% (222/388)
+Updating files:  58% (226/388)
+Updating files:  59% (229/388)
+Updating files:  60% (233/388)
+Updating files:  61% (237/388)
+Updating files:  62% (241/388)
+Updating files:  63% (245/388)
+Updating files:  64% (249/388)
+Updating files:  65% (253/388)
+Updating files:  66% (257/388)
+Updating files:  67% (260/388)
+Updating files:  68% (264/388)
+Updating files:  69% (268/388)
+Updating files:  70% (272/388)
+Updating files:  71% (276/388)
+Updating files:  71% (277/388)
+Updating files:  72% (280/388)
+Updating files:  73% (284/388)
+Updating files:  74% (288/388)
+Updating files:  75% (291/388)
+Updating files:  76% (295/388)
+Updating files:  77% (299/388)
+Updating files:  78% (303/388)
+Updating files:  79% (307/388)
+Updating files:  80% (311/388)
+Updating files:  81% (315/388)
+Updating files:  82% (319/388)
+Updating files:  83% (323/388)
+Updating files:  84% (326/388)
+Updating files:  85% (330/388)
+Updating files:  86% (334/388)
+Updating files:  87% (338/388)
+Updating files:  88% (342/388)
+Updating files:  89% (346/388)
+Updating files:  90% (350/388)
+Updating files:  91% (354/388)
+Updating files:  92% (357/388)
+Updating files:  93% (361/388)
+Updating files:  94% (365/388)
+Updating files:  95% (369/388)
+Updating files:  96% (373/388)
+Updating files:  97% (377/388)
+Updating files:  98% (381/388)
+Updating files:  99% (385/388)
+Updating files: 100% (388/388)
+Updating files: 100% (388/388), done.
+[?2004h]0;~
+
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~[0m
+
+$ cd iot
+[?2004l
+[?2004h]0;~/iot
+
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/iot[0m
+
+$ ls
+[?2004l
+README.md  economics  lesson10	lesson4  lesson7  projects	    tools
+apps	   hype       lesson2	lesson5  lesson8  special_problems
+cases	   lesson1    lesson3	lesson6  lesson9  standards
+[?2004h]0;~/iot
+
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/iot[0m
+
+$ cd
+[?2004l
+[?2004h]0;~
+
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~[0m
+
+$ df
+[?2004l
+Filesystem     1K-blocks      Used Available Use% Mounted on
+C:/msys64      499022260 411793572  87228688  83% /
+[?2004h]0;~
+
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~[0m
+
+$ mkdir k[Kdemo
+[?2004l
+[?2004h]0;~
+
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~[0m
+
+$ cd demo
+[?2004l
+[?2004h]0;~/demo
+
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/demo[0m
+
+$ nano[K[K[K[Kemacs file
+[?2004l
+[?2004h]0;~/demo
+
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/demo[0m
+
+$ cat file
+[?2004l
+cat: file: No such file or directory
+[?2004h]0;~/demo
+
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/demo[0m
+
+$ emacs file
+[?2004l
+[?2004h]0;~/demo
+
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/demo[0m
+
+$ cat file
+[?2004l
+[?2004h]0;~/demo
+
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/demo[0m
+
+$ emacs file
+[?2004l
+[?2004h]0;~/demo
+
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/demo[0m
+
+$ cat file
+[?2004l
+hi this is a demo[?2004h]0;~/demo
+
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/demo[0m
+
+$ cp file file1
+[?2004l
+[?2004h]0;~/demo
+
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/demo[0m
+
+$ mv file file2
+[?2004l
+[?2004h]0;~/demo
+
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/demo[0m
+
+$ rm file2
+[?2004l
+[?2004h]0;~/demo
+
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/demo[0m
+
+$ clear
+[?2004l
+[H[2J[3J[?2004h]0;~/demo
+
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/demo[0m
+
+$ man uname
+[?2004l
+bash: man: command not found
+[?2004h]0;~/demo
+
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/demo[0m
+
+$ uname -a
+[?2004l
+MINGW64_NT-10.0-19044 DESKTOP-HRIQRGI 3.3.3-341.x86_64 2022-01-18 13:00 UTC x86_64 Msys
+[?2004h]0;~/demo
+
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/demo[0m
+
+$ ifconfig
+[?2004l
+bash: ifconfig: command not found
+[?2004h]0;~/demo
+
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/demo[0m
+
+$ ipconfig
+[?2004l
+
+
+Windows IP Configuration
+
+
+
+
+
+Ethernet adapter Ethernet:
+
+
+
+   Media State . . . . . . . . . . . : Media disconnected
+
+   Connection-specific DNS Suffix  . : myfiosgateway.com
+
+
+
+Ethernet adapter Ethernet 3:
+
+
+
+   Media State . . . . . . . . . . . : Media disconnected
+
+   Connection-specific DNS Suffix  . : 
+
+
+
+Ethernet adapter Ethernet 4:
+
+
+
+   Media State . . . . . . . . . . . : Media disconnected
+
+   Connection-specific DNS Suffix  . : 
+
+
+
+Wireless LAN adapter Local Area Connection* 3:
+
+
+
+   Media State . . . . . . . . . . . : Media disconnected
+
+   Connection-specific DNS Suffix  . : 
+
+
+
+Wireless LAN adapter Local Area Connection* 4:
+
+
+
+   Media State . . . . . . . . . . . : Media disconnected
+
+   Connection-specific DNS Suffix  . : 
+
+
+
+Wireless LAN adapter Wi-Fi:
+
+
+
+   Connection-specific DNS Suffix  . : myfiosgateway.com
+
+   IPv6 Address. . . . . . . . . . . : 2600:4041:41d1:c200:b3dd:73f1:ced6:babf
+
+   Temporary IPv6 Address. . . . . . : 2600:4041:41d1:c200:10fb:8c24:b919:7a1b
+
+   Link-local IPv6 Address . . . . . : fe80::a862:d02b:f829:d3c5%17
+
+   IPv4 Address. . . . . . . . . . . : 192.168.1.153
+
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+
+   Default Gateway . . . . . . . . . : fe80::baf8:53ff:fe9d:3749%17
+
+                                       192.168.1.1
+
+
+
+Ethernet adapter Bluetooth Network Connection:
+
+
+
+   Media State . . . . . . . . . . . : Media disconnected
+
+   Connection-specific DNS Suffix  . : 
+
+[?2004h]0;~/demo
+
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/demo[0m
+
+$ ping localhost
+[?2004l
+
+
+Pinging DESKTOP-HRIQRGI [::1] with 32 bytes of data:
+
+Reply from ::1: time<1ms 
+
+Reply from ::1: time<1ms 
+
+Reply from ::1: time<1ms 
+
+Reply from ::1: time<1ms 
+
+
+
+Ping statistics for ::1:
+
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+
+Approximate round trip times in milli-seconds:
+
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+
+[?2004h]0;~/demo
+
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/demo[0m
+
+$ netstat
+[?2004l
+
+
+Active Connections
+
+
+
+  Proto  Local Address          Foreign Address        State
+
+  TCP    127.0.0.1:4369         DESKTOP-HRIQRGI:49800  ESTABLISHED
+
+  TCP    127.0.0.1:4369         DESKTOP-HRIQRGI:62109  TIME_WAIT
+
+  TCP    127.0.0.1:4369         DESKTOP-HRIQRGI:62852  TIME_WAIT
+
+  TCP    127.0.0.1:49671        DESKTOP-HRIQRGI:49672  ESTABLISHED
+
+  TCP    127.0.0.1:49672        DESKTOP-HRIQRGI:49671  ESTABLISHED
+
+  TCP    127.0.0.1:49682        DESKTOP-HRIQRGI:49897  ESTABLISHED
+
+  TCP    127.0.0.1:49682        DESKTOP-HRIQRGI:50564  ESTABLISHED
+
+  TCP    127.0.0.1:49687        DESKTOP-HRIQRGI:49797  ESTABLISHED
+
+  TCP    127.0.0.1:49687        DESKTOP-HRIQRGI:50485  ESTABLISHED
+
+  TCP    127.0.0.1:49688        DESKTOP-HRIQRGI:49689  ESTABLISHED
+
+  TCP    127.0.0.1:49689        DESKTOP-HRIQRGI:49688  ESTABLISHED
+
+  TCP    127.0.0.1:49701        DESKTOP-HRIQRGI:49712  ESTABLISHED
+
+  TCP    127.0.0.1:49701        DESKTOP-HRIQRGI:49713  ESTABLISHED
+
+  TCP    127.0.0.1:49701        DESKTOP-HRIQRGI:49715  ESTABLISHED
+
+  TCP    127.0.0.1:49701        DESKTOP-HRIQRGI:49722  ESTABLISHED
+
+  TCP    127.0.0.1:49701        DESKTOP-HRIQRGI:49724  ESTABLISHED
+
+  TCP    127.0.0.1:49701        DESKTOP-HRIQRGI:49729  ESTABLISHED
+
+  TCP    127.0.0.1:49701        DESKTOP-HRIQRGI:49758  ESTABLISHED
+
+  TCP    127.0.0.1:49712        DESKTOP-HRIQRGI:49701  ESTABLISHED
+
+  TCP    127.0.0.1:49713        DESKTOP-HRIQRGI:49701  ESTABLISHED
+
+  TCP    127.0.0.1:49715        DESKTOP-HRIQRGI:49701  ESTABLISHED
+
+  TCP    127.0.0.1:49722        DESKTOP-HRIQRGI:49701  ESTABLISHED
+
+  TCP    127.0.0.1:49724        DESKTOP-HRIQRGI:49701  ESTABLISHED
+
+  TCP    127.0.0.1:49729        DESKTOP-HRIQRGI:49701  ESTABLISHED
+
+  TCP    127.0.0.1:49758        DESKTOP-HRIQRGI:49701  ESTABLISHED
+
+  TCP    127.0.0.1:49769        DESKTOP-HRIQRGI:49770  ESTABLISHED
+
+  TCP    127.0.0.1:49770        DESKTOP-HRIQRGI:49769  ESTABLISHED
+
+  TCP    127.0.0.1:49795        DESKTOP-HRIQRGI:49796  ESTABLISHED
+
+  TCP    127.0.0.1:49796        DESKTOP-HRIQRGI:49795  ESTABLISHED
+
+  TCP    127.0.0.1:49797        DESKTOP-HRIQRGI:49687  ESTABLISHED
+
+  TCP    127.0.0.1:49798        DESKTOP-HRIQRGI:49799  ESTABLISHED
+
+  TCP    127.0.0.1:49799        DESKTOP-HRIQRGI:49798  ESTABLISHED
+
+  TCP    127.0.0.1:49800        DESKTOP-HRIQRGI:4369   ESTABLISHED
+
+  TCP    127.0.0.1:49897        DESKTOP-HRIQRGI:49682  ESTABLISHED
+
+  TCP    127.0.0.1:50012        DESKTOP-HRIQRGI:50013  ESTABLISHED
+
+  TCP    127.0.0.1:50013        DESKTOP-HRIQRGI:50012  ESTABLISHED
+
+  TCP    127.0.0.1:50023        DESKTOP-HRIQRGI:50039  ESTABLISHED
+
+  TCP    127.0.0.1:50039        DESKTOP-HRIQRGI:50023  ESTABLISHED
+
+  TCP    127.0.0.1:50316        DESKTOP-HRIQRGI:50317  ESTABLISHED
+
+  TCP    127.0.0.1:50317        DESKTOP-HRIQRGI:50316  ESTABLISHED
+
+  TCP    127.0.0.1:50318        DESKTOP-HRIQRGI:50319  ESTABLISHED
+
+  TCP    127.0.0.1:50319        DESKTOP-HRIQRGI:50318  ESTABLISHED
+
+  TCP    127.0.0.1:50320        DESKTOP-HRIQRGI:50321  ESTABLISHED
+
+  TCP    127.0.0.1:50321        DESKTOP-HRIQRGI:50320  ESTABLISHED
+
+  TCP    127.0.0.1:50322        DESKTOP-HRIQRGI:50323  ESTABLISHED
+
+  TCP    127.0.0.1:50323        DESKTOP-HRIQRGI:50322  ESTABLISHED
+
+  TCP    127.0.0.1:50324        DESKTOP-HRIQRGI:50325  ESTABLISHED
+
+  TCP    127.0.0.1:50325        DESKTOP-HRIQRGI:50324  ESTABLISHED
+
+  TCP    127.0.0.1:50448        DESKTOP-HRIQRGI:50449  ESTABLISHED
+
+  TCP    127.0.0.1:50449        DESKTOP-HRIQRGI:50448  ESTABLISHED
+
+  TCP    127.0.0.1:50483        DESKTOP-HRIQRGI:50484  ESTABLISHED
+
+  TCP    127.0.0.1:50484        DESKTOP-HRIQRGI:50483  ESTABLISHED
+
+  TCP    127.0.0.1:50485        DESKTOP-HRIQRGI:49687  ESTABLISHED
+
+  TCP    127.0.0.1:50486        DESKTOP-HRIQRGI:50487  ESTABLISHED
+
+  TCP    127.0.0.1:50487        DESKTOP-HRIQRGI:50486  ESTABLISHED
+
+  TCP    127.0.0.1:50564        DESKTOP-HRIQRGI:49682  ESTABLISHED
+
+  TCP    127.0.0.1:50592        DESKTOP-HRIQRGI:50593  ESTABLISHED
+
+  TCP    127.0.0.1:50593        DESKTOP-HRIQRGI:50592  ESTABLISHED
+
+  TCP    127.0.0.1:52817        DESKTOP-HRIQRGI:52818  ESTABLISHED
+
+  TCP    127.0.0.1:52818        DESKTOP-HRIQRGI:52817  ESTABLISHED
+
+  TCP    127.0.0.1:52855        DESKTOP-HRIQRGI:52856  ESTABLISHED
+
+  TCP    127.0.0.1:52856        DESKTOP-HRIQRGI:52855  ESTABLISHED
+
+  TCP    127.0.0.1:52857        DESKTOP-HRIQRGI:52858  ESTABLISHED
+
+  TCP    127.0.0.1:52858        DESKTOP-HRIQRGI:52857  ESTABLISHED
+
+  TCP    127.0.0.1:61900        DESKTOP-HRIQRGI:63454  ESTABLISHED
+
+  TCP    127.0.0.1:61900        DESKTOP-HRIQRGI:63459  ESTABLISHED
+
+  TCP    127.0.0.1:62001        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62006        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62011        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62016        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62021        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62026        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62031        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62036        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62041        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62046        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62051        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62056        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62061        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62066        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62071        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62076        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62081        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62086        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62091        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62096        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62101        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62106        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62112        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62117        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62122        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62127        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62132        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62137        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62143        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62148        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62153        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62158        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62163        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62168        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62173        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62178        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62183        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62188        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62193        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62198        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62203        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62208        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62213        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62218        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62223        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62228        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62233        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62238        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62243        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62248        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62253        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62258        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62263        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62268        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62273        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62278        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62283        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62288        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62293        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62298        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62303        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62308        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62313        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62318        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62323        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62328        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62333        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62338        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62343        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62348        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62353        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62358        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62363        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62368        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62373        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62378        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62383        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62388        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62393        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62398        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62403        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62408        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62413        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62418        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62423        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62428        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62433        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62438        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62443        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62448        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62453        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62458        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62463        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62468        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62473        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62478        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62483        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62488        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62493        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62498        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62503        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62508        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62513        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62518        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62523        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62528        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62533        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62538        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62543        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62548        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62553        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62558        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62563        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62568        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62573        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62578        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62583        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62588        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62593        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62598        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62603        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62608        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62613        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62618        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62623        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62628        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62633        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62638        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62643        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62648        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62653        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62658        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62663        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62668        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62673        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62678        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62683        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62688        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62693        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62698        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62703        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62708        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62713        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62718        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62723        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62728        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62733        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62738        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62743        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62748        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62753        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62758        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62763        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62768        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62773        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62781        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62789        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62794        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62799        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62804        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62809        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62814        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62819        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62824        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62829        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62834        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62839        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62844        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62849        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62855        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62860        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62865        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62871        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62876        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62881        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62886        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62891        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62899        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62904        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62909        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62914        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62919        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62924        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62929        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62934        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62939        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62944        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62949        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62954        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62959        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62964        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62969        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62974        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62979        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62984        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62989        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62994        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:62999        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63004        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63009        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63014        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63019        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63024        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63029        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63034        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63039        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63044        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63049        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63054        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63059        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63064        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63069        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63074        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63079        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63084        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63089        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63094        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63099        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63104        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63109        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63114        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63119        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63124        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63129        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63134        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63139        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63144        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63149        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63154        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63159        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63164        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63169        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63174        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63179        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63184        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63189        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63194        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63199        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63204        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63209        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63214        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63219        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63224        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63229        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63234        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63239        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63244        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63249        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63254        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63259        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63264        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63269        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63274        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63279        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63284        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63289        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63294        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63299        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63304        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63309        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63314        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63319        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63324        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63329        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63334        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63339        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63344        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63349        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63354        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63359        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63364        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63369        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63374        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63379        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63384        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63389        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63394        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63399        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63404        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63409        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63414        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63419        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63424        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63429        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63434        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63439        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63444        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63449        DESKTOP-HRIQRGI:61900  TIME_WAIT
+
+  TCP    127.0.0.1:63452        DESKTOP-HRIQRGI:63453  ESTABLISHED
+
+  TCP    127.0.0.1:63453        DESKTOP-HRIQRGI:63452  ESTABLISHED
+
+  TCP    127.0.0.1:63454        DESKTOP-HRIQRGI:61900  ESTABLISHED
+
+  TCP    127.0.0.1:63455        DESKTOP-HRIQRGI:63456  ESTABLISHED
+
+  TCP    127.0.0.1:63456        DESKTOP-HRIQRGI:63455  ESTABLISHED
+
+  TCP    127.0.0.1:63457        DESKTOP-HRIQRGI:63458  ESTABLISHED
+
+  TCP    127.0.0.1:63458        DESKTOP-HRIQRGI:63457  ESTABLISHED
+
+  TCP    127.0.0.1:63459        DESKTOP-HRIQRGI:61900  ESTABLISHED
+
+  TCP    127.0.0.1:63460        DESKTOP-HRIQRGI:63461  ESTABLISHED
+
+  TCP    127.0.0.1:63461        DESKTOP-HRIQRGI:63460  ESTABLISHED
+
+  TCP    192.168.1.153:55998    151.101.65.69:https    ESTABLISHED
+
+  TCP    192.168.1.153:56035    151.101.208.193:https  ESTABLISHED
+
+  TCP    192.168.1.153:57452    cdn-185-199-110-154:https  ESTABLISHED
+
+  TCP    192.168.1.153:57582    lb-140-82-113-26-iad:https  ESTABLISHED
+
+[?2004h]0;~/demo
+
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/demo[0m
+
+$ eix[K[Kxit
+[?2004l
+exit
+
+Script done on 2023-02-07 16:15:57-05:00 [COMMAND_EXIT_CODE="127"]
