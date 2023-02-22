@@ -1,0 +1,300 @@
+Script started on 2023-02-15 00:36:14-05:00 [TERM="xterm" TTY="/dev/pty1" COLUMNS="80" LINES="24"]
+[?2004h]0;~
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~[0m
+$ cd iot/*(3[K[K[K3[K*3
+[?2004l[?2004h]0;~/iot/lesson3
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/iot/lesson3[0m
+$ python julian.py
+[?2004lCalendar Date: 2023-02-15
+Julian Date: 2459990.5
+Modified Julian Date: 59990.0
+[?2004h]0;~/iot/lesson3
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/iot/lesson3[0m
+$ cat julai[K[Kian.py
+[?2004lfrom datetime import date
+from jdcal import *
+now = date.today()
+jd = gcal2jd(now.year, now.month, now.day)
+print('Calendar Date: {:s}'.format(now.isoformat()))
+print('Julian Date: {:0.1f}'.format(jd[0]+jd[1]))
+print('Modified Julian Date: {:0.1f}'.format(jd[1]))
+[?2004h]0;~/iot/lesson3
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/iot/lesson3[0m
+$ python date_example.py
+[?2004lDate: 2023-02-15
+Date: 02-15-23
+Day of Week: Wednesday
+Month: February
+Year: 2023
+28 days after the first day of classes
+78 days before the last day of classes
+[?2004h]0;~/iot/lesson3
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/iot/lesson3[0m
+$ cat date_example.y
+[?2004lcat: date_example.y: No such file or directory
+[?2004h]0;~/iot/lesson3
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/iot/lesson3[0m
+$ cat date_example.ypy
+[?2004lfrom datetime import date
+now = date.today()
+print('Date: ' + now.isoformat())
+print('Date: ' + now.strftime('%m-%d-%y'))
+print('Day of Week: ' + now.strftime('%A'))
+print('Month: ' + now.strftime('%B'))
+print('Year: ' + now.strftime('%Y'))
+first = date(2023, 1, 18)
+last = date(2023, 5, 4)
+timediff = now - first
+print('{:d} days after the first day of classes'.format(timediff.days))
+timediff = last - now
+print('{:d} days before the last day of classes'.format(timediff.days))
+[?2004h]0;~/iot/lesson3
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/iot/lesson3[0m
+$ dqat[K[K[K[Kpython datetime_example.py
+[?2004l2023-02-15 00:37:22.477622
+2023-02-15 00:37:22.477622
+2023-02-15 05:37:22.477622
+1676439442.4776223
+Wed Feb 15 00:37:22 2023
+2023-02-15 00:37:22.477622
+2023-02-15 05:37:22.477622
+[?2004h]0;~/iot/lesson3
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/iot/lesson3[0m
+$ cat datetime_example.py
+[?2004limport datetime, time
+print(datetime.datetime.today())
+print(datetime.datetime.now())
+print(datetime.datetime.utcnow())
+print(time.time())
+print(time.asctime(time.localtime(time.time())))
+print(datetime.datetime.fromtimestamp(time.time()))
+print(datetime.datetime.utcfromtimestamp(time.time()))
+[?2004h]0;~/iot/lesson3
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/iot/lesson3[0m
+$ python time_example.py
+[?2004lWed Feb 15 00:37:36 2023
+Wed Feb 15 00:37:46 2023
+Wed Feb 15 00:37:56 2023
+Wed Feb 15 00:38:06 2023
+Wed Feb 15 00:38:16 2023
+
+[?2004h]0;~/iot/lesson3
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/iot/lesson3[0m
+$ python time_example.py
+[?2004lWed Feb 15 00:38:24 2023
+
+[?2004h]0;~/iot/lesson3
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/iot/lesson3[0m
+$ python time_example.py[C[C[Kcat time_example.py
+[?2004l# KeyboardInterrupt: press Control-C to stop time_example.py
+import time
+while True:
+    try:
+        nowtime = time.time()
+        print(time.asctime(time.localtime(nowtime)))
+        time.sleep(10)
+    except KeyboardInterrupt:
+        exit()
+[?2004h]0;~/iot/lesson3
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/iot/lesson3[0m
+$ python sun.py "[K'NEW [K[K[Kew York"[K'
+[?2004lInformation for New York/USA
+
+Timezone: US/Eastern
+Latitude: 40.72; Longitude: -74.00
+
+Dawn:    2023-02-15 06:21:49.681082-05:00
+Sunrise: 2023-02-15 06:50:25.699582-05:00
+Noon:    2023-02-15 12:10:09-05:00
+Sunset:  2023-02-15 17:30:22.864405-05:00
+Dusk:    2023-02-15 17:59:00.262909-05:00
+[?2004h]0;~/iot/lesson3
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/iot/lesson3[0m
+$ python sun.py 'New York'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'C'h'i'c'a'g'o'
+[?2004lInformation for Chicago/USA
+
+Timezone: US/Central
+Latitude: 41.83; Longitude: -87.68
+
+Dawn:    2023-02-15 06:17:43.673915-06:00
+Sunrise: 2023-02-15 06:46:50.459282-06:00
+Noon:    2023-02-15 12:04:53-06:00
+Sunset:  2023-02-15 17:23:27.078241-06:00
+Dusk:    2023-02-15 17:52:35.352692-06:00
+[?2004h]0;~/iot/lesson3
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/iot/lesson3[0m
+$ python sun.py 'Chicago'[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcat sun.py
+[?2004limport sys, pytz
+from datetime import date
+from astral.geocoder import database, lookup
+from astral.sun import sun
+city_name = sys.argv[1]
+city = lookup(city_name, database())
+print('Information for %s/%s\n' % (city.name, city.region))
+timezone = city.timezone
+print('Timezone: %s' % timezone)
+print('Latitude: %.02f; Longitude: %.02f\n' % (city.latitude, city.longitude))
+s = sun(city.observer, date=date.today(), tzinfo=pytz.timezone(timezone))
+print('Dawn:    %s' % str(s['dawn']))
+print('Sunrise: %s' % str(s['sunrise']))
+print('Noon:    %s' % str(s['noon']))
+print('Sunset:  %s' % str(s['sunset']))
+print('Dusk:    %s' % str(s['dusk']))
+[?2004h]0;~/iot/lesson3
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/iot/lesson3[0m
+$ python moon.py
+[?2004l2023-02-15 Moon Phase: 22
+2023-02-16 Moon Phase: 23
+2023-02-17 Moon Phase: 24
+2023-02-18 Moon Phase: 25
+2023-02-19 Moon Phase: 27
+2023-02-20 Moon Phase: 0
+2023-02-21 Moon Phase: 1
+2023-02-22 Moon Phase: 2
+2023-02-23 Moon Phase: 3
+2023-02-24 Moon Phase: 4
+2023-02-25 Moon Phase: 5
+2023-02-26 Moon Phase: 6
+2023-02-27 Moon Phase: 7
+2023-02-28 Moon Phase: 8
+2023-03-01 Moon Phase: 8
+2023-03-02 Moon Phase: 9
+2023-03-03 Moon Phase: 10
+2023-03-04 Moon Phase: 11
+2023-03-05 Moon Phase: 12
+2023-03-06 Moon Phase: 13
+2023-03-07 Moon Phase: 13
+2023-03-08 Moon Phase: 14
+2023-03-09 Moon Phase: 15
+2023-03-10 Moon Phase: 16
+2023-03-11 Moon Phase: 17
+2023-03-12 Moon Phase: 18
+2023-03-13 Moon Phase: 19
+2023-03-14 Moon Phase: 20
+2023-03-15 Moon Phase: 21
+2023-03-16 Moon Phase: 22
+[?2004h]0;~/iot/lesson3
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/iot/lesson3[0m
+$ cat moon,[K.py
+[?2004lfrom datetime import date, timedelta
+from astral import moon
+now = date.today()
+for i in range(30):
+    day = now + timedelta(days=i)
+    moon_phase = moon.phase(day)
+    print(day.isoformat() + ' Moon Phase: %d' % moon_phase)
+[?2004h]0;~/iot/lesson3
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/iot/lesson3[0m
+$ python coordinates.py 'S[KC[KSC Williams Library'
+[?2004lLibrary Parking, Williams Lake, Cariboo Regional District, British Columbia, Canada
+(52.130143399999994, -122.14187089155848)
+[?2004h]0;~/iot/lesson3
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/iot/lesson3[0m
+$ python coordinates.py 'SC Williams Library' 'H'o'b'o'k'e'n'
+[?2004lTraceback (most recent call last):
+  File "C:\msys64\home\thakk\iot\lesson3\coordinates.py", line 6, in <module>
+    print(location.address)
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'address'
+[?2004h]0;~/iot/lesson3
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/iot/lesson3[0m
+$ python coordinates.py 'SC Williams Library Hoboken'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1@a[1@m[1@u[1@e[1@l[1@ 
+[?2004lSamuel C. Williams Library, Field House Road, Hoboken, Hudson County, New Jersey, 07030, United States
+(40.74480675, -74.02532861159351)
+[?2004h]0;~/iot/lesson3
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/iot/lesson3[0m
+$ python coordinates.py 'Samuel C Williams Library'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'5'4'[1P'[1P'5'4' '1'1'h' '[1P'[1P't'h' 'S't'r'e'e't'
+[?2004l54, 11th Street, Hicksville, Town of Oyster Bay, Nassau County, New York, 11801, United States
+(40.7556975, -73.51906079076565)
+[?2004h]0;~/iot/lesson3
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/iot/lesson3[0m
+$ python coordinates.py '54 11th Street' 'H'o'b'o'k'e'n'
+[?2004l54, 11th Street, Hoboken, Hudson County, New Jersey, 07030, United States
+(40.749901791666666, -74.02652804166667)
+[?2004h]0;~/iot/lesson3
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/iot/lesson3[0m
+$ python coordinates.py '54 11th Street Hoboken'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'P'a'l'o's' 'V'e'r'd'e's'
+[?2004lPalos Verdes, Mocorito, Sinaloa, México
+(25.0475822, -107.6191007)
+[?2004h]0;~/iot/lesson3
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/iot/lesson3[0m
+$ python coordinates.py 'Palos Verdes' 'C'a'l'i'f'o'r'n'i'a'
+[?2004lRancho Palos Verdes, Los Angeles County, CAL Fire Contract Counties, California, 90274, United States
+(33.7483311, -118.3707683)
+[?2004h]0;~/iot/lesson3
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/iot/lesson3[0m
+$ python coordinates.py 'Palos Verdes California'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'B'u'[1P'[1P'[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kn coordinates.py 'Palos Verdes'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'1'5'0'0' 'S't'u'm'[1P'[1P'[1P'u'm'm'i't' 'T'e'r'r'a'c'e' 'L'i'n'd'e'n'
+[?2004l1500, Summit Terrace, Linden, Union County, New Jersey, 07036, United States
+(40.637544, -74.270751)
+[?2004h]0;~/iot/lesson3
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/iot/lesson3[0m
+$ python coordinates.py '1500 Summit Terrace Linden'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'2'6' 'H'i'g'h'al'[1P'[1P'l'a'n'd' 'A'v'e' 'B'e'r'k'l'e'y' '[1P'[1P'[1P'[1P'e'l'e'y' 'h'e'i'g'h't's'
+[?2004lHighland Avenue, Hillcrest, Trenton, Mercer County, New Jersey, 08618, United States
+(40.2357415, -74.7827089)
+[?2004h]0;~/iot/lesson3
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/iot/lesson3[0m
+$ python [K address.py ''4'0'.'6'3'7'5'4'4',' '-'7'4'.'2'7'0'7'5'1'
+[?2004l1500, Summit Terrace, Linden, Union County, New Jersey, 07036, United States
+(40.637544, -74.270751)
+[?2004h]0;~/iot/lesson3
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/iot/lesson3[0m
+$ cat address.py
+[?2004limport sys
+from geopy.geocoders import Nominatim
+geolocator = Nominatim(user_agent="iot-application")
+coordinates = sys.argv[1]
+location = geolocator.reverse(coordinates)
+print(location.address)
+print((location.latitude, location.longitude))
+#print(location.raw)
+[?2004h]0;~/iot/lesson3
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/iot/lesson3[0m
+$ python cpy[Ku.,[Kpy
+[?2004lThe number of physical cores =  4
+The number of logical CPUs =  8
+The utilization per second as a percentage for each CPU
+[24.2, 4.8, 16.4, 21.5, 23.8, 13.8, 16.9, 15.6]
+[24.6, 7.7, 28.8, 13.8, 26.2, 14.1, 30.9, 26.6]
+[15.2, 1.6, 12.3, 7.9, 20.3, 7.8, 29.2, 31.7]
+[6.3, 16.4, 25.4, 9.2, 14.1, 12.5, 12.7, 16.9]
+Traceback (most recent call last):
+  File "C:\msys64\home\thakk\iot\lesson3\cpu.py", line 15, in <module>
+    cpu = psutil.cpu_percent(interval=1, percpu=True)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\thakk\AppData\Local\Programs\Python\Python311\Lib\site-packages\psutil\__init__.py", line 1759, in cpu_percent
+    time.sleep(interval)
+KeyboardInterrupt
+[?2004h]0;~/iot/lesson3
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/iot/lesson3[0m
+$ cat cpu.py
+[?2004l# https://pypi.org/project/psutil/
+import psutil
+
+# Return the number of physical cores only
+phy = psutil.cpu_count(logical=False)
+print('The number of physical cores = ', phy)
+
+# Return the number of logical CPUs in the system
+log = psutil.cpu_count()
+print('The number of logical CPUs = ', log)
+
+# Returns a list of floats representing the utilization as a percentage for each CPU
+print('The utilization per second as a percentage for each CPU')
+for i in range(10):
+    cpu = psutil.cpu_percent(interval=1, percpu=True)
+    print(cpu)
+[?2004h]0;~/iot/lesson3
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/iot/lesson3[0m
+$ python ab[K[Kbattery.py
+[?2004lsbattery(percent=100, secsleft=<BatteryTime.POWER_TIME_UNLIMITED: -2>, power_plugged=True)
+[?2004h]0;~/iot/lesson3
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/iot/lesson3[0m
+$ python docuem[K[Kment.[Kstats.py document.txt
+[?2004lWord Count: 1343
+Top Ten Words: [('our', 26), ('their', 20), ('has', 20), ('he', 19), ('them', 15), ('these', 13), ('have', 11), ('we', 11), ('us', 11), ('people', 10)]
+[?2004h]0;~/iot/lesson3
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/iot/lesson3[0m
+$ exit
+[?2004lexit
+
+Script done on 2023-02-15 00:44:02-05:00 [COMMAND_EXIT_CODE="0"]
