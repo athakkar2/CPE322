@@ -1,0 +1,797 @@
+Script started on 2023-03-07 02:25:31+00:00 [TERM="xterm" TTY="/dev/pts/1" COLUMNS="84" LINES="48"]
+                                                                                    ]0;kali@kali-raspberry-pi: ~[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali-raspberry-pi[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004hd[1m[31md[1m[31mj[0m[39m[38;2;153;153;153mango-admin startproject stevens[39m[31D[1m[31md[1m[31mj[1m[31ma[0m[39m[1m[31ma[1m[31mn[0m[39m[1m[31mn[1m[31mg[0m[39m[1m[31mg[1m[31mo[0m[39m[1m[31mo[1m[31m-[0m[39m[1m[31m-[1m[31ma[0m[39m[1m[31ma[1m[31md[0m[39m[1m[31md[1m[31mm[0m[39m[1m[31mm[1m[31mi[0m[39m[11D[0m[32md[0m[32mj[0m[32ma[0m[32mn[0m[32mg[0m[32mo[0m[32m-[0m[32ma[0m[32md[0m[32mm[0m[32mi[32mn[39m[39m [39m[4ms[24m[4ms[39m[4mt[24m[4mt[39m[4ma[24m[24ms[24mt[24ma[39mt[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [16Dr [4ms[4mt[4ma[24m [38;2;153;153;153mrtproject stevens[39m[17D[4ma[39m[4mr[24m[4mr[39m[4mt[24m[24ms[24mt[24ma[24mr[24mt[39mp[39mr[39mo[39mj[39me[39mc[39mt[39m [39mm[39m [39m [39m [39m [39m [39m ycpu[?1l>[?2004l
+[0m                                                                                    ]0;kali@kali-raspberry-pi: ~
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali-raspberry-pi[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[1m[31mc[0m[39m[1m[31mc[0m[39m[38;2;153;153;153md ~/stevens[39m[11D[0m[32mc[32md[39m[1m[31mc[1m[31md[1m[31mm[0m[39m[39m [39m [39m [39m [39m [39m [39m [39m [39m [9D[0m[32mc[0m[32md[39m[0m[39m [38;2;153;153;153m ~/stevens[39m[10D[39m [39m[4mm[24m[39m [39m [39m [39m [39m [39m [39m [39m [8D[38;2;153;153;153myapp[39m[4mm[39m[4my[24m[24mm[24my[39ms[39m [39m [4mm[4my[24m [38;2;153;153;153mapp[39m[4my[39m[4mc[24m[39m [39m [4mc[4mp[24m[4mp[4mu[24m[?1l>[?2004l
+                                                                                    ]0;kali@kali-raspberry-pi: ~/mycpu
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali-raspberry-pi[0m[34m[32m)-[[1m[32m[39m~/mycpu[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[32ml[39m[32ml[39m[38;2;153;153;153ms[39m[32ml[32ms[39m[?1l>[?2004l
+[0m[01;32mmanage.py[0m  [01;34mmycpu[0m
+                                                                                    ]0;kali@kali-raspberry-pi: ~/mycpu
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali-raspberry-pi[0m[34m[32m)-[[1m[32m[39m~/mycpu[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[1m[31mp[0m[39m[1m[31mp[0m[39m[38;2;153;153;153mython3 manage.py runserver 0.0.0.0:8000[39m[39D[1m[31mp[1m[31my[0m[39m[1m[31mp[1m[31my[1m[31mt[0m[39m[1m[31mt[1m[31mh[0m[39m[1m[31mh[1m[31mo[0m[39m[0m[32mp[0m[32my[0m[32mt[0m[32mh[0m[32mo[32mn[39m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [33D[38;2;153;153;153mmanage.py startapp myapp[39m[24D[39m[4mm[24m[4mm[39m[4ma[24m[4ma[39m[4mn[24m[4mn[39m[4ma[24m[4ma[39m[4mg[24m[4mg[39m[4me[24m[4me[39m[4m.[24m[4m.[39m[4mp[24m[4mp[39m[4my[24m[39m [39ms[39mt[39ma[39mt[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [10D [38;2;153;153;153mrtapp myapp[39m[11D[39mr[39mt[39ma[39mp[39mp[39m [39m[4mm[24m[4mm[39m[4my[24m[24mm[24my[39ma[39mp[39mp[?1l>[?2004l
+[0m                                                                                    ]0;kali@kali-raspberry-pi: ~/mycpu
+l[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali-raspberry-pi[0m[34m[32m)-[[1m[32m[39m~/mycpu[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[32ml[39m[32ml[39m[38;2;153;153;153ms[39m[32ml[32ms[39m [4mm[24m[24m [?1l>[?2004l
+[0m[01;32mmanage.py[0m  [01;34mmyapp[0m  [01;34mmycpu[0m
+                                                                                    ]0;kali@kali-raspberry-pi: ~/mycpu
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali-raspberry-pi[0m[34m[32m)-[[1m[32m[39m~/mycpu[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[32ml[39m[32ml[39m[38;2;153;153;153ms[39m[32ml[32ms[39m[?1l>[?2004l
+[0m[01;32mmanage.py[0m  [01;34mmyapp[0m  [01;34mmycpu[0m
+                                                                                    ]0;kali@kali-raspberry-pi: ~/mycpu
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali-raspberry-pi[0m[34m[32m)-[[1m[32m[39m~/mycpu[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[1m[31mc[0m[39m[1m[31mc[0m[39m[38;2;153;153;153md mycpu[39m[0m[32mc[32md[39m[39m [39m[4mm[24m[4mm[39m[4my[24m[4mm[24m[24m [39m [39m [39m [38;2;153;153;153mycpu[39m[4mm[39m[4my[24m[4mm[24m[24m [39m [39m [39m [38;2;153;153;153mycpu[39m[4mm[39m[4my[24m[4my[39m[4mc[24m[4mc[39m[4mp[24m[4mp[39m[4mu[24m[?1l>[?2004l
+                                                                                    ]0;kali@kali-raspberry-pi: ~/mycpu/mycpu
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali-raspberry-pi[0m[34m[32m)-[[1m[32m[39m~/mycpu/mycpu[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[32ml[39m[32ml[39m[38;2;153;153;153ms[39m[32ml[32ms[39m[?1l>[?2004l
+asgi.py  __init__.py  [0m[01;34m__pycache__[0m  settings.py  urls.py  wsgi.py
+                                                                                    ]0;kali@kali-raspberry-pi: ~/mycpu/mycpu
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali-raspberry-pi[0m[34m[32m)-[[1m[32m[39m~/mycpu/mycpu[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[1m[31me[0m[39m[1m[31me[0m[39m[38;2;153;153;153mxit script[39m[10D[1m[31me[1m[31mm[0m[39m[39m [39m [39m [39m [39m [39m [39m [39m [39m [9D[38;2;153;153;153macs settings.py[39m[15D[1m[31me[1m[31mm[1m[31ma[0m[39m[1m[31ma[1m[31mc[0m[39m[0m[32me[0m[32mm[0m[32ma[0m[32mc[32ms[39m[39m [39m[4ms[24m[4ms[39m[4me[24m[4me[39m[4mt[24m[4mt[39m[4mt[24m[4mt[39m[4mi[24m[4mi[39m[4mn[24m[4mn[39m[4mg[24m[4mg[39m[4ms[24m[4ms[39m[4m.[24m[4m.[39m[4mp[24m[4mp[39m[4my[24m[?1l>[?2004l
+[?1049h[22;0;0t[?12;25h[?1h=[H[2J[48d[K[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m[?1049h[22;0;0t[?12;25h[?1h=[H[2J[47d[?25l[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) -------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[48d[?25lLoading /etc/emacs/site-start.d/00debian.el (source)...done[K[H
+[?12l[?25h[?12;25h[48;33H[?25l50dictionaries-common.el (source)...[H
+[?12l[?25h[?12;25h[48;9H[?25ldebian-ispell...[K[H
+[?12l[?25h[?12;25h[48;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-default.el (source)...[H
+[?12l[?25h[?12;25h[48;77H[?25ldone[H
+[?12l[?25h[?12;25h[48;9H[?25ldebian-ispell...done[K[H
+[?12l[?25h[?12;25h[48;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-dicts.el (source)...[H
+[?12l[?25h[?12;25h[48;75H[?25ldone[H
+[?12l[?25h[?12;25h[48;10H[?25letc/emacs/site-start.d/50dictionaries-common[6P[H
+[?12l[?25h[?12;25h[48;35H[?25lfiglet.el (source)...[K[H
+[?12l[?25h[?12;25h[48;56H[?25ldone[H
+[?12l[?25h[?12;25h[>0c]11;?\[>4;1m[?2004h[?1004h[48d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H
+[?12l[?25h[?12;25h[48d[?25lCan’t guess python-indent-offset, using defaults: 4[K[H
+[?12l[?25h[?12;25h[48d[?25lCan’t guess python-indent-offset, using defaults: 4[K[H[7mFile Edit Options Buffers Tools Python Help                                         [0m[39;49m[27m
+[A
+[32m""" [39;49m                                                                                
+[A
+[32mDjango settings for mycpu project. [39;49m                                                 
+[A
+[32m [39;49m                                                                                   
+[A
+[32mGenerated by 'django-admin startproject' using Django 3.2.18. [39;49m                      
+[A
+[32m [39;49m                                                                                   
+[A
+[32mFor more information on this file, see [39;49m                                             
+[A
+[32mhttps://docs.djangoproject.com/en/3.2/topics/settings/ [39;49m                             
+[A
+[32m [39;49m                                                                                   
+[A
+[32mFor the full list of settings and their values, see [39;49m                                
+[A
+[32mhttps://docs.djangoproject.com/en/3.2/ref/settings/ [39;49m                                
+[A
+[32m"""[39;49m[K
+[K
+[1m[36mfrom[0m[39;49m pathlib [1m[36mimport[0m[39;49m Path[K
+[K
+[33m# Build paths inside the project like this: BASE_DIR / 'subdir'. [39;49m                   
+[A
+[33mBASE_DIR[39;49m = Path(__file__).resolve().parent.parent[K
+[K
+[K
+[33m# Quick-start development settings - unsuitable for production [39;49m                     
+[A
+[33m# See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/ [39;49m            
+[A
+[K
+[33m# SECURITY WARNING: keep the secret key used in production secret! [39;49m                 
+[A
+[33mSECRET_KEY[39;49m = [32m'django-insecure-=h6hv@)ppg%k-k-qv)zi)c=zt!)@uo(0_g%qfvy$&-j)own31b'[39;49m[K
+[K
+[33m# SECURITY WARNING: don't run with debug turned on in production! [39;49m                  
+[A
+[33mDEBUG[39;49m = [35mTrue[39;49m[K
+[K
+[33mALLOWED_HOSTS[39;49m = [][K
+[K
+[K
+[33m# Application definition [39;49m                                                           
+[A
+[K
+[33mINSTALLED_APPS[39;49m = [[K
+    [32m'django.contrib.admin'[39;49m,[K
+    [32m'django.contrib.auth'[39;49m,[K
+    [32m'django.contrib.contenttypes'[39;49m,[K
+    [32m'django.contrib.sessions'[39;49m,[K
+    [32m'django.contrib.messages'[39;49m,[K
+    [32m'django.contrib.staticfiles'[39;49m,[K
+][K
+[K
+[33mMIDDLEWARE[39;49m = [[K
+    [32m'django.middleware.security.SecurityMiddleware'[39;49m,[K
+    [32m'django.contrib.sessions.middleware.SessionMiddleware'[39;49m,[K
+    [32m'django.middleware.common.CommonMiddleware'[39;49m,[K
+[7m-UU-:----F1  [0m[39;49m[27m[7m[1msettings.py [0m[39;49m[27m[7m   Top L1     (Python ElDoc) ------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[48d[K[47;34H[?25l[7m2[0m[39;49m[27m[H
+
+[?12l[?25h[?12;25h[47;34H[?25l[7m3[0m[39;49m[27m[4;1H[?12l[?25h[?12;25h[47;34H[?25l[7m4[0m[39;49m[27m[5;1H[?12l[?25h[?12;25h[47;34H[?25l[7m5[0m[39;49m[27m[6;1H[?12l[?25h[?12;25h[47;34H[?25l[7m6[0m[39;49m[27m[7;1H[?12l[?25h[?12;25h[47;34H[?25l[7m7[0m[39;49m[27m[8;1H[?12l[?25h[?12;25h[47;34H[?25l[7m8[0m[39;49m[27m[9;1H[?12l[?25h[?12;25h[47;34H[?25l[7m9[0m[39;49m[27m[10;1H[?12l[?25h[?12;25h[47;34H[?25l[7m10[0m[39;49m[27m[11;1H[?12l[?25h[?12;25h[47;35H[?25l[7m1[0m[39;49m[27m[12;1H[?12l[?25h[?12;25h[47;35H[?25l[7m2[0m[39;49m[27m[13;1H[?12l[?25h[?12;25h[47;35H[?25l[7m3[0m[39;49m[27m[14;1H[?12l[?25h[?12;25h[47;35H[?25l[7m4[0m[39;49m[27m[15;1H[?12l[?25h[?12;25h[47;35H[?25l[7m5[0m[39;49m[27m[16;1H[?12l[?25h[?12;25h[47;35H[?25l[7m6[0m[39;49m[27m[17;1H[?12l[?25h[?12;25h[47;35H[?25l[7m7[0m[39;49m[27m[18;1H[?12l[?25h[?12;25h[47;35H[?25l[7m8[0m[39;49m[27m[19;1H[?12l[?25h[?12;25h[47;35H[?25l[7m9[0m[39;49m[27m[20;1H[?12l[?25h[?12;25h[47;34H[?25l[7m20[0m[39;49m[27m[21;1H[?12l[?25h[?12;25h[47;35H[?25l[7m1[0m[39;49m[27m[22;1H[?12l[?25h[?12;25h[47;35H[?25l[7m2[0m[39;49m[27m[23;1H[?12l[?25h[?12;25h[47;35H[?25l[7m3[0m[39;49m[27m[24;1H[?12l[?25h[?12;25h[47;35H[?25l[7m4[0m[39;49m[27m[25;1H[?12l[?25h[?12;25h[47;35H[?25l[7m5[0m[39;49m[27m[26;1H[?12l[?25h[?12;25h[47;35H[?25l[7m6[0m[39;49m[27m[27;1H[?12l[?25h[?12;25h[47;35H[?25l[7m7[0m[39;49m[27m[28;1H[?12l[?25h[?12;25h[47;35H[?25l[7m8[0m[39;49m[27m[29;1H[?12l[?25h[?12;25h[C[C[C[C[C[C		[C[C[C[C[C[C		[C[?25l[32m'] [39;49m                                                                
+[47;6H[7m**[0m[39;49m[27m[29;19H[?12l[?25h[?12;25h[?25l[32m*] [39;49m[?12l[?25h[?12;25h[?25l[32m'[39;49m][K[?12l[?25h[?12;25h[C[47;35H[?25l[7m9[0m[39;49m[27m[30;1H[?12l[?25h[?12;25h[47;34H[?25l[7m30[0m[39;49m[27m[31;1H[?12l[?25h[?12;25h[47;35H[?25l[7m1[0m[39;49m[27m[32;22H[?12l[?25h[?12;25h[47;35H[?25l[7m2[0m[39;49m[27m[33;1H[?12l[?25h[?12;25h[47;35H[?25l[7m3[0m[39;49m[27m[34;19H[?12l[?25h[?12;25h[47;35H[?25l[7m4[0m[39;49m[27m[35;22H[?12l[?25h[?12;25h[47;35H[?25l[7m5[0m[39;49m[27m[36;22H[?12l[?25h[?12;25h[47;35H[?25l[7m6[0m[39;49m[27m[37;22H[?12l[?25h[?12;25h[47;35H[?25l[7m7[0m[39;49m[27m[38;22H[?12l[?25h[?12;25h[47;35H[?25l[7m8[0m[39;49m[27m[39;22H[?12l[?25h[?12;25h[47;35H[?25l[7m9[0m[39;49m[27m[40;22H[?12l[?25h[?12;25h[C		[C[C[C[C[C[C		[C[1;46r[41;1H[1L[1;48r[41;1H[K[47;34H[?25l[7m40[0m[39;49m[27m[41;5H[?12l[?25h[?12;25h[?25l[32m' [39;49m                                                                              
+[41;6H[?12l[?25h[?12;25h[?25l[32m'[39;49m[K[?12l[?25h[?12;25h[?25l[32mm'[39;49m[?12l[?25h[?12;25h[?25l[32my'[39;49m[?12l[?25h[?12;25h[?25l[32ma'[39;49m[?12l[?25h[?12;25h[?25l[32mp'[39;49m[?12l[?25h[?12;25h[?25l[32mp'[39;49m[?12l[?25h[?12;25h[C[?25l,[?12l[?25h[?12;25h[1;46r[42;1H[1L[1;48r[42;1H[K[47;35H[?25l[7m1[0m[39;49m[27m[42;5H[?12l[?25h[?12;25h[?25l[32m' [39;49m                                                                              
+[42;6H[?12l[?25h[?12;25h[?25l[32m'[39;49m[K[?12l[?25h[?12;25h[?25l[32mr'[39;49m[?12l[?25h[?12;25h[?25l[32me'[39;49m[?12l[?25h[?12;25h[?25l[32ms'[39;49m[?12l[?25h[?12;25h[?25l[32mt'[39;49m[?12l[?25h[?12;25h[?25l[32m_'[39;49m[?12l[?25h[?12;25h[?25l[32mf'[39;49m[?12l[?25h[?12;25h[?25l[32mr'[39;49m[?12l[?25h[?12;25h[?25l[32ma'[39;49m[?12l[?25h[?12;25h[?25l[32mm'[39;49m[?12l[?25h[?12;25h[?25l[32me'[39;49m[?12l[?25h[?12;25h[?25l[32mw'[39;49m[?12l[?25h[?12;25h[?25l[32mo'[39;49m[?12l[?25h[?12;25h[?25l[32mr'[39;49m[?12l[?25h[?12;25h[?25l[32mk'[39;49m[?12l[?25h[?12;25h[C[?25l,[?12l[?25h[?12;25h[48;1H[?25lSaving file /home/kali/mycpu/mycpu/settings.py...[42;22H[?12l[?25h[?12;25h[48;1H[?25lWrote /home/kali/mycpu/mycpu/settings.py[K[42;22H[?12l[?25h[?12;25h[47;6H[?25l[7m--[0m[39;49m[27m[42;22H[?12l[?25h[?12;25h[48;1H[K[47;35H[?25l[7m2[0m[39;49m[27m[43;2H[?12l[?25h[?12;25h[47;35H[?25l[7m3[0m[39;49m[27m[44;1H[?12l[?25h[?12;25h[47;35H[?25l[7m4[0m[39;49m[27m[45;15H[?12l[?25h[?12;25h[47;35H[?25l[7m5[0m[39;49m[27m[46;22H[?12l[?25h[?12;25h[H
+[K
+[?25l[33m# SECURITY WARNING: don't run with debug turned on in production! [39;49m
+[33mDEBUG[39;49m = [35mTrue[39;49m[K
+[K
+[33mALLOWED_HOSTS[39;49m = [[32m'*'[39;49m][K
+[K
+[K
+[33m# Application definition [39;49m
+[K
+[33mINSTALLED_APPS[39;49m = [[K
+    [32m'django.contrib.admin'[39;49m,[13;5H[32m'django.contrib.auth'[39;49m,
+    [32m'django.contrib.contenttypes'[39;49m,[15;5H[32m'django.contrib.sessions'[39;49m,
+    [32m'django.contrib.messages'[39;49m,[K
+    [32m'django.contrib.staticfiles'[39;49m,[K[18;5H[32m'myapp'[39;49m,[19;5H[32m'rest_framework'[39;49m,
+][K
+[K
+[33mMIDDLEWARE[39;49m = [
+    [32m'django.middleware.security.SecurityMiddleware'[39;49m,[K
+    [32m'django.contrib.sessions.middleware.SessionMiddleware'[39;49m,[K[25;5H[32m'django.middleware.common.CommonMiddleware'[39;49m,
+    [32m'django.middleware.csrf.CsrfViewMiddleware'[39;49m,[K
+    [32m'django.contrib.auth.middleware.AuthenticationMiddleware'[39;49m,[28;5H[32m'django.contrib.messages.middleware.MessageMiddleware'[39;49m,
+    [32m'django.middleware.clickjacking.XFrameOptionsMiddleware'[39;49m,
+]
+
+[33mROOT_URLCONF[39;49m = [32m'mycpu.urls'[39;49m[K
+
+[33mTEMPLATES[39;49m = [[K[35;5H{[K
+    [32m'BACKEND'[39;49m: [32m'django.template.backends.django.DjangoTemplates'[39;49m,[37;5H    [32m'DIRS'[39;49m: [],[K[38;5H    [32m'APP_DIRS'[39;49m: [35mTrue[39;49m,[K[39;5H    [32m'OPTIONS'[39;49m: {[K[40;5H        [32m'context_processors'[39;49m: [[41;5H            [32m'django.template.context_processors.debug'[39;49m,[42;5H            [32m'django.template.context_processors.request'[39;49m,
+                [32m'django.contrib.auth.context_processors.auth'[39;49m,
+		[32m'django.contrib.messages.context_processors.messages'[39;49m,
+            ],[46;5H    },[K[47;29H[7m23% L46[0m[39;49m[27m[24;22H[?12l[?25h[?12;25h[47;35H[?25l[7m7[0m[39;49m[27m[25;22H[?12l[?25h[?12;25h[47;35H[?25l[7m8[0m[39;49m[27m[26;22H[?12l[?25h[?12;25h[47;35H[?25l[7m9[0m[39;49m[27m[27;22H[?12l[?25h[?12;25h[47;34H[?25l[7m50[0m[39;49m[27m[28;22H[?12l[?25h[?12;25h[47;35H[?25l[7m1[0m[39;49m[27m[29;22H[?12l[?25h[?12;25h[47;35H[?25l[7m2[0m[39;49m[27m[30;2H[?12l[?25h[?12;25h[47;35H[?25l[7m3[0m[39;49m[27m[31;1H[?12l[?25h[?12;25h[47;35H[?25l[7m4[0m[39;49m[27m[32;22H[?12l[?25h[?12;25h[47;35H[?25l[7m5[0m[39;49m[27m[33;1H[?12l[?25h[?12;25h[47;35H[?25l[7m6[0m[39;49m[27m[34;14H[?12l[?25h[?12;25h[47;35H[?25l[7m7[0m[39;49m[27m[35;6H[?12l[?25h[?12;25h[47;35H[?25l[7m8[0m[39;49m[27m[36;22H[?12l[?25h[?12;25h[47;35H[?25l[7m9[0m[39;49m[27m[37;20H[?12l[?25h[?12;25h[47;34H[?25l[7m60[0m[39;49m[27m[38;22H[?12l[?25h[?12;25h[47;35H[?25l[7m1[0m[39;49m[27m[39;21H[?12l[?25h[?12;25h[47;35H[?25l[7m2[0m[39;49m[27m[40;22H[?12l[?25h[?12;25h[47;35H[?25l[7m3[0m[39;49m[27m[41;22H[?12l[?25h[?12;25h[47;35H[?25l[7m4[0m[39;49m[27m[42;22H[?12l[?25h[?12;25h[47;35H[?25l[7m5[0m[39;49m[27m[43;22H[?12l[?25h[?12;25h[47;35H[?25l[7m6[0m[39;49m[27m[44;22H[?12l[?25h[?12;25h[47;35H[?25l[7m7[0m[39;49m[27m[45;15H[?12l[?25h[?12;25h[47;35H[?25l[7m8[0m[39;49m[27m[46;11H[?12l[?25h[?12;25h[1;46r[2;1H[23M[1;48r[24;1H[?25l    },[K
+][K
+[K
+[33mWSGI_APPLICATION[39;49m = [32m'mycpu.wsgi.application'[39;49m[K
+[K
+[K
+[33m# Database [39;49m                                                                         
+[A
+[33m# https://docs.djangoproject.com/en/3.2/ref/settings/#databases [39;49m                    
+[A
+[K
+[33mDATABASES[39;49m = {[K
+    [32m'default'[39;49m: {[K
+        [32m'ENGINE'[39;49m: [32m'django.db.backends.sqlite3'[39;49m,[K
+        [32m'NAME'[39;49m: BASE_DIR / [32m'db.sqlite3'[39;49m,[K
+    }[K
+}[K
+[K
+[K
+[33m# Password validation [39;49m                                                              
+[A
+[33m# https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators [39;49m     
+[A
+[K
+[33mAUTH_PASSWORD_VALIDATORS[39;49m = [[K
+    {[K
+        [32m'NAME'[39;49m: [32m'django.contrib.auth.password_validation.UserAttributeSimilarityVal[39;49m\
+[A[47;29H[7m38% L69[0m[39;49m[27m[24;7H[?12l[?25h[?12;25h[47;34H[?25l[7m70[0m[39;49m[27m[25;2H[?12l[?25h[?12;25h[47;35H[?25l[7m1[0m[39;49m[27m[26;1H[?12l[?25h[?12;25h[47;35H[?25l[7m2[0m[39;49m[27m[27;22H[?12l[?25h[?12;25h[47;35H[?25l[7m3[0m[39;49m[27m[28;1H[?12l[?25h[?12;25h[47;35H[?25l[7m4[0m[39;49m[27m[29;1H[?12l[?25h[?12;25h[47;35H[?25l[7m5[0m[39;49m[27m[30;11H[?12l[?25h[?12;25h[47;35H[?25l[7m6[0m[39;49m[27m[31;22H[?12l[?25h[?12;25h[47;35H[?25l[7m7[0m[39;49m[27m[32;1H[?12l[?25h[?12;25h[47;35H[?25l[7m8[0m[39;49m[27m[33;14H[?12l[?25h[?12;25h[47;35H[?25l[7m9[0m[39;49m[27m[34;17H[?12l[?25h[?12;25h[47;34H[?25l[7m80[0m[39;49m[27m[35;22H[?12l[?25h[?12;25h[47;35H[?25l[7m1[0m[39;49m[27m[36;22H[?12l[?25h[?12;25h[47;35H[?25l[7m2[0m[39;49m[27m[37;6H[?12l[?25h[?12;25h[47;35H[?25l[7m1[0m[39;49m[27m[36;22H[?12l[?25h[?12;25h[47;35H[?25l[7m2[0m[39;49m[27m[37;6H[?12l[?25h[?12;25h[47;35H[?25l[7m1[0m[39;49m[27m[36;22H[?12l[?25h[?12;25h[47;35H[?25l[7m2[0m[39;49m[27m[37;6H[?12l[?25h[?12;25h[47;35H[?25l[7m3[0m[39;49m[27m[38;2H[?12l[?25h[?12;25h[47;35H[?25l[7m4[0m[39;49m[27m[39;1H[?12l[?25h[?12;25h[47;35H[?25l[7m5[0m[39;49m[27m[40;1H[?12l[?25h[?12;25h[47;35H[?25l[7m6[0m[39;49m[27m[41;22H[?12l[?25h[?12;25h[47;35H[?25l[7m7[0m[39;49m[27m[42;22H[?12l[?25h[?12;25h[47;35H[?25l[7m8[0m[39;49m[27m[43;1H[?12l[?25h[?12;25h[47;35H[?25l[7m9[0m[39;49m[27m[44;22H[?12l[?25h[?12;25h[47;34H[?25l[7m90[0m[39;49m[27m[45;6H[?12l[?25h[?12;25h[47;35H[?25l[7m1[0m[39;49m[27m[46;22H[?12l[?25h[?12;25h[1;46r[2;1H[23M[1;48r[24;1H[?25l[32midator'[39;49m,[K
+    },[K
+    {[K
+        [32m'NAME'[39;49m: [32m'django.contrib.auth.password_validation.MinimumLengthValidator'[39;49m,[K
+    },[K
+    {[K
+        [32m'NAME'[39;49m: [32m'django.contrib.auth.password_validation.CommonPasswordValidator'[39;49m,[K
+    },[K
+    {[K
+        [32m'NAME'[39;49m: [32m'django.contrib.auth.password_validation.NumericPasswordValidator'[39;49m,[K
+    },[K
+][K
+[K
+[K
+[33m# Internationalization [39;49m                                                             
+[A
+[33m# https://docs.djangoproject.com/en/3.2/topics/i18n/ [39;49m                               
+[A
+[K
+[33mLANGUAGE_CODE[39;49m = [32m'en-us'[39;49m[K
+[K
+[33mTIME_ZONE[39;49m = [32m'UTC'[39;49m[K
+[K
+[33mUSE_I18N[39;49m = [35mTrue[39;49m[K
+[K[47;29H[7m63[0m[39;49m[27m[24;9H[?12l[?25h[?12;25h[47;35H[?25l[7m2[0m[39;49m[27m[25;7H[?12l[?25h[?12;25h[47;35H[?25l[7m3[0m[39;49m[27m[26;6H[?12l[?25h[?12;25h[47;35H[?25l[7m4[0m[39;49m[27m[27;22H[?12l[?25h[?12;25h[47;35H[?25l[7m5[0m[39;49m[27m[28;7H[?12l[?25h[?12;25h[47;35H[?25l[7m6[0m[39;49m[27m[29;6H[?12l[?25h[?12;25h[47;35H[?25l[7m7[0m[39;49m[27m[30;22H[?12l[?25h[?12;25h[47;35H[?25l[7m8[0m[39;49m[27m[31;7H[?12l[?25h[?12;25h[47;35H[?25l[7m7[0m[39;49m[27m[30;22H[?12l[?25h[?12;25h[47;35H[?25l[7m6[0m[39;49m[27m[29;6H[?12l[?25h[?12;25h[47;35H[?25l[7m5[0m[39;49m[27m[28;7H[?12l[?25h[?12;25h[47;35H[?25l[7m4[0m[39;49m[27m[27;22H[?12l[?25h[?12;25h[47;35H[?25l[7m3[0m[39;49m[27m[26;6H[?12l[?25h[?12;25h[47;35H[?25l[7m2[0m[39;49m[27m[25;7H[?12l[?25h[?12;25h[47;35H[?25l[7m1[0m[39;49m[27m[24;9H[?12l[?25h[?12;25h[23;22H[47;35H[?25l[7m0[0m[39;49m[27m[22;6H[?12l[?25h[?12;25h[47;34H[?25l[7m89[0m[39;49m[27m[21;22H[?12l[?25h[?12;25h[47;35H[?25l[7m8[0m[39;49m[27m[20;1H[?12l[?25h[?12;25h[47;35H[?25l[7m7[0m[39;49m[27m[19;22H[?12l[?25h[?12;25h[47;35H[?25l[7m6[0m[39;49m[27m[18;22H[?12l[?25h[?12;25h[47;35H[?25l[7m5[0m[39;49m[27m[17;1H[?12l[?25h[?12;25h[47;35H[?25l[7m4[0m[39;49m[27m[16;1H[?12l[?25h[?12;25h[47;35H[?25l[7m3[0m[39;49m[27m[15;2H[?12l[?25h[?12;25h[47;35H[?25l[7m2[0m[39;49m[27m[14;6H[?12l[?25h[?12;25h[47;35H[?25l[7m1[0m[39;49m[27m[13;22H[?12l[?25h[?12;25h[47;35H[?25l[7m0[0m[39;49m[27m[12;22H[?12l[?25h[?12;25h[47;34H[?25l[7m79[0m[39;49m[27m[11;17H[?12l[?25h[?12;25h[47;35H[?25l[7m8[0m[39;49m[27m[10;14H[?12l[?25h[?12;25h[47;35H[?25l[7m7[0m[39;49m[27m[9;1H[?12l[?25h[?12;25h[47;35H[?25l[7m6[0m[39;49m[27m[8;22H[?12l[?25h[?12;25h[47;35H[?25l[7m5[0m[39;49m[27m[7;11H[?12l[?25h[?12;25h[47;35H[?25l[7m4[0m[39;49m[27m[6;1H[?12l[?25h[?12;25h[47;35H[?25l[7m3[0m[39;49m[27m[5;1H[?12l[?25h[?12;25h[47;35H[?25l[7m2[0m[39;49m[27m[4;22H[?12l[?25h[?12;25h[47;35H[?25l[7m1[0m[39;49m[27m[H
+
+[?12l[?25h[?12;25h[47;35H[?25l[7m0[0m[39;49m[27m[2;2H[?12l[?25h[?12;25h[1;46r[2;1H[23L[1;48r[2;1H[?25l    [32m'django.middleware.common.CommonMiddleware'[39;49m,[K
+    [32m'django.middleware.csrf.CsrfViewMiddleware'[39;49m,[K
+    [32m'django.contrib.auth.middleware.AuthenticationMiddleware'[39;49m,[K
+    [32m'django.contrib.messages.middleware.MessageMiddleware'[39;49m,[K
+    [32m'django.middleware.clickjacking.XFrameOptionsMiddleware'[39;49m,[K
+][K
+[K
+[33mROOT_URLCONF[39;49m = [32m'mycpu.urls'[39;49m[K
+[K
+[33mTEMPLATES[39;49m = [[K
+    {[K
+        [32m'BACKEND'[39;49m: [32m'django.template.backends.django.DjangoTemplates'[39;49m,[K
+        [32m'DIRS'[39;49m: [],[K
+        [32m'APP_DIRS'[39;49m: [35mTrue[39;49m,[K
+        [32m'OPTIONS'[39;49m: {[K
+            [32m'context_processors'[39;49m: [[K
+                [32m'django.template.context_processors.debug'[39;49m,[K
+                [32m'django.template.context_processors.request'[39;49m,[K
+                [32m'django.contrib.auth.context_processors.auth'[39;49m,[K
+                [32m'django.contrib.messages.context_processors.messages'[39;49m,[K
+            ],[K
+        },[K
+    },[K[47;29H[7m38% L69[0m[39;49m[27m[24;7H[?12l[?25h[?12;25h[47;35H[?25l[7m8[0m[39;49m[27m[23;11H[?12l[?25h[?12;25h[47;35H[?25l[7m7[0m[39;49m[27m[22;15H[?12l[?25h[?12;25h[47;35H[?25l[7m4[0m[39;49m[27m[19;22H[?12l[?25h[?12;25h[47;35H[?25l[7m3[0m[39;49m[27m[18;22H[?12l[?25h[?12;25h[47;35H[?25l[7m2[0m[39;49m[27m[17;22H[?12l[?25h[?12;25h[47;35H[?25l[7m1[0m[39;49m[27m[16;21H[?12l[?25h[?12;25h[47;35H[?25l[7m0[0m[39;49m[27m[15;22H[?12l[?25h[?12;25h[47;34H[?25l[7m59[0m[39;49m[27m[14;20H[?12l[?25h[?12;25h[47;35H[?25l[7m8[0m[39;49m[27m[13;22H[?12l[?25h[?12;25h[47;35H[?25l[7m7[0m[39;49m[27m[12;6H[?12l[?25h[?12;25h[47;35H[?25l[7m6[0m[39;49m[27m[11;14H[?12l[?25h[?12;25h[47;35H[?25l[7m5[0m[39;49m[27m[10;1H[?12l[?25h[?12;25h[47;35H[?25l[7m4[0m[39;49m[27m[9;22H[?12l[?25h[?12;25h[47;35H[?25l[7m3[0m[39;49m[27m[8;1H[?12l[?25h[?12;25h[47;35H[?25l[7m2[0m[39;49m[27m[7;2H[?12l[?25h[?12;25h[47;35H[?25l[7m1[0m[39;49m[27m[6;22H[?12l[?25h[?12;25h[47;35H[?25l[7m0[0m[39;49m[27m[5;22H[?12l[?25h[?12;25h[47;34H[?25l[7m49[0m[39;49m[27m[4;22H[?12l[?25h[?12;25h[47;35H[?25l[7m8[0m[39;49m[27m[3;22H[?12l[?25h[?12;25h[47;35H[?25l[7m7[0m[39;49m[27m[2;22H[?12l[?25h[?12;25h[1;46r[2;1H[23L[1;48r[2;1H[K
+[?25l[33m# SECURITY WARNING: don't run with debug turned on in production! [39;49m                  
+[A
+[33mDEBUG[39;49m = [35mTrue[39;49m[K
+[K
+[33mALLOWED_HOSTS[39;49m = [[32m'*'[39;49m][K
+[K
+[K
+[33m# Application definition [39;49m                                                           
+[A
+[K
+[33mINSTALLED_APPS[39;49m = [[K
+    [32m'django.contrib.admin'[39;49m,[K
+    [32m'django.contrib.auth'[39;49m,[K
+    [32m'django.contrib.contenttypes'[39;49m,[K
+    [32m'django.contrib.sessions'[39;49m,[K
+    [32m'django.contrib.messages'[39;49m,[K
+    [32m'django.contrib.staticfiles'[39;49m,[K
+    [32m'myapp'[39;49m,[K
+    [32m'rest_framework'[39;49m,[K
+][K
+[K
+[33mMIDDLEWARE[39;49m = [[K
+    [32m'django.middleware.security.SecurityMiddleware'[39;49m,[K
+    [32m'django.contrib.sessions.middleware.SessionMiddleware'[39;49m,[K[47;29H[7m23% L46[0m[39;49m[27m[24;22H[?12l[?25h[?12;25h[47;35H[?25l[7m5[0m[39;49m[27m[23;22H[?12l[?25h[?12;25h[47;35H[?25l[7m4[0m[39;49m[27m[22;15H[?12l[?25h[?12;25h[47;35H[?25l[7m3[0m[39;49m[27m[21;1H[?12l[?25h[?12;25h[47;35H[?25l[7m2[0m[39;49m[27m[20;2H[?12l[?25h[?12;25h[47;35H[?25l[7m1[0m[39;49m[27m[19;22H[?12l[?25h[?12;25h[47;35H[?25l[7m0[0m[39;49m[27m[18;13H[?12l[?25h[?12;25h[47;34H[?25l[7m39[0m[39;49m[27m[17;22H[?12l[?25h[?12;25h[47;35H[?25l[7m8[0m[39;49m[27m[16;22H[?12l[?25h[?12;25h[47;35H[?25l[7m7[0m[39;49m[27m[15;22H[?12l[?25h[?12;25h[47;35H[?25l[7m6[0m[39;49m[27m[14;22H[?12l[?25h[?12;25h[47;35H[?25l[7m5[0m[39;49m[27m[13;22H[?12l[?25h[?12;25h[47;35H[?25l[7m4[0m[39;49m[27m[12;22H[?12l[?25h[?12;25h[47;35H[?25l[7m3[0m[39;49m[27m[11;19H[?12l[?25h[?12;25h[47;35H[?25l[7m2[0m[39;49m[27m[10;1H[?12l[?25h[?12;25h[47;35H[?25l[7m1[0m[39;49m[27m[9;22H[?12l[?25h[?12;25h[47;35H[?25l[7m0[0m[39;49m[27m[8;1H[?12l[?25h[?12;25h[47;34H[?25l[7m29[0m[39;49m[27m[7;1H[?12l[?25h[?12;25h[47;35H[?25l[7m8[0m[39;49m[27m[6;22H[?12l[?25h[?12;25h[47;35H[?25l[7m7[0m[39;49m[27m[5;1H[?12l[?25h[?12;25h[47;35H[?25l[7m6[0m[39;49m[27m[4;13H[?12l[?25h[?12;25h[47;35H[?25l[7m5[0m[39;49m[27m[3;22H[?12l[?25h[?12;25h[47;35H[?25l[7m4[0m[39;49m[27m[H
+[?12l[?25h[?12;25h[?25l[32m""" [39;49m                                                                                
+[32mDjango settings for mycpu project. [39;49m                               
+[32m [39;49m                                                                                   
+[32mGenerated by 'django-admin startproject' using Django 3.2.18. [39;49m                      
+[32m [39;49m                                                                                   
+[32mFor more information on this file, see [39;49m                                             
+[32mhttps://docs.djangoproject.com/en/3.2/topics/settings/ [39;49m                             
+[32m [39;49m                        
+[32mFor the full list of settings and their values, see [39;49m                                
+[32mhttps://docs.djangoproject.com/en/3.2/ref/settings/ [39;49m                                
+[32m"""[39;49m[K
+[K
+[1m[36mfrom[0m[39;49m pathlib [1m[36mimport[0m[39;49m Path[K
+[K
+[33m# Build paths inside the project like this: BASE_DIR / 'subdir'. [39;49m                   
+[33mBASE_DIR[39;49m = Path(__file__).resolve().parent.parent
+[K
+[K
+[33m# Quick-start development settings - unsuitable for production [39;49m                     
+[33m# See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/ [39;49m            
+[K
+[33m# SECURITY WARNING: keep the secret key used in production secret! [39;49m                 
+[33mSECRET_KEY[39;49m = [32m'django-insecure-=h6hv@)ppg%k-k-qv)zi)c=zt!)@uo(0_g%qfvy$&-j)own31b'[39;49m
+[K
+[33m# SECURITY WARNING: don't run with debug turned on in production! [39;49m                  
+[33mDEBUG[39;49m = [35mTrue[39;49m[K
+[K
+[33mALLOWED_HOSTS[39;49m = [[32m'*'[39;49m][K
+[K
+
+[33m# Application definition [39;49m                                                           
+
+[33mINSTALLED_APPS[39;49m = [[35;5H[32m'django.contrib.admin'[39;49m,[36;5H[32m'django.contrib.auth'[39;49m,[K[37;5H[32m'django.contrib.contenttypes'[39;49m,[38;5H[32m'django.contrib.sessions'[39;49m,[39;5H[32m'django.contrib.messages'[39;49m,[40;5H[32m'django.contrib.staticfiles'[39;49m,[K[41;5H[32m'myapp'[39;49m,[K[42;5H[32m'rest_framework'[39;49m,[K
+][K
+[K
+[33mMIDDLEWARE[39;49m = [[46;5H[32m'django.middleware.security.SecurityMiddleware'[39;49m,[47;29H[7mTop L23[0m[39;49m[27m[24;22H[?12l[?25h[?12;25h[47;35H[?25l[7m2[0m[39;49m[27m[23;22H[?12l[?25h[?12;25h[47;35H[?25l[7m1[0m[39;49m[27m[22;1H[?12l[?25h[?12;25h[47;35H[?25l[7m0[0m[39;49m[27m[21;22H[?12l[?25h[?12;25h[47;34H[?25l[7m19[0m[39;49m[27m[20;22H[?12l[?25h[?12;25h[48;1H[?25l(No changes need to be saved)[20;22H[?12l[?25h[?12;25h[48;1H[K[20;22H[48;1H[K[?1004l[?2004l[>4m[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m                                                                                    ]0;kali@kali-raspberry-pi: ~/mycpu/mycpu
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali-raspberry-pi[0m[34m[32m)-[[1m[32m[39m~/mycpu/mycpu[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[1m[31md[0m[39m[1m[31md[0m[39m[38;2;153;153;153mjango-admin startproject mycpu[39m[30D[0m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [31D[1m[31md[0m[39m[1m[31md[0m[39m[38;2;153;153;153mjango-admin startproject mycpu[39m[30D[0m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [31D[1m[31me[0m[39m[1m[31me[0m[39m[38;2;153;153;153mmacs settings.py[39m[16D[0m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [17Dccp[32mc[32mp[39m [38;2;153;153;153m~/iot/lesson4/static/*js .[39m[26D[39m[4m~[24m[24m~[39m/[39mi[39mo[39mt[39m/[39ml[39me[39ms[39ms[39mo[39mn[39m4[39m/[39ms[39mt[39ma[39mt[39mi[39mc[39m/[1m[34m*[0m[39m[39mj[39ms[39m [39m[4m.[24m/[1m[34m*[0m[39m[0m[39mjs [4m.[24m[24m /[1m[34m*[0m[39m[0m[39mjs [4m.[24m[24m /[1m[34m*[0m[39m[0m[39mjs [4m.[24m[24m /[1m[34m*[0m[39m[0m[39mjs [4m.[24m[24m /[1m[34m*[0m[39m[0m[39mjs [4m.[24m[24m /[1m[34m*[0m[39m[0m[39mjs [4m.[24m[24m m[0m[39m/[1m[34m*[0m[39mjs[24m [4m.[24my[0m[39m/[1m[34m*[0m[39mjs[24m [4m.[24mc[0m[39m/[1m[34m*[0m[39mjs[24m [4m.[24mp[0m[39m/[1m[34m*[0m[39mjs[24m [4m.[24mu[0m[39m/[1m[34m*[0m[39mjs[24m [4m.[24m[1C[1C[1C[1C [4m.[24m[24m  [4m.[24m[24m [21D[4m~[4m/[4mi[4mo[4mt[4m/[4ml[4me[4ms[4ms[4mo[4mn[4m4[4m/[4mm[4my[4mc[4mp[4mu[4m/[24m[0m[39m [4m.[24m[24m [20D[24m~[24m/[24mi[24mo[24mt[24m/[24ml[24me[24ms[24ms[24mo[24mn[24m4[24m/[24mm[24my[24mc[24mp[24mu[24m/m[24m [4m.[24m[21D[4m~[4m/[4mi[4mo[4mt[4m/[4ml[4me[4ms[4ms[4mo[4mn[4m4[4m/[4mm[4my[4mc[4mp[4mu[4m/[24m [4m.[24m[24m [20D[24m~[24m/[24mi[24mo[24mt[24m/[24ml[24me[24ms[24ms[24mo[24mn[24m4[24m/[24mm[24my[24mc[24mp[24mu[24m/u[24m [4m.[24mr[24m [4m.[24ml[24m [4m.[24ms[24m [4m.[24m.[24m [4m.[24mp[24m [4m.[24m[26D[4m~[4m/[4mi[4mo[4mt[4m/[4ml[4me[4ms[4ms[4mo[4mn[4m4[4m/[4mm[4my[4mc[4mp[4mu[4m/[4mu[4mr[4ml[4ms[4m.[4mp[4my[24m[24m [4m.[24m[?1l>[?2004l
+                                                                                    ]0;kali@kali-raspberry-pi: ~/mycpu/mycpu
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali-raspberry-pi[0m[34m[32m)-[[1m[32m[39m~/mycpu/mycpu[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[1m[31mc[0m[39m[1m[31mc[0m[39m[38;2;153;153;153mp ~/iot/lesson4/mycpu/urls.py .[39m[31D[0m[32mc[32md[39m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [30D[38;2;153;153;153m mycpu[39m[39m [39m[4m.[24m[39m [39m [39m [39m [38;2;153;153;153m.[39m[4m.[39m[4m.[24m[?1l>[?2004l
+                                                                                    ]0;kali@kali-raspberry-pi: ~/mycpu
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali-raspberry-pi[0m[34m[32m)-[[1m[32m[39m~/mycpu[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[1m[31mc[0m[39m[1m[31mc[0m[39m[38;2;153;153;153md ..[39m[0m[32mc[32md[39m[39m [39m[4mm[24m[39m [38;2;153;153;153mycpu[39m[4mm[39m[4my[24m[4my[39m[4ma[24m[39m [39m [38;2;153;153;153mpp[39m[4ma[39m[4mp[24m[4mp[39m[4mp[24m[?1l>[?2004l
+                                                                                    ]0;kali@kali-raspberry-pi: ~/mycpu/myapp
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali-raspberry-pi[0m[34m[32m)-[[1m[32m[39m~/mycpu/myapp[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[32ml[39m[32ml[39m[38;2;153;153;153ms[39m[32ml[32ms[39m[?1l>[?2004l
+admin.py  apps.py  __init__.py  [0m[01;34mmigrations[0m  models.py  tests.py  views.py
+                                                                                    ]0;kali@kali-raspberry-pi: ~/mycpu/myapp
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali-raspberry-pi[0m[34m[32m)-[[1m[32m[39m~/mycpu/myapp[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[1m[31mc[0m[39m[1m[31mc[0m[39m[38;2;153;153;153md myapp[39m[0m[32mc[32mp[39m[39m [39m [39m [39m [39m [39m [38;2;153;153;153m ~/iot/lesson4/mycpu/urls.py .[39m[30D[39m [39m[4m~[39m[4m/[39m[4mi[39m[4mo[39m[4mt[39m[4m/[39m[4ml[39m[4me[39m[4ms[39m[4ms[39m[4mo[39m[4mn[39m[4m4[39m[4m/[39m[4mm[39m[4my[39m[4mc[39m[4mp[39m[4mu[39m[4m/[39m[4mu[39m[4mr[39m[4ml[39m[4ms[39m[4m.[39m[4mp[39m[4my[24m[39m [39m[4m.[24m[1C[24D[24m~[24m/[24mi[24mo[24mt[24m/[24ml[24me[24ms[24ms[24mo[24mn[24m4[24m/[24mm[24my[24mc[24mp[24mu[24m/[24mu[24mr[24ml[24m.[24mp[24my[24m [4m.[24m[24m .py [4m.[24m[24m .py [4m.[24m[24m .py [4m.[24m[24m a.py[24m [4m.[24md.py[24m [4m.[24mm.py[24m [4m.[24mi.py[24m [4m.[24m[24D[4m~[4m/[4mi[4mo[4mt[4m/[4ml[4me[4ms[4ms[4mo[4mn[4m4[4m/[4mm[4my[4mc[4mp[4mu[4m/[4ma[4md[4mm[4mi[4mn[4m.[4mp[4my[24m[24m [4m.[24m[?1l>[?2004l
+                                                                                    ]0;kali@kali-raspberry-pi: ~/mycpu/myapp
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali-raspberry-pi[0m[34m[32m)-[[1m[32m[39m~/mycpu/myapp[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[32mcp[39m [4m~/iot/lesson4/mycpu/admin.py[24m [4m.[24m[25D[24m~[24m/[24mi[24mo[24mt[24m/[24ml[24me[24ms[24ms[24mo[24mn[24m4[24m/[24mm[24my[24mc[24mp[24mu[24m/[24ma[24md[24mm[24mi[24m.[24mp[24my[24m [4m.[24m[24m .py [4m.[24m[24m .py [4m.[24m[24m .py [4m.[24m[24m .py [4m.[24m[24m m.py[24m [4m.[24mo.py[24m [4m.[24md.py[24m [4m.[24me.py[24m [4m.[24ml.py[24m [4m.[24m[25D[4m~[4m/[4mi[4mo[4mt[4m/[4ml[4me[4ms[4ms[4mo[4mn[4m4[4m/[4mm[4my[4mc[4mp[4mu[4m/[4mm[4mo[4md[4me[4ml[4ms[4m.[4mp[4my[24m[24m [4m.[24m[?1l>[?2004l
+                                                                                    ]0;kali@kali-raspberry-pi: ~/mycpu/myapp
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali-raspberry-pi[0m[34m[32m)-[[1m[32m[39m~/mycpu/myapp[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[32mcp[39m [4m~/iot/lesson4/mycpu/models.py[24m [4m.[24m[26D[24m~[24m/[24mi[24mo[24mt[24m/[24ml[24me[24ms[24ms[24mo[24mn[24m4[24m/[24mm[24my[24mc[24mp[24mu[24m/[24mm[24mo[24md[24me[24ml[24m.[24mp[24my[24m [4m.[24m[24m .py [4m.[24m[24m .py [4m.[24m[24m .py [4m.[24m[24m .py [4m.[24m[24m .py [4m.[24m[24m v.py[24m [4m.[24mi.py[24m [4m.[24me.py[24m [4m.[24mw.py[24m [4m.[24m[24D[4m~[4m/[4mi[4mo[4mt[4m/[4ml[4me[4ms[4ms[4mo[4mn[4m4[4m/[4mm[4my[4mc[4mp[4mu[4m/[4mv[4mi[4me[4mw[4ms[4m.[4mp[4my[24m[24m [4m.[24m[?1l>[?2004l
+                                                                                    ]0;kali@kali-raspberry-pi: ~/mycpu/myapp
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali-raspberry-pi[0m[34m[32m)-[[1m[32m[39m~/mycpu/myapp[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[32mcp[39m [4m~/iot/lesson4/mycpu/views.py[24m [4m.[24m[25D[24m~[24m/[24mi[24mo[24mt[24m/[24ml[24me[24ms[24ms[24mo[24mn[24m4[24m/[24mm[24my[24mc[24mp[24mu[24m/[24mv[24mi[24me[24mw[24m.[24mp[24my[24m [4m.[24m[24m .py [4m.[24m[24m .py [4m.[24m[24m .py [4m.[24m[24m .py [4m.[24m[24m s.py[24m [4m.[24me.py[24m [4m.[24mr.py[24m [4m.[24mi.py[24m [4m.[24ma.py[24m [4m.[24ml.py[24m [4m.[24mi.py[24m [4m.[24mz.py[24m [4m.[24me.py[24m [4m.[24mr.py[24m [4m.[24m[30D[4m~[4m/[4mi[4mo[4mt[4m/[4ml[4me[4ms[4ms[4mo[4mn[4m4[4m/[4mm[4my[4mc[4mp[4mu[4m/[4ms[4me[4mr[4mi[4ma[4ml[4mi[4mz[4me[4mr[4ms[4m.[4mp[4my[24m[24m [4m.[24m[?1l>[?2004l
+                                                                                    ]0;kali@kali-raspberry-pi: ~/mycpu/myapp
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali-raspberry-pi[0m[34m[32m)-[[1m[32m[39m~/mycpu/myapp[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[32ml[39m[32ml[39m[38;2;153;153;153ms[39m[32ml[32ms[39m[?1l>[?2004l
+admin.py  __init__.py  models.py       tests.py
+apps.py   [0m[01;34mmigrations[0m   serializers.py  views.py
+                                                                                    ]0;kali@kali-raspberry-pi: ~/mycpu/myapp
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali-raspberry-pi[0m[34m[32m)-[[1m[32m[39m~/mycpu/myapp[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[1m[31me[0m[39m[1m[31me[0m[39m[38;2;153;153;153mmacs settings.py[39m[16D[1m[31me[1m[31mm[0m[39m[1m[31me[1m[31mm[1m[31ma[0m[39m[1m[31ma[1m[31mc[0m[39m[0m[32me[0m[32mm[0m[32ma[0m[32mc[32ms[39m[39m [39m[4mv[24m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [10D[4mv[4mi[24m[4mi[4me[24m[4me[4mw[24m[4mw[4ms[24m[4ms[4m.[24m[4m.[4mp[24m[4mp[4my[24m[?1l>[?2004l
+[?1049h[22;0;0t[?12;25h[?1h=[H[2J[48d[K[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m[?1049h[22;0;0t[?12;25h[?1h=[H[2J[47d[?25l[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) -------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[48d[?25lLoading /etc/emacs/site-start.d/00debian.el (source)...done[K[H
+[?12l[?25h[?12;25h[48;33H[?25l50dictionaries-common.el (source)...[H
+[?12l[?25h[?12;25h[48;9H[?25ldebian-ispell...[K[H
+[?12l[?25h[?12;25h[48;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-default.el (source)...[H
+[?12l[?25h[?12;25h[48;77H[?25ldone[H
+[?12l[?25h[?12;25h[48;9H[?25ldebian-ispell...done[K[H
+[?12l[?25h[?12;25h[48;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-dicts.el (source)...[H
+[?12l[?25h[?12;25h[48;75H[?25ldone[H
+[?12l[?25h[?12;25h[48;10H[?25letc/emacs/site-start.d/50dictionaries-common[6P[H
+[?12l[?25h[?12;25h[48;35H[?25lfiglet.el (source)...[K[H
+[?12l[?25h[?12;25h[48;56H[?25ldone[H
+[?12l[?25h[?12;25h[>0c]11;?\[>4;1m[?2004h[?1004h[48d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H
+[?12l[?25h[?12;25h[48d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools Python Help                                         [0m[39;49m[27m
+[A
+[1m[36mfrom[0m[39;49m django.shortcuts [1m[36mimport[0m[39;49m render[K
+[1m[36mfrom[0m[39;49m myapp.models [1m[36mimport[0m[39;49m LocationData, Dt, Mem, Cpu[K
+[1m[36mfrom[0m[39;49m rest_framework [1m[36mimport[0m[39;49m viewsets[K
+[1m[36mfrom[0m[39;49m django.template [1m[36mimport[0m[39;49m RequestContext[K
+[1m[36mfrom[0m[39;49m myapp.serializers [1m[36mimport[0m[39;49m DtSerializer, MemSerializer, CpuSerializer[K
+[1m[36mimport[0m[39;49m requests[K
+[1m[36mimport[0m[39;49m json[K
+[K
+[33m# Create your views here. [39;49m                                                          
+[A
+[1m[36mclass[0m[39;49m [32mDtViewSet[39;49m(viewsets.ModelViewSet):[K
+    [33mqueryset[39;49m = Dt.objects.[1m[34mall[0m[39;49m()[K
+    [33mserializer_class[39;49m = DtSerializer[K
+[K
+[1m[36mclass[0m[39;49m [32mMemViewSet[39;49m(viewsets.ModelViewSet):[K
+    [33mqueryset[39;49m = Mem.objects.[1m[34mall[0m[39;49m()[K
+    [33mserializer_class[39;49m = MemSerializer[K
+[K
+[1m[36mclass[0m[39;49m [32mCpuViewSet[39;49m(viewsets.ModelViewSet):[K
+    [33mqueryset[39;49m = Cpu.objects.[1m[34mall[0m[39;49m()[K
+    [33mserializer_class[39;49m = CpuSerializer[K
+[K
+[1m[36mdef[0m[39;49m [1m[34mhome[0m[39;49m(request):[K
+    [33mlocData[39;49m = LocationData.objects.order_by([32m'-id'[39;49m)[0][K
+    [33mlat[39;49m = locData.latitude[K
+    [33mlon[39;49m = locData.longitude[K
+[K
+    [33mdtstate[39;49m = [32m'2021'[39;49m[K
+    [33mr[39;49m = requests.get([32m'http://127.0.0.1:8000/dt/1/'[39;49m, auth=([32m'admin'[39;49m, [32m'admin'[39;49m))[K
+    [33mresult[39;49m = r.text[K
+    [33moutput[39;49m = json.loads(result)[K
+    [33mdtstate[39;49m = output[[32m'name'[39;49m][K
+[K
+    [33mmemstate[39;49m = [32m'20'[39;49m[K
+    [33mr[39;49m = requests.get([32m'http://127.0.0.1:8000/mem/1/'[39;49m, auth=([32m'admin'[39;49m, [32m'admin'[39;49m))[K
+    [33mresult[39;49m = r.text[K
+    [33moutput[39;49m = json.loads(result)[K
+    [33mmemstate[39;49m = output[[32m'name'[39;49m][K
+[K
+    [33mcpustate[39;49m = [32m'20'[39;49m[K
+    [33mr[39;49m = requests.get([32m'http://127.0.0.1:8000/cpu/1/'[39;49m, auth=([32m'admin'[39;49m, [32m'admin'[39;49m))[K
+    [33mresult[39;49m = r.text[K
+    [33moutput[39;49m = json.loads(result)[K
+    [33mcpustate[39;49m = output[[32m'name'[39;49m][K
+[K
+    [1m[36mreturn[0m[39;49m render(request, [32m'myapp/index.html'[39;49m,[K
+[7m-UU-:----F1  [0m[39;49m[27m[7m[1mviews.py    [0m[39;49m[27m[7m   Top L1     (Python ElDoc) ------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[48d[K[47;34H[?25l[7m2[0m[39;49m[27m[H
+
+[?12l[?25h[?12;25h[47;34H[?25l[7m3[0m[39;49m[27m[4;1H[?12l[?25h[?12;25h[47;34H[?25l[7m4[0m[39;49m[27m[5;1H[?12l[?25h[?12;25h[47;34H[?25l[7m5[0m[39;49m[27m[6;1H[?12l[?25h[?12;25h[47;34H[?25l[7m6[0m[39;49m[27m[7;1H[?12l[?25h[?12;25h[47;34H[?25l[7m7[0m[39;49m[27m[8;1H[?12l[?25h[?12;25h[47;34H[?25l[7m8[0m[39;49m[27m[9;1H[?12l[?25h[?12;25h[47;34H[?25l[7m9[0m[39;49m[27m[10;1H[?12l[?25h[?12;25h[47;34H[?25l[7m10[0m[39;49m[27m[11;1H[?12l[?25h[?12;25h[47;35H[?25l[7m1[0m[39;49m[27m[12;1H[?12l[?25h[?12;25h[47;35H[?25l[7m2[0m[39;49m[27m[13;1H[?12l[?25h[?12;25h[47;35H[?25l[7m3[0m[39;49m[27m[14;1H[?12l[?25h[?12;25h[47;35H[?25l[7m4[0m[39;49m[27m[15;1H[?12l[?25h[?12;25h[47;35H[?25l[7m5[0m[39;49m[27m[16;1H[?12l[?25h[?12;25h[47;35H[?25l[7m6[0m[39;49m[27m[17;1H[?12l[?25h[?12;25h[47;35H[?25l[7m7[0m[39;49m[27m[18;1H[?12l[?25h[?12;25h[47;35H[?25l[7m8[0m[39;49m[27m[19;1H[?12l[?25h[?12;25h[47;35H[?25l[7m9[0m[39;49m[27m[20;1H[?12l[?25h[?12;25h[47;34H[?25l[7m20[0m[39;49m[27m[21;1H[?12l[?25h[?12;25h[47;35H[?25l[7m1[0m[39;49m[27m[22;1H[?12l[?25h[?12;25h[47;35H[?25l[7m2[0m[39;49m[27m[23;1H[?12l[?25h[?12;25h[47;35H[?25l[7m3[0m[39;49m[27m[24;1H[?12l[?25h[?12;25h[47;35H[?25l[7m4[0m[39;49m[27m[25;1H[?12l[?25h[?12;25h[47;35H[?25l[7m5[0m[39;49m[27m[26;1H[?12l[?25h[?12;25h[47;35H[?25l[7m6[0m[39;49m[27m[27;1H[?12l[?25h[?12;25h[47;35H[?25l[7m7[0m[39;49m[27m[28;1H[?12l[?25h[?12;25h[47;35H[?25l[7m8[0m[39;49m[27m[29;1H[?12l[?25h[?12;25h[47;35H[?25l[7m9[0m[39;49m[27m[30;1H[?12l[?25h[?12;25h[47;35H[?25l[7m8[0m[39;49m[27m[29;1H[?12l[?25h[?12;25h[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[47;35H[?25l[7m7[0m[39;49m[27m[28;21H[?12l[?25h[?12;25h[47;35H[?25l[7m8[0m[39;49m[27m[29;1H[?12l[?25h[?12;25h[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[C[C		[?25l[1P[47;6H[7m**[0m[39;49m[27m[29;64H[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1@[32mk[39;49m[?12l[?25h[?12;25h[?25l[1@[32ma[39;49m[?12l[?25h[?12;25h[?25l[1@[32ml[39;49m[?12l[?25h[?12;25h[?25l[1@[32mi[39;49m[?12l[?25h[?12;25h[47;35H[?25l[7m9[0m[39;49m[27m[30;20H[?12l[?25h[?12;25h[47;34H[?25l[7m30[0m[39;49m[27m[31;32H[?12l[?25h[?12;25h[47;35H[?25l[7m1[0m[39;49m[27m[32;29H[?12l[?25h[?12;25h[47;35H[?25l[7m2[0m[39;49m[27m[33;1H[?12l[?25h[?12;25h[47;35H[?25l[7m3[0m[39;49m[27m[34;20H[?12l[?25h[?12;25h[47;35H[?25l[7m4[0m[39;49m[27m[35;64H[?12l[?25h[?12;25h	[C[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1@[32mk[39;49m[?12l[?25h[?12;25h[?25l[1@[32ma[39;49m[?12l[?25h[?12;25h[?25l[1@[32ml[39;49m[?12l[?25h[?12;25h[?25l[1@[32mi[39;49m[?12l[?25h[?12;25h[47;35H[?25l[7m5[0m[39;49m[27m[36;20H[?12l[?25h[?12;25h[47;35H[?25l[7m6[0m[39;49m[27m[37;32H[?12l[?25h[?12;25h[47;35H[?25l[7m7[0m[39;49m[27m[38;30H[?12l[?25h[?12;25h[47;35H[?25l[7m8[0m[39;49m[27m[39;1H[?12l[?25h[?12;25h[47;35H[?25l[7m9[0m[39;49m[27m[40;20H[?12l[?25h[?12;25h[47;34H[?25l[7m40[0m[39;49m[27m[41;65H[?12l[?25h[?12;25h[C[C[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1@[32mk[39;49m[?12l[?25h[?12;25h[?25l[1@[32ma[39;49m[?12l[?25h[?12;25h[?25l[1@[32ml[39;49m[?12l[?25h[?12;25h[?25l[1@[32mi[39;49m[?12l[?25h[?12;25h[48;1H[?25lSaving file /home/kali/mycpu/myapp/views.py...[41;65H[?12l[?25h[?12;25h[48;1H[?25lWrote /home/kali/mycpu/myapp/views.py[K[41;65H[?12l[?25h[?12;25h[47;6H[?25l[7m--[0m[39;49m[27m[41;65H[?12l[?25h[?12;25h[48;1H[K[47;35H[?25l[7m1[0m[39;49m[27m[42;20H[?12l[?25h[?12;25h[47;35H[?25l[7m2[0m[39;49m[27m[43;32H[?12l[?25h[?12;25h[47;35H[?25l[7m3[0m[39;49m[27m[44;30H[?12l[?25h[?12;25h[47;35H[?25l[7m4[0m[39;49m[27m[45;1H[?12l[?25h[?12;25h[47;35H[?25l[7m5[0m[39;49m[27m[46;47H[?12l[?25h[?12;25h[1;46r[2;1H[23M[1;48r[24;1H[?25l    {[32m'lat'[39;49m: lat, [32m'lon'[39;49m: lon, [32m'dtstate'[39;49m:dtstate, [32m'memstate'[39;49m:memstate, [32m'cpustate'[39;49m:cpu\
+[A
+state})[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[47;29H[7mBot L46[0m[39;49m[27m[24;65H[?12l[?25h[?12;25h[47;35H[?25l[7m5[0m[39;49m[27m[23;47H[?12l[?25h[?12;25h[47;35H[?25l[7m4[0m[39;49m[27m[22;1H[?12l[?25h[?12;25h[47;35H[?25l[7m3[0m[39;49m[27m[21;30H[?12l[?25h[?12;25h[47;35H[?25l[7m2[0m[39;49m[27m[20;32H[?12l[?25h[?12;25h[47;35H[?25l[7m1[0m[39;49m[27m[19;20H[?12l[?25h[?12;25h[47;35H[?25l[7m0[0m[39;49m[27m[18;65H[?12l[?25h[?12;25h[47;34H[?25l[7m39[0m[39;49m[27m[17;20H[?12l[?25h[?12;25h[47;35H[?25l[7m8[0m[39;49m[27m[16;1H[?12l[?25h[?12;25h[47;35H[?25l[7m7[0m[39;49m[27m[15;30H[?12l[?25h[?12;25h[47;35H[?25l[7m6[0m[39;49m[27m[14;32H[?12l[?25h[?12;25h[47;35H[?25l[7m5[0m[39;49m[27m[13;20H[?12l[?25h[?12;25h[47;35H[?25l[7m4[0m[39;49m[27m[12;65H[?12l[?25h[?12;25h[47;35H[?25l[7m3[0m[39;49m[27m[11;20H[?12l[?25h[?12;25h[48;1H[?25l(No changes need to be saved)[11;20H[?12l[?25h[?12;25h[48;1H[K[11;20H[48;1H[K[?1004l[?2004l[>4m[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m                                                                                    ]0;kali@kali-raspberry-pi: ~/mycpu/myapp
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali-raspberry-pi[0m[34m[32m)-[[1m[32m[39m~/mycpu/myapp[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4mm[24m[4mm[24m[38;2;153;153;153mkdir myapp[39m[10D[24m[1m[31mm[1m[31mk[0m[39m[1m[31mm[1m[31mk[1m[31md[0m[39m[1m[31md[1m[31mi[0m[39m[0m[32mm[0m[32mk[0m[32md[0m[32mi[32mr[39m[39m [39m[4ms[24m[39m [39m [39m [39m [38;2;153;153;153mtatic templates[39m[15D[24ms[39mt[39ma[39mt[39mi[39mc[39m [39m[4mt[24m[24mt[39ma[39m [39m [39m [39m [39m [39m [39m [4mt[24m [38;2;153;153;153memplates[39m[8D[4mt[39m[4me[24m[15D[39mm[39mk[39md[39mi[39mr[8C[24mt[24me
+[JCompleting `parent directory or name of directory to create'[A[0m[27m[24m[0m[39m[4Cmkdir static te[38;2;153;153;153mmplates[39m[K[0m[39m[15D[32mm[32mk[32md[32mi[32mr[39m[10C[39mm[39mp[39ml[39ma[39mt[39me[39ms[?1l>[?2004l
+[J                                                                                    ]0;kali@kali-raspberry-pi: ~/mycpu/myapp
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali-raspberry-pi[0m[34m[32m)-[[1m[32m[39m~/mycpu/myapp[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[1m[31mc[0m[39m[1m[31mc[0m[39m[38;2;153;153;153mp ~/iot/lesson4/mycpu/serializers.py .[39m[38D[0m[32mc[32md[39m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [37D[38;2;153;153;153m myapp[39m[39m [39m[4mt[24m[39m [39m [39m [39m [38;2;153;153;153memplates[39m[8D[4mt[39m[4me[24m[24mt[24me[39ma[39m [39m [39m [39m [39m [39m m [4mt[4me[24m [38;2;153;153;153mmplates[39m[4me[39m[4mm[24m[4mm[39m[4mp[24m[4mp[39m[4ml[24m[4ml[39m[4ma[24m[24mt[24me[24mm[24mp[24ml[24ma[39me[39m [39m [4mt[4me[4mm[4mp[4ml[4ma[24m [38;2;153;153;153mtes[39m[4ma[39m[4mt[24m[4mt[39m[4me[24m[4me[39m[4ms[24m[?1l>[?2004l
+                                                                                    ]0;kali@kali-raspberry-pi: ~/mycpu/myapp/templates
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali-raspberry-pi[0m[34m[32m)-[[1m[32m[39m~/mycpu/myapp/templates[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[1m[31mm[0m[39m[1m[31mm[0m[39m[38;2;153;153;153mkdir static templates[39m[21D[1m[31mm[1m[31mk[0m[39m[1m[31mm[1m[31mk[1m[31md[0m[39m[1m[31md[1m[31mi[0m[39m[0m[32mm[0m[32mk[0m[32md[0m[32mi[32mr[39m[39m [39mm[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [15D[38;2;153;153;153myapp[39m[39my[39ma[39mp[39mp[?1l>[?2004l
+                                                                                    ]0;kali@kali-raspberry-pi: ~/mycpu/myapp/templates
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali-raspberry-pi[0m[34m[32m)-[[1m[32m[39m~/mycpu/myapp/templates[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[1m[31mc[0m[39m[1m[31mc[0m[39m[38;2;153;153;153md templates[39m[11D[0m[32mc[32md[39m[39m [39m[4mm[24m[39m [39m [39m [39m [39m [39m [39m [39m [8D[38;2;153;153;153myapp[39m[4mm[39m[4my[24m[4my[39m[4ma[24m[4ma[39m[4mp[24m[4mp[39m[4mp[24m[?1l>[?2004l
+                                                                                    ]0;kali@kali-raspberry-pi: ~/mycpu/myapp/templates/myapp
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali-raspberry-pi[0m[34m[32m)-[[1m[32m[39m~/mycpu/myapp/templates/myapp[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[1m[31mc[0m[39m[1m[31mc[0m[39m[38;2;153;153;153md myapp[39m[0m[32mc[32mp[39m[39m [39m [39m [39m [39m [39m [38;2;153;153;153m ~/iot/lesson4/mycpu/serializers.py .[39m[37D[39m [39m[4m~[39m[4m/[39m[4mi[39m[4mo[39m[4mt[39m[4m/[39m[4ml[39m[4me[39m[4ms[39m[4ms[39m[4mo[39m[4mn[39m[4m4[39m[4m/[39m[4mm[39m[4my[39m[4mc[39m[4mp[39m[4mu[39m[4m/[39m[4ms[39m[4me[39m[4mr[39m[4mi[39m[4ma[39m[4ml[39m[4mi[39m[4mz[39m[4me[39m[4mr[39m[4ms[39m[4m.[39m[4mp[39m[4my[24m[39m [39m[4m.[24m[1C[1C[1C[34D[24m~[24m/[24mi[24mo[24mt[24m/[24ml[24me[24ms[24ms[24mo[24mn[24m4[24m/[24mm[24my[24mc[24mp[24mu[24m/[24ms[24me[24mr[24mi[24ma[24ml[24mi[24mz[24me[24mr[24ms[24m.[24mp[24m [4m.[24m[24m  [4m.[24m[24m  [4m.[24m[24m  [4m.[24m[24m  [4m.[24m[24m  [4m.[24m[24m  [4m.[24m[24m  [4m.[24m[24m  [4m.[24m[24m  [4m.[24m[24m  [4m.[24m[24m  [4m.[24m[24m  [4m.[24m[24m [21D[4m~[4m/[4mi[4mo[4mt[4m/[4ml[4me[4ms[4ms[4mo[4mn[4m4[4m/[4mm[4my[4mc[4mp[4mu[4m/[24m [4m.[24m[24m [20D[24m~[24m/[24mi[24mo[24mt[24m/[24ml[24me[24ms[24ms[24mo[24mn[24m4[24m/[24mm[24my[24mc[24mp[24mu[24m/i[24m [4m.[24mn[24m [4m.[24md[24m [4m.[24me[24m [4m.[24mx[24m [4m.[24m.[24m [4m.[24mh[24m [4m.[24mt[24m [4m.[24mm[24m [4m.[24m[29D[4m~[4m/[4mi[4mo[4mt[4m/[4ml[4me[4ms[4ms[4mo[4mn[4m4[4m/[4mm[4my[4mc[4mp[4mu[4m/[4mi[4mn[4md[4me[4mx[4m.[4mh[4mt[4mm[4ml[24m[24m [4m.[24m[?1l>[?2004l
+                                                                                    ]0;kali@kali-raspberry-pi: ~/mycpu/myapp/templates/myapp
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali-raspberry-pi[0m[34m[32m)-[[1m[32m[39m~/mycpu/myapp/templates/myapp[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004hccd[32mc[32md[39m [38;2;153;153;153mmyapp[39m[39m[4m~[24m[39m [39m [39m [39m [38;2;153;153;153m/stevens[39m[8D[24m~[39mm[39m [39m [39m [39m [39m [39m [39m y [4m~[24m [38;2;153;153;153m/stevens[39m[8D[4m~[39m[4m/[24m[4m/[39m[4mm[24m[39m [39m [39m [39m [39m [39m [4mm[4my[24m[4my[4mc[24m[4mc[4mp[24m[4mp[4mu[24m[4mu[4m/[24m[4m/[4mm[24m[4mm[4my[24m[4my[4ma[24m[4ma[4mp[24m[4mp[4mp[24m[4mp[4m/[24m[4m/[4ms[24m[4ms[4mt[24m[4mt[4ma[24m[4ma[4mt[24m[4mt[4mi[24m[4mi[4mc[24m[?1l>[?2004l
+                                                                                    ]0;kali@kali-raspberry-pi: ~/mycpu/myapp/static
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali-raspberry-pi[0m[34m[32m)-[[1m[32m[39m~/mycpu/myapp/static[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[1m[31mc[0m[39m[1m[31mc[0m[39m[38;2;153;153;153md ~/mycpu/myapp/static[39m[22D[0m[32mc[32mp[39m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [21D[38;2;153;153;153m ~/iot/lesson4/mycpu/index.html .[39m[33D[39m [39m[4m~[24m[4m~[39m[4m/[39m[4mi[39m[4mo[39m[4mt[39m[4m/[39m[4ml[39m[4me[39m[4ms[39m[4ms[39m[4mo[39m[4mn[39m[4m4[39m[4m/[39m[4mm[39m[4my[39m[4mc[39m[4mp[39m[4mu[39m[4m/[39m[4mi[39m[4mn[39m[4md[39m[4me[39m[4mx[39m[4m.[39m[4mh[39m[4mt[39m[4mm[39m[4ml[24m[39m [39m[4m.[24m[19D[24m~[24m/[24mi[24mo[24mt[24m/[24ml[24me[24ms[24ms[24mo[24mn[24m4[24m/[24mm[24my[24mc[24mp[24m/[24mi[24mn[24md[24me[24mx[24m.[24mh[24mt[24mm[24ml[24m [4m.[24m[24m [14D[P[13C [14D[P[13C [14D[P[13C [14D[P[13C [14Ds/index.html[24m [4m.[24m[13Dt/index.html[24m [4m.[24m[13Da/index.html[24m [4m.[24m[13Dt/index.html[24m [4m.[24m[13Di/index.html[24m [4m.[24m[13Dc/index.html[24m [4m.[24m[13D[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C [4m.[24m[24m  [4m.[24m[24m  [4m.[24m[24m  [4m.[24m[24m  [4m.[24m[24m  [4m.[24m[24m  [4m.[24m[24m  [4m.[24m[24m  [4m.[24m[24m [22D[4m~[4m/[4mi[4mo[4mt[4m/[4ml[4me[4ms[4ms[4mo[4mn[4m4[4m/[4ms[4mt[4ma[4mt[4mi[4mc[4m/[24m [4m.[24m[24m [21D[24m~[24m/[24mi[24mo[24mt[24m/[24ml[24me[24ms[24ms[24mo[24mn[24m4[24m/[24ms[24mt[24ma[24mt[24mi[24mc[24m/f[24m [4m.[24ma[24m [4m.[24mv[24m [4m.[24mi[24m [4m.[24mc[24m [4m.[24mo[24m [4m.[24mn[24m [4m.[24m.[24m [4m.[24mc[24m [4m.[24mi[24m [4m.[24m [4m.[24m[24m  [4m.[24m[24m i[24m [4m.[24mc[24m [4m.[24m[31D[4m~[4m/[4mi[4mo[4mt[4m/[4ml[4me[4ms[4ms[4mo[4mn[4m4[4m/[4ms[4mt[4ma[4mt[4mi[4mc[4m/[4mf[4ma[4mv[4mi[4mc[4mo[4mn[4m.[4mi[4mc[4mo[24m[24m [4m.[24m[?1l>[?2004l
+                                                                                    ]0;kali@kali-raspberry-pi: ~/mycpu/myapp/static
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali-raspberry-pi[0m[34m[32m)-[[1m[32m[39m~/mycpu/myapp/static[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[1m[31mm[0m[39m[1m[31mm[0m[39m[38;2;153;153;153mkdir myapp[39m[10D[1m[31mm[1m[31mk[0m[39m[1m[31mm[1m[31mk[1m[31md[0m[39m[1m[31md[1m[31mi[0m[39m[0m[32mm[0m[32mk[0m[32md[0m[32mi[32mr[39m[39m [39mm[39my[39ma[39mp[39mp[?1l>[?2004l
+                                                                                    ]0;kali@kali-raspberry-pi: ~/mycpu/myapp/static
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali-raspberry-pi[0m[34m[32m)-[[1m[32m[39m~/mycpu/myapp/static[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[1m[31mc[0m[39m[1m[31mc[0m[39m[38;2;153;153;153mp ~/iot/lesson4/static/favicon.ico .[39m[36D[0m[32mc[32md[39m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [35D[38;2;153;153;153m ~/mycpu/myapp/static[39m[21D[39m [39m[4mm[24m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [19D[38;2;153;153;153myapp[39m[4mm[39m[4my[24m[4my[39m[4ma[24m[4ma[39m[4mp[24m[4mp[39m[4mp[24m[?1l>[?2004l
+                                                                                    ]0;kali@kali-raspberry-pi: ~/mycpu/myapp/static/myapp
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali-raspberry-pi[0m[34m[32m)-[[1m[32m[39m~/mycpu/myapp/static/myapp[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[1m[31mc[0m[39m[1m[31mc[0m[39m[38;2;153;153;153md myapp[39m[0m[32mc[32mp[39m[39m [39m [39m [39m [39m [39m [38;2;153;153;153m ~/iot/lesson4/static/favicon.ico .[39m[35D[39m [39m[4m~[24m[4m~[39m[4m/[39m[4mi[39m[4mo[39m[4mt[39m[4m/[39m[4ml[39m[4me[39m[4ms[39m[4ms[39m[4mo[39m[4mn[39m[4m4[39m[4m/[39m[4ms[39m[4mt[39m[4ma[39m[4mt[39m[4mi[39m[4mc[39m[4m/[39m[4mf[39m[4ma[39m[4mv[39m[4mi[39m[4mc[39m[4mo[39m[4mn[39m[4m.[39m[4mi[39m[4mc[39m[4mo[24m[39m [39m[4m.[24m[1C[1C[1C[32D[24m~[24m/[24mi[24mo[24mt[24m/[24ml[24me[24ms[24ms[24mo[24mn[24m4[24m/[24ms[24mt[24ma[24mt[24mi[24mc[24m/[24mf[24ma[24mv[24mi[24mc[24mo[24mn[24m.[24mi[24mc[24m [4m.[24m[24m  [4m.[24m[24m  [4m.[24m[24m  [4m.[24m[24m  [4m.[24m[24m  [4m.[24m[24m  [4m.[24m[24m  [4m.[24m[24m  [4m.[24m[24m  [4m.[24m[24m [22D[4m~[4m/[4mi[4mo[4mt[4m/[4ml[4me[4ms[4ms[4mo[4mn[4m4[4m/[4ms[4mt[4ma[4mt[4mi[4mc[4m/[24m [4m.[24m[24m [21D[24m~[24m/[24mi[24mo[24mt[24m/[24ml[24me[24ms[24ms[24mo[24mn[24m4[24m/[24ms[24mt[24ma[24mt[24mi[24mc[24m/[1m[34m*[0m[39m[24m [4m.[24mc[24m [4m.[24ms[24m [4m.[24ms[24m [4m.[24m[?1l>[?2004l
+                                                                                    ]0;kali@kali-raspberry-pi: ~/mycpu/myapp/static/myapp
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali-raspberry-pi[0m[34m[32m)-[[1m[32m[39m~/mycpu/myapp/static/myapp[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[32mcp[39m ~/iot/lesson4/static/[1m[34m*[0m[39mcss [4m.[24m [4m.[24m[24m  [4m.[24m[24m  [4m.[24m[24m j[24m [4m.[24ms[24m [4m.[24m[?1l>[?2004l
+                                                                                    ]0;kali@kali-raspberry-pi: ~/mycpu/myapp/static/myapp
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali-raspberry-pi[0m[34m[32m)-[[1m[32m[39m~/mycpu/myapp/static/myapp[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[1m[31mc[0m[39m[1m[31mc[0m[39m[38;2;153;153;153mp ~/iot/lesson4/static/*js .[39m[28D[0m[32mc[32md[39m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [27D[38;2;153;153;153m myapp[39m[39m [39m[4m~[24m[39m [39m [39m [39m [38;2;153;153;153m/mycpu/myapp/static[39m[19D[24m~[39mm[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [18Dy [4m~[24m [38;2;153;153;153m/mycpu/myapp/static[39m[19D[24m~[39m\[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [18D[4m~[24m [38;2;153;153;153m/mycpu/myapp/static[39m[19D[4m~[39m[4m/[24m[4m/[39m[4mm[24m[4mm[39m[4my[24m[4my[39m[4mc[24m[4mc[39m[4mp[24m[4mp[39m[4mu[24m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [13D[?1l>[?2004l
+                                                                                    ]0;kali@kali-raspberry-pi: ~/mycpu
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali-raspberry-pi[0m[34m[32m)-[[1m[32m[39m~/mycpu[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[32ml[39m[32ml[39m[38;2;153;153;153ms[39m[32ml[32ms[39m[?1l>[?2004l
+[0m[01;32mmanage.py[0m  [01;34mmyapp[0m  [01;34mmycpu[0m
+                                                                                    ]0;kali@kali-raspberry-pi: ~/mycpu
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali-raspberry-pi[0m[34m[32m)-[[1m[32m[39m~/mycpu[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004hc[32mc[32md[39m[38;2;153;153;153m ~/mycpu[39m[8D[39m [39m [39m [39m [39m [39m [39m [39m [8D[38;2;153;153;153m ~/mycpu[39m[8D[1m[31mc[0m[39m[39m [39m [39m [39m [39m [39m [39m [39m [39m [9D[1m[31mc[0m[39m[38;2;153;153;153md ~/mycpu[39m[9D[0m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [10D[32ml[39m[32ml[39m[38;2;153;153;153ms[39m[32ml[32ms[39m[?1l>[?2004l
+[0m[01;32mmanage.py[0m  [01;34mmyapp[0m  [01;34mmycpu[0m
+                                                                                    ]0;kali@kali-raspberry-pi: ~/mycpu
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali-raspberry-pi[0m[34m[32m)-[[1m[32m[39m~/mycpu[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[1m[31mc[0m[39m[1m[31mc[0m[39m[38;2;153;153;153md ~/mycpu[39m[9D[0m[32mc[32mp[39m[39m [39m [39m [39m [39m [39m [39m [39m [8D[38;2;153;153;153m ~/iot/lesson4/static/*js .[39m[27D[39m [39m[4m~[24m[24m~[39m/[39mi[39mo[39mt[39m/[39ml[39me[39ms[39ms[39mo[39mn[39m4[39m/[39ms[39mt[39ma[39mt[39mi[39mc[39m/[1m[34m*[0m[39m[39mj[39ms[39m [39m[4m.[24m[1C[1C[1C/[1m[34m*[0m[39m[0m[39mjs [4m.[24m[24m /[1m[34m*[0m[39m[0m[39mjs [4m.[24m[24m /[1m[34m*[0m[39m[0m[39mjs [4m.[24m[24m /[1m[34m*[0m[39m[0m[39mjs [4m.[24m[24m /[1m[34m*[0m[39m[0m[39mjs [4m.[24m[24m /[1m[34m*[0m[39m[0m[39mjs [4m.[24m[24m m[0m[39m/[1m[34m*[0m[39mjs[24m [4m.[24my[0m[39m/[1m[34m*[0m[39mjs[24m [4m.[24mc[0m[39m/[1m[34m*[0m[39mjs[24m [4m.[24mp[0m[39m/[1m[34m*[0m[39mjs[24m [4m.[24mu[0m[39m/[1m[34m*[0m[39mjs[24m [4m.[24m[1C[1C[1C[1C [4m.[24m[24m  [4m.[24m[24m [21D[4m~[4m/[4mi[4mo[4mt[4m/[4ml[4me[4ms[4ms[4mo[4mn[4m4[4m/[4mm[4my[4mc[4mp[4mu[4m/[24m[0m[39m [4m.[24m[24m [20D[24m~[24m/[24mi[24mo[24mt[24m/[24ml[24me[24ms[24ms[24mo[24mn[24m4[24m/[24mm[24my[24mc[24mp[24mu[24m/c[24m [4m.[24mn[24m [4m.[24m [4m.[24m[24m o[24m [4m.[24mn[24m [4m.[24mt[24m [4m.[24mr[24m [4m.[24mo[24m [4m.[24ml[24m [4m.[24ml[24m [4m.[24me[24m [4m.[24mr[24m [4m.[24m.[24m [4m.[24mp[24m [4m.[24m[32D[4m~[4m/[4mi[4mo[4mt[4m/[4ml[4me[4ms[4ms[4mo[4mn[4m4[4m/[4mm[4my[4mc[4mp[4mu[4m/[4mc[4mo[4mn[4mt[4mr[4mo[4ml[4ml[4me[4mr[4m.[4mp[4my[24m[24m [4m.[24m[?1l>[?2004l
+                                                                                    ]0;kali@kali-raspberry-pi: ~/mycpu
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali-raspberry-pi[0m[34m[32m)-[[1m[32m[39m~/mycpu[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004heem[1m[31me[1m[31mm[1m[31ma[0m[39m[38;2;153;153;153mcs views.py[39m[11D[1m[31ma[1m[31mc[0m[39m[0m[32me[0m[32mm[0m[32ma[0m[32mc[32ms[39m[39m [39m[4mc[24m[39m [39m [39m [39m [39m [39m [39m [38;2;153;153;153mallloops.s[39m[10D[4mc[39m[4mo[24m[39m [39m [39m [39m [39m [39m [39m [39m [39m [9D[38;2;153;153;153mnditional.s[39m[11D[4mo[39m[4mn[24m[4mn[39m[4mt[24m[39m [39m [39m [39m [39m [39m [39m [39m [39m [9D[4mt[4mr[24m[4mr[4mo[24m[4mo[4ml[24m[4ml[4ml[24m[4ml[4me[24m[4me[4mr[24m[4mr[4m.[24m[4m.[4mp[24m[4mp[4my[24m[?1l>[?2004l
+[?1049h[22;0;0t[?12;25h[?1h=[H[2J[48d[K[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m[?1049h[22;0;0t[?12;25h[?1h=[H[2J[47d[?25l[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) -------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[48d[?25lLoading /etc/emacs/site-start.d/00debian.el (source)...done[K[H
+[?12l[?25h[?12;25h[48;33H[?25l50dictionaries-common.el (source)...[H
+[?12l[?25h[?12;25h[48;9H[?25ldebian-ispell...[K[H
+[?12l[?25h[?12;25h[48;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-default.el (source)...[H
+[?12l[?25h[?12;25h[48;77H[?25ldone[H
+[?12l[?25h[?12;25h[48;9H[?25ldebian-ispell...done[K[H
+[?12l[?25h[?12;25h[48;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-dicts.el (source)...[H
+[?12l[?25h[?12;25h[48;75H[?25ldone[H
+[?12l[?25h[?12;25h[48;10H[?25letc/emacs/site-start.d/50dictionaries-common[6P[H
+[?12l[?25h[?12;25h[48;35H[?25lfiglet.el (source)...[K[H
+[?12l[?25h[?12;25h[48;56H[?25ldone[H
+[?12l[?25h[?12;25h[>0c]11;?\[>4;1m[?2004h[?1004h[48d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H
+[?12l[?25h[?12;25h[48d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools Python Help                                         [0m[39;49m[27m
+[A
+[1m[36mimport[0m[39;49m time[K
+[1m[36mimport[0m[39;49m datetime[K
+[1m[36mimport[0m[39;49m sys[K
+[1m[36mimport[0m[39;49m requests[K
+[1m[36mimport[0m[39;49m psutil[K
+[1m[36mdef[0m[39;49m [1m[34mrunController[0m[39;49m():[K
+    [33mnow[39;49m = datetime.datetime.now()[K
+    [33mdt[39;49m = now.replace(microsecond=0)[K
+    [1m[36mprint[0m[39;49m(dt)[K
+    [1m[36mprint[0m[39;49m([32m'CPU Usage:        {0:0.1f}%'[39;49m.[1m[34mformat[0m[39;49m(cpu))[K
+    [1m[36mprint[0m[39;49m([32m'Memory Available: {0:0.1f} GB'[39;49m.[1m[34mformat[0m[39;49m(mem))[K
+    setDtState(dt)[K
+    setMemState(mem)[K
+    setCpuState(cpu)[K
+[1m[36mdef[0m[39;49m [1m[34msetDtState[0m[39;49m(val):[K
+    [33mvalues[39;49m = {[32m'name'[39;49m: val}[K
+    [33mr[39;49m = requests.put([32m'http://127.0.0.1:8000/dt/1/'[39;49m, data=values, auth=([32m'admin'[39;49m, [32m'ad[39;49m\
+[A
+[32mmin'[39;49m))[K
+[1m[36mdef[0m[39;49m [1m[34msetMemState[0m[39;49m(val):[K
+    [33mvalues[39;49m = {[32m'name'[39;49m: val}[K
+    [33mr[39;49m = requests.put([32m'http://127.0.0.1:8000/mem/1/'[39;49m, data=values, auth=([32m'admin'[39;49m, [32m'a[39;49m\
+[A
+[32mdmin'[39;49m))[K
+[1m[36mdef[0m[39;49m [1m[34msetCpuState[0m[39;49m(val):[K
+    [33mvalues[39;49m = {[32m'name'[39;49m: val}[K
+    [33mr[39;49m = requests.put([32m'http://127.0.0.1:8000/cpu/1/'[39;49m, data=values, auth=([32m'admin'[39;49m, [32m'a[39;49m\
+[A
+[32mdmin'[39;49m))[K
+[1m[36mwhile[0m[39;49m [35mTrue[39;49m:[K
+    [1m[36mtry[0m[39;49m:[K
+        [33mmemory[39;49m = psutil.virtual_memory()[K
+        [33mmem[39;49m = memory.available/(1024**3)[K
+        [33mcpu[39;49m = psutil.cpu_percent()[K
+        [1m[36mif[0m[39;49m cpu [1m[36mis[0m[39;49m [35mNone[39;49m [1m[36mor[0m[39;49m mem [1m[36mis[0m[39;49m [35mNone[39;49m:[K
+            time.sleep(2)[K
+            [1m[36mcontinue[0m[39;49m[K
+        runController()[K
+        time.sleep(10)[K
+    [1m[36mexcept[0m[39;49m [32mKeyboardInterrupt[39;49m:[K
+        [35mexit[39;49m()[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UU-:----F1  [0m[39;49m[27m[7m[1mcontroller.py[0m[39;49m[27m[7m   All L1     (Python ElDoc) -----------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[48d[K[47;35H[?25l[7m2[0m[39;49m[27m[H
+
+[?12l[?25h[?12;25h[47;35H[?25l[7m3[0m[39;49m[27m[4;1H[?12l[?25h[?12;25h[47;35H[?25l[7m4[0m[39;49m[27m[5;1H[?12l[?25h[?12;25h[47;35H[?25l[7m5[0m[39;49m[27m[6;1H[?12l[?25h[?12;25h[47;35H[?25l[7m6[0m[39;49m[27m[7;1H[?12l[?25h[?12;25h[47;35H[?25l[7m7[0m[39;49m[27m[8;1H[?12l[?25h[?12;25h[47;35H[?25l[7m8[0m[39;49m[27m[9;1H[?12l[?25h[?12;25h[47;35H[?25l[7m9[0m[39;49m[27m[10;1H[?12l[?25h[?12;25h[47;35H[?25l[7m10[0m[39;49m[27m[11;1H[?12l[?25h[?12;25h[47;36H[?25l[7m1[0m[39;49m[27m[12;1H[?12l[?25h[?12;25h[47;36H[?25l[7m2[0m[39;49m[27m[13;1H[?12l[?25h[?12;25h[47;36H[?25l[7m3[0m[39;49m[27m[14;1H[?12l[?25h[?12;25h[47;36H[?25l[7m4[0m[39;49m[27m[15;1H[?12l[?25h[?12;25h[47;36H[?25l[7m5[0m[39;49m[27m[16;1H[?12l[?25h[?12;25h[C[47;36H[?25l[7m6[0m[39;49m[27m[17;3H[?12l[?25h[?12;25h[C[47;36H[?25l[7m7[0m[39;49m[27m[18;4H[?12l[?25h[?12;25h[C[C[C		[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[C[?25l[32m'[39;49m, [32m'adm[39;49m
+[32min'[39;49m))[K[47d[7m**[0m[39;49m[27m[18;77H[?12l[?25h[?12;25h[?25l[32m'[39;49m, [32m'admi[39;49m
+[32mn'[39;49m))[K[18;76H[?12l[?25h[?12;25h[?25l[32m'[39;49m, [32m'admin[39;49m
+[32m'[39;49m))[K[18;75H[?12l[?25h[?12;25h[?25l[32m'[39;49m, [32m'admin'[39;49m
+))[K[18;74H[?12l[?25h[?12;25h[?25l[32m'[39;49m, [32m'admin'[39;49m)
+[C[K[18;73H[?12l[?25h[?12;25h[?25l[32mk'[39;49m, [32m'admin'[39;49m
+[C)[18;74H[?12l[?25h[?12;25h[?25l[32ma'[39;49m, [32m'admin[39;49m
+[32m'[39;49m))[18;75H[?12l[?25h[?12;25h[?25l[32ml'[39;49m, [32m'admi[39;49m
+[32mn'[39;49m))[18;76H[?12l[?25h[?12;25h[?25l[32mi'[39;49m, [32m'adm[39;49m
+[32min'[39;49m))[18;77H[?12l[?25h[?12;25h[19;6H[47;36H[?25l[7m8[0m[39;49m[27m[20;22H[?12l[?25h[?12;25h[47;36H[?25l[7m9[0m[39;49m[27m[21;27H[?12l[?25h[?12;25h[47;35H[?25l[7m20[0m[39;49m[27m[22;77H[?12l[?25h[?12;25h[C[C[?25l[32m'[39;49m, [32m'ad[39;49m
+[32mmin'[39;49m))[K[22;78H[?12l[?25h[?12;25h[?25l[32m'[39;49m, [32m'adm[39;49m
+[32min'[39;49m))[K[22;77H[?12l[?25h[?12;25h[?25l[32m'[39;49m, [32m'admi[39;49m
+[32mn'[39;49m))[K[22;76H[?12l[?25h[?12;25h[?25l[32m'[39;49m, [32m'admin[39;49m
+[32m'[39;49m))[K[22;75H[?12l[?25h[?12;25h[?25l[32m'[39;49m, [32m'admin'[39;49m
+))[K[22;74H[?12l[?25h[?12;25h[?25l[32mk'[39;49m, [32m'admin[39;49m
+[32m'[39;49m))[22;75H[?12l[?25h[?12;25h[?25l[32ma'[39;49m, [32m'admi[39;49m
+[32mn'[39;49m))[22;76H[?12l[?25h[?12;25h[?25l[32ml'[39;49m, [32m'adm[39;49m
+[32min'[39;49m))[22;77H[?12l[?25h[?12;25h[?25l[32mi'[39;49m, [32m'ad[39;49m
+[32mmin'[39;49m))[22;78H[?12l[?25h[?12;25h[23;7H[47;36H[?25l[7m1[0m[39;49m[27m[24;22H[?12l[?25h[?12;25h[47;36H[?25l[7m2[0m[39;49m[27m[25;27H[?12l[?25h[?12;25h[47;36H[?25l[7m3[0m[39;49m[27m[26;78H[?12l[?25h[?12;25h[C[?25l[32m'[39;49m, [32m'ad[39;49m
+[32mmin'[39;49m))[K[26;78H[?12l[?25h[?12;25h[?25l[32m'[39;49m, [32m'adm[39;49m
+[32min'[39;49m))[K[26;77H[?12l[?25h[?12;25h[?25l[32m'[39;49m, [32m'admi[39;49m
+[32mn'[39;49m))[K[26;76H[?12l[?25h[?12;25h[?25l[32m'[39;49m, [32m'admin[39;49m
+[32m'[39;49m))[K[26;75H[?12l[?25h[?12;25h[?25l[32m'[39;49m, [32m'admin'[39;49m
+))[K[26;74H[?12l[?25h[?12;25h[?25l[32mk'[39;49m, [32m'admin[39;49m
+[32m'[39;49m))[26;75H[?12l[?25h[?12;25h[?25l[32ma'[39;49m, [32m'admi[39;49m
+[32mn'[39;49m))[26;76H[?12l[?25h[?12;25h[?25l[32ml'[39;49m, [32m'adm[39;49m
+[32min'[39;49m))[26;77H[?12l[?25h[?12;25h[?25l[32mi'[39;49m, [32m'ad[39;49m
+[32mmin'[39;49m))[26;78H[?12l[?25h[?12;25h[48;1H[?25lSaving file /home/kali/mycpu/controller.py...[26;78H[?12l[?25h[?12;25h[48;1H[?25lWrote /home/kali/mycpu/controller.py[K[26;78H[?12l[?25h[?12;25h[47;6H[?25l[7m--[0m[39;49m[27m[26;78H[?12l[?25h[?12;25h[48;1H[K[26;78H[48;1H[K[?1004l[?2004l[>4m[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m                                                                                    ]0;kali@kali-raspberry-pi: ~/mycpu
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali-raspberry-pi[0m[34m[32m)-[[1m[32m[39m~/mycpu[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[1m[31me[0m[39m[1m[31me[0m[39m[38;2;153;153;153mmacs controller.py[39m[18D[1m[31me[1m[31mm[0m[39m[1m[31me[1m[31mm[1m[31ma[0m[39m[1m[31ma[1m[31mc[0m[39m[0m[32me[0m[32mm[0m[32ma[0m[32mc[32ms[39m[39m [39m[4mc[24m[4mc[39m[4mo[24m[4mo[39m[4mn[24m[4mn[39m[4mt[24m[4mt[39m[4mr[24m[4mr[39m[4mo[24m[4mo[39m[4ml[24m[4ml[39m[4ml[24m[4ml[39m[4me[24m[4me[39m[4mr[24m[4mr[39m[4m.[24m[4m.[39m[4mp[24m[4mp[39m[4my[24m[?1l>[?2004l
+[?1049h[22;0;0t[?12;25h[?1h=[H[2J[48d[K[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m[?1049h[22;0;0t[?12;25h[?1h=[H[2J[47d[?25l[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) -------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[48d[?25lLoading /etc/emacs/site-start.d/00debian.el (source)...done[K[H
+[?12l[?25h[?12;25h[48;33H[?25l50dictionaries-common.el (source)...[H
+[?12l[?25h[?12;25h[48;9H[?25ldebian-ispell...[K[H
+[?12l[?25h[?12;25h[48;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-default.el (source)...[H
+[?12l[?25h[?12;25h[48;77H[?25ldone[H
+[?12l[?25h[?12;25h[48;9H[?25ldebian-ispell...done[K[H
+[?12l[?25h[?12;25h[48;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-dicts.el (source)...[H
+[?12l[?25h[?12;25h[48;75H[?25ldone[H
+[?12l[?25h[?12;25h[48;10H[?25letc/emacs/site-start.d/50dictionaries-common[6P[H
+[?12l[?25h[?12;25h[48;35H[?25lfiglet.el (source)...[K[H
+[?12l[?25h[?12;25h[48;56H[?25ldone[H
+[?12l[?25h[?12;25h[>0c]11;?\[>4;1m[?2004h[?1004h[48d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H
+[?12l[?25h[?12;25h[48d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools Python Help                                         [0m[39;49m[27m
+[A
+[1m[36mimport[0m[39;49m time[K
+[1m[36mimport[0m[39;49m datetime[K
+[1m[36mimport[0m[39;49m sys[K
+[1m[36mimport[0m[39;49m requests[K
+[1m[36mimport[0m[39;49m psutil[K
+[1m[36mdef[0m[39;49m [1m[34mrunController[0m[39;49m():[K
+    [33mnow[39;49m = datetime.datetime.now()[K
+    [33mdt[39;49m = now.replace(microsecond=0)[K
+    [1m[36mprint[0m[39;49m(dt)[K
+    [1m[36mprint[0m[39;49m([32m'CPU Usage:        {0:0.1f}%'[39;49m.[1m[34mformat[0m[39;49m(cpu))[K
+    [1m[36mprint[0m[39;49m([32m'Memory Available: {0:0.1f} GB'[39;49m.[1m[34mformat[0m[39;49m(mem))[K
+    setDtState(dt)[K
+    setMemState(mem)[K
+    setCpuState(cpu)[K
+[1m[36mdef[0m[39;49m [1m[34msetDtState[0m[39;49m(val):[K
+    [33mvalues[39;49m = {[32m'name'[39;49m: val}[K
+    [33mr[39;49m = requests.put([32m'http://127.0.0.1:8000/dt/1/'[39;49m, data=values, auth=([32m'kali'[39;49m, [32m'adm[39;49m\
+[A
+[32min'[39;49m))[K
+[1m[36mdef[0m[39;49m [1m[34msetMemState[0m[39;49m(val):[K
+    [33mvalues[39;49m = {[32m'name'[39;49m: val}[K
+    [33mr[39;49m = requests.put([32m'http://127.0.0.1:8000/mem/1/'[39;49m, data=values, auth=([32m'kali'[39;49m, [32m'ad[39;49m\
+[A
+[32mmin'[39;49m))[K
+[1m[36mdef[0m[39;49m [1m[34msetCpuState[0m[39;49m(val):[K
+    [33mvalues[39;49m = {[32m'name'[39;49m: val}[K
+    [33mr[39;49m = requests.put([32m'http://127.0.0.1:8000/cpu/1/'[39;49m, data=values, auth=([32m'kali'[39;49m, [32m'ad[39;49m\
+[A
+[32mmin'[39;49m))[K
+[1m[36mwhile[0m[39;49m [35mTrue[39;49m:[K
+    [1m[36mtry[0m[39;49m:[K
+        [33mmemory[39;49m = psutil.virtual_memory()[K
+        [33mmem[39;49m = memory.available/(1024**3)[K
+        [33mcpu[39;49m = psutil.cpu_percent()[K
+        [1m[36mif[0m[39;49m cpu [1m[36mis[0m[39;49m [35mNone[39;49m [1m[36mor[0m[39;49m mem [1m[36mis[0m[39;49m [35mNone[39;49m:[K
+            time.sleep(2)[K
+            [1m[36mcontinue[0m[39;49m[K
+        runController()[K
+        time.sleep(10)[K
+    [1m[36mexcept[0m[39;49m [32mKeyboardInterrupt[39;49m:[K
+        [35mexit[39;49m()[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UU-:----F1  [0m[39;49m[27m[7m[1mcontroller.py[0m[39;49m[27m[7m   All L1     (Python ElDoc) -----------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[48d[K[47;35H[?25l[7m3[0m[39;49m[27m[4;1H[?12l[?25h[?12;25h[47;35H[?25l[7m4[0m[39;49m[27m[5;1H[?12l[?25h[?12;25h[47;35H[?25l[7m5[0m[39;49m[27m[6;1H[?12l[?25h[?12;25h[47;35H[?25l[7m6[0m[39;49m[27m[7;1H[?12l[?25h[?12;25h[47;35H[?25l[7m7[0m[39;49m[27m[8;1H[?12l[?25h[?12;25h[47;35H[?25l[7m8[0m[39;49m[27m[9;1H[?12l[?25h[?12;25h[47;35H[?25l[7m9[0m[39;49m[27m[10;1H[?12l[?25h[?12;25h[47;35H[?25l[7m10[0m[39;49m[27m[11;1H[?12l[?25h[?12;25h[47;36H[?25l[7m1[0m[39;49m[27m[12;1H[?12l[?25h[?12;25h[47;36H[?25l[7m2[0m[39;49m[27m[13;1H[?12l[?25h[?12;25h[47;36H[?25l[7m3[0m[39;49m[27m[14;1H[?12l[?25h[?12;25h[47;36H[?25l[7m4[0m[39;49m[27m[15;1H[?12l[?25h[?12;25h[47;36H[?25l[7m5[0m[39;49m[27m[16;1H[?12l[?25h[?12;25h[47;36H[?25l[7m6[0m[39;49m[27m[17;1H[?12l[?25h[?12;25h[47;36H[?25l[7m7[0m[39;49m[27m[18;1H[?12l[?25h[?12;25h
+[47;36H[?25l[7m8[0m[39;49m[27m[20;1H[?12l[?25h[?12;25h[47;36H[?25l[7m9[0m[39;49m[27m[21;1H[?12l[?25h[?12;25h[47;35H[?25l[7m20[0m[39;49m[27m[22;1H[?12l[?25h[?12;25h
+[C[48;1H[?25l(No changes need to be saved)[23;2H[?12l[?25h[?12;25h[48;1H[K[23;2H[48;1H[K[?1004l[?2004l[>4m[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m                                                                                    ]0;kali@kali-raspberry-pi: ~/mycpu
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali-raspberry-pi[0m[34m[32m)-[[1m[32m[39m~/mycpu[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[1m[31mp[0m[39m[1m[31mp[0m[39m[38;2;153;153;153mython manage.py startapp myapp[39m[30D[1m[31mp[1m[31my[0m[39m[1m[31mp[1m[31my[1m[31mt[0m[39m[1m[31mt[1m[31mh[0m[39m[1m[31mh[1m[31mo[0m[39m[0m[32mp[0m[32my[0m[32mt[0m[32mh[0m[32mo[32mn[39m[39m [39m[4mm[24m[4mm[39m[4ma[24m[4ma[39m[4mn[24m[4mn[39m[4ma[24m[4ma[39m[4mg[24m[4mg[39m[4me[24m[4me[39m[4m.[24m[4m.[39m[4mp[24m[4mp[39m[4my[24m[39m [39m[4mm[24m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [13D[4mm[4ma[24m[24mm[24makemigrations [4mm[24m[4mm[4my[24m[4my[4ma[24m[4ma[4mp[24m[4mp[4mp[24m[?1l>[?2004l
+[36;1mMigrations for 'myapp':[0m
+  [1mmyapp/migrations/0001_initial.py[0m
+    - Create model Cpu
+    - Create model Dt
+    - Create model LocationData
+    - Create model Mem
+[0m                                                                                    ]0;kali@kali-raspberry-pi: ~/mycpu
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali-raspberry-pi[0m[34m[32m)-[[1m[32m[39m~/mycpu[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4mm[24m[4mm[24m[38;2;153;153;153mkdir myapp[39m[10D[4mm[39m[4my[24m[39m [39m [39m [39m [39m [39m [39m [39m [39m [9D[38;2;153;153;153mapp[39m[4mm[24m[24m[38;2;153;153;153ma[38;2;153;153;153mp[38;2;153;153;153mp[39m[39m [24m [39m [39m [39m [1m[31mp[0m[39m[1m[31mp[0m[39m[38;2;153;153;153mython manage.py makemigrations myapp[39m[36D[1m[31mp[1m[31my[0m[39m[1m[31mp[1m[31my[1m[31mt[0m[39m[1m[31mt[1m[31mh[0m[39m[1m[31mh[1m[31mo[0m[39m[0m[32mp[0m[32my[0m[32mt[0m[32mh[0m[32mo[32mn[39m[39m [39m[4mm[24m[4mm[39m[4ma[24m[4ma[39m[4mn[24m[4mn[39m[4ma[24m[4ma[39m[4mg[24m[4mg[39m[4me[24m[4me[39m[4m.[24m[4m.[39m[4mp[24m[4mp[39m[4my[24m[39m [39m[4mm[24m[24mm[39mi[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [18Dgrate[?1l>[?2004l
+[36;1mOperations to perform:[0m
+[1m  Apply all migrations: [0madmin, auth, contenttypes, myapp, sessions
+[36;1mRunning migrations:[0m
+  Applying contenttypes.0001_initial...[32;1m OK[0m
+  Applying auth.0001_initial...[32;1m OK[0m
+  Applying admin.0001_initial...[32;1m OK[0m
+  Applying admin.0002_logentry_remove_auto_add...[32;1m OK[0m
+  Applying admin.0003_logentry_add_action_flag_choices...[32;1m OK[0m
+  Applying contenttypes.0002_remove_content_type_name...[32;1m OK[0m
+  Applying auth.0002_alter_permission_name_max_length...[32;1m OK[0m
+  Applying auth.0003_alter_user_email_max_length...[32;1m OK[0m
+  Applying auth.0004_alter_user_username_opts...[32;1m OK[0m
+  Applying auth.0005_alter_user_last_login_null...[32;1m OK[0m
+  Applying auth.0006_require_contenttypes_0002...[32;1m OK[0m
+  Applying auth.0007_alter_validators_add_error_messages...[32;1m OK[0m
+  Applying auth.0008_alter_user_username_max_length...[32;1m OK[0m
+  Applying auth.0009_alter_user_last_name_max_length...[32;1m OK[0m
+  Applying auth.0010_alter_group_name_max_length...[32;1m OK[0m
+  Applying auth.0011_update_proxy_permissions...[32;1m OK[0m
+  Applying auth.0012_alter_user_first_name_max_length...[32;1m OK[0m
+  Applying myapp.0001_initial...[32;1m OK[0m
+  Applying sessions.0001_initial...[32;1m OK[0m
+[0m                                                                                    ]0;kali@kali-raspberry-pi: ~/mycpu
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali-raspberry-pi[0m[34m[32m)-[[1m[32m[39m~/mycpu[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[1m[31mp[0m[39m[1m[31mp[0m[39m[38;2;153;153;153mython manage.py migrate[39m[23D[1m[31mp[1m[31my[0m[39m[1m[31mp[1m[31my[1m[31mt[0m[39m[1m[31mt[1m[31mh[0m[39m[1m[31mh[1m[31mo[0m[39m[0m[32mp[0m[32my[0m[32mt[0m[32mh[0m[32mo[32mn[39m[39m [39m[4mm[24m[4mm[39m[4ma[24m[4ma[39m[4mn[24m[4mn[39m[4ma[24m[4ma[39m[4mg[24m[4mg[39m[4me[24m[4me[39m[4m.[24m[4m.[39m[4mp[24m[4mp[39m[4my[24m[39m [39m[4mc[24m[39m [39m [39m [39m [39m [39m [24mcreatesuperuser[?1l>[?2004l
+Username (leave blank to use 'kali'): kali
+Email address: athakka5@stevens.edu
+Password: 
+Password (again): 
+[31;1mThis password is too short. It must contain at least 8 characters.
+This password is too common.
+[0mBypass password validation and create user anyway? [y/N]: y
+Superuser created successfully.
+[0m                                                                                    ]0;kali@kali-raspberry-pi: ~/mycpu
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali-raspberry-pi[0m[34m[32m)-[[1m[32m[39m~/mycpu[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[7m[32mpython[39m[7m [7m[4mmanage.py[24m runserver 0.0.0.0:8000[27m[39D[27m[32mp[27m[32my[27m[32mt[27m[32mh[27m[32mo[27m[32mn[39m[27m [27m[4mm[27m[4ma[27m[4mn[27m[4ma[27m[4mg[27m[4me[27m[4m.[27m[4mp[27m[4my[24m[27m [27mr[27mu[27mn[27ms[27me[27mr[27mv[27me[27mr[27m [27m0[27m.[27m0[27m.[27m0[27m.[27m0[27m:[27m8[27m0[27m0[27m0[?1l>[?2004l
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 07, 2023 - 03:18:01
+Django version 3.2.18, using settings 'mycpu.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+[07/Mar/2023 03:18:09] [m"GET / HTTP/1.1" 200 10378[0m
+[07/Mar/2023 03:18:09] [33m"GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 404 1879[0m
+[07/Mar/2023 03:18:13] [32m"GET /admin/ HTTP/1.1" 302 0[0m
+[07/Mar/2023 03:18:13] [m"GET /admin/login/?next=/admin/ HTTP/1.1" 200 2214[0m
+[07/Mar/2023 03:18:19] [m"POST /admin/login/?next=/admin/ HTTP/1.1" 200 2374[0m
+[07/Mar/2023 03:18:23] [32m"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0[0m
+[07/Mar/2023 03:18:23] [m"GET /admin/ HTTP/1.1" 200 3997[0m
+[07/Mar/2023 03:18:39] [m"GET /admin/myapp/locationdata/add/ HTTP/1.1" 200 6686[0m
+[07/Mar/2023 03:18:39] [m"GET /admin/jsi18n/ HTTP/1.1" 200 3195[0m
+[07/Mar/2023 03:19:19] [32m"POST /admin/myapp/locationdata/add/ HTTP/1.1" 302 0[0m
+[07/Mar/2023 03:19:19] [m"GET /admin/myapp/locationdata/ HTTP/1.1" 200 6375[0m
+[07/Mar/2023 03:19:19] [m"GET /admin/jsi18n/ HTTP/1.1" 200 3195[0m
+[07/Mar/2023 03:19:34] [m"GET /admin/myapp/locationdata/add/ HTTP/1.1" 200 6686[0m
+[07/Mar/2023 03:19:34] [m"GET /admin/jsi18n/ HTTP/1.1" 200 3195[0m
+[07/Mar/2023 03:19:56] [32m"POST /admin/myapp/locationdata/add/ HTTP/1.1" 302 0[0m
+[07/Mar/2023 03:19:56] [m"GET /admin/myapp/locationdata/ HTTP/1.1" 200 6586[0m
+[07/Mar/2023 03:19:56] [m"GET /admin/jsi18n/ HTTP/1.1" 200 3195[0m
+[07/Mar/2023 03:20:01] [m"GET / HTTP/1.1" 200 10605[0m
+[07/Mar/2023 03:20:01] [33m"GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 404 1879[0m
+[07/Mar/2023 03:20:14] [m"GET /dt/ HTTP/1.1" 200 13488[0m
+[07/Mar/2023 03:20:14] [33m"GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 404 1879[0m
+[07/Mar/2023 03:20:40] [m"POST /dt/ HTTP/1.1" 201 13796[0m
+[07/Mar/2023 03:20:40] [33m"GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 404 1879[0m
+[07/Mar/2023 03:20:48] [m"GET /cpu/ HTTP/1.1" 200 13506[0m
+[07/Mar/2023 03:20:48] [33m"GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 404 1879[0m
+[07/Mar/2023 03:20:51] [m"POST /cpu/ HTTP/1.1" 201 13814[0m
+[07/Mar/2023 03:20:51] [33m"GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 404 1879[0m
+[07/Mar/2023 03:20:59] [m"GET /mem/ HTTP/1.1" 200 13506[0m
+[07/Mar/2023 03:20:59] [33m"GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 404 1879[0m
+[07/Mar/2023 03:21:04] [m"POST /mem/ HTTP/1.1" 201 13814[0m
+[07/Mar/2023 03:21:04] [33m"GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 404 1879[0m
+[07/Mar/2023 03:21:07] [m"GET /dt/ HTTP/1.1" 200 13673[0m
+[07/Mar/2023 03:21:07] [33m"GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 404 1879[0m
+[07/Mar/2023 03:21:10] [m"POST /dt/ HTTP/1.1" 201 13796[0m
+[07/Mar/2023 03:21:10] [33m"GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 404 1879[0m
+[07/Mar/2023 03:22:07] [m"PUT /dt/1/ HTTP/1.1" 200 66[0m
+[07/Mar/2023 03:22:08] [m"PUT /mem/1/ HTTP/1.1" 200 66[0m
+[07/Mar/2023 03:22:09] [m"PUT /cpu/1/ HTTP/1.1" 200 51[0m
+[07/Mar/2023 03:22:15] [m"GET /dt/1/ HTTP/1.1" 200 66[0m
+[07/Mar/2023 03:22:15] [m"GET /mem/1/ HTTP/1.1" 200 66[0m
+[07/Mar/2023 03:22:16] [m"GET /cpu/1/ HTTP/1.1" 200 51[0m
+[07/Mar/2023 03:22:16] [m"GET /home/ HTTP/1.1" 200 1623[0m
+[07/Mar/2023 03:22:16] [m"GET /static/myapp/bootstrap.min.js HTTP/1.1" 200 59220[0m
+[07/Mar/2023 03:22:16] [m"GET /static/myapp/jquery.min.js HTTP/1.1" 200 89501[0m
+[07/Mar/2023 03:22:16] [m"GET /static/myapp/bootstrap.min.css HTTP/1.1" 200 163873[0m
+[07/Mar/2023 03:22:19] [m"PUT /dt/1/ HTTP/1.1" 200 66[0m
+[07/Mar/2023 03:22:20] [m"PUT /mem/1/ HTTP/1.1" 200 66[0m
+[07/Mar/2023 03:22:20] [m"PUT /cpu/1/ HTTP/1.1" 200 51[0m
+[07/Mar/2023 03:22:27] [m"GET /dt/1/ HTTP/1.1" 200 66[0m
+[07/Mar/2023 03:22:28] [m"GET /mem/1/ HTTP/1.1" 200 66[0m
+[07/Mar/2023 03:22:28] [m"GET /cpu/1/ HTTP/1.1" 200 51[0m
+[07/Mar/2023 03:22:28] [m"GET /home/ HTTP/1.1" 200 1623[0m
+[07/Mar/2023 03:22:29] [32m"GET /favicon.ico HTTP/1.1" 302 0[0m
+[07/Mar/2023 03:22:29] [m"GET /static/favicon.ico HTTP/1.1" 200 15406[0m
+[07/Mar/2023 03:22:31] [m"PUT /dt/1/ HTTP/1.1" 200 66[0m
+[07/Mar/2023 03:22:32] [m"PUT /mem/1/ HTTP/1.1" 200 65[0m
+[07/Mar/2023 03:22:32] [m"PUT /cpu/1/ HTTP/1.1" 200 51[0m
+[07/Mar/2023 03:22:39] [m"GET /dt/1/ HTTP/1.1" 200 66[0m
+[07/Mar/2023 03:22:40] [m"GET /mem/1/ HTTP/1.1" 200 65[0m
+[07/Mar/2023 03:22:40] [m"GET /cpu/1/ HTTP/1.1" 200 51[0m
+[07/Mar/2023 03:22:40] [m"GET /home/ HTTP/1.1" 200 1623[0m
+[07/Mar/2023 03:22:41] [32m"GET /favicon.ico HTTP/1.1" 302 0[0m
+[07/Mar/2023 03:22:43] [m"PUT /dt/1/ HTTP/1.1" 200 66[0m
+[07/Mar/2023 03:22:43] [m"PUT /mem/1/ HTTP/1.1" 200 66[0m
+[07/Mar/2023 03:22:44] [m"PUT /cpu/1/ HTTP/1.1" 200 52[0m
+[07/Mar/2023 03:22:51] [m"GET /dt/1/ HTTP/1.1" 200 66[0m
+[07/Mar/2023 03:22:52] [m"GET /mem/1/ HTTP/1.1" 200 66[0m
+[07/Mar/2023 03:22:52] [m"GET /cpu/1/ HTTP/1.1" 200 52[0m
+[07/Mar/2023 03:22:52] [m"GET /home/ HTTP/1.1" 200 1624[0m
+[07/Mar/2023 03:22:53] [32m"GET /favicon.ico HTTP/1.1" 302 0[0m
+[07/Mar/2023 03:22:55] [m"PUT /dt/1/ HTTP/1.1" 200 66[0m
+[07/Mar/2023 03:22:55] [m"PUT /mem/1/ HTTP/1.1" 200 65[0m
+[07/Mar/2023 03:22:56] [m"PUT /cpu/1/ HTTP/1.1" 200 51[0m
+[07/Mar/2023 03:23:04] [m"GET /dt/1/ HTTP/1.1" 200 66[0m
+[07/Mar/2023 03:23:04] [m"GET /mem/1/ HTTP/1.1" 200 65[0m
+[07/Mar/2023 03:23:05] [m"GET /cpu/1/ HTTP/1.1" 200 51[0m
+[07/Mar/2023 03:23:05] [m"GET /home/ HTTP/1.1" 200 1623[0m
+[07/Mar/2023 03:23:05] [32m"GET /favicon.ico HTTP/1.1" 302 0[0m
+[07/Mar/2023 03:23:06] [m"PUT /dt/1/ HTTP/1.1" 200 66[0m
+[07/Mar/2023 03:23:07] [m"PUT /mem/1/ HTTP/1.1" 200 66[0m
+[07/Mar/2023 03:23:08] [m"PUT /cpu/1/ HTTP/1.1" 200 51[0m
+[07/Mar/2023 03:23:16] [m"GET /dt/1/ HTTP/1.1" 200 66[0m
+[07/Mar/2023 03:23:17] [m"GET /mem/1/ HTTP/1.1" 200 66[0m
+[07/Mar/2023 03:23:17] [m"GET /cpu/1/ HTTP/1.1" 200 51[0m
+[07/Mar/2023 03:23:17] [m"GET /home/ HTTP/1.1" 200 1623[0m
+[07/Mar/2023 03:23:18] [32m"GET /favicon.ico HTTP/1.1" 302 0[0m
+[07/Mar/2023 03:23:19] [m"PUT /dt/1/ HTTP/1.1" 200 66[0m
+[07/Mar/2023 03:23:20] [m"PUT /mem/1/ HTTP/1.1" 200 66[0m
+[07/Mar/2023 03:23:22] [m"PUT /cpu/1/ HTTP/1.1" 200 51[0m
+[07/Mar/2023 03:23:28] [m"GET /dt/1/ HTTP/1.1" 200 66[0m
+[07/Mar/2023 03:23:29] [m"GET /mem/1/ HTTP/1.1" 200 66[0m
+[07/Mar/2023 03:23:30] [m"GET /cpu/1/ HTTP/1.1" 200 51[0m
+[07/Mar/2023 03:23:30] [m"GET /home/ HTTP/1.1" 200 1623[0m
+[07/Mar/2023 03:23:30] [32m"GET /favicon.ico HTTP/1.1" 302 0[0m
+[07/Mar/2023 03:23:33] [m"PUT /dt/1/ HTTP/1.1" 200 66[0m
+[07/Mar/2023 03:23:33] [m"PUT /mem/1/ HTTP/1.1" 200 65[0m
+[07/Mar/2023 03:23:34] [m"PUT /cpu/1/ HTTP/1.1" 200 51[0m
+[07/Mar/2023 03:23:41] [m"GET /dt/1/ HTTP/1.1" 200 66[0m
+[07/Mar/2023 03:23:42] [m"GET /mem/1/ HTTP/1.1" 200 65[0m
+[07/Mar/2023 03:23:42] [m"GET /cpu/1/ HTTP/1.1" 200 51[0m
+[07/Mar/2023 03:23:42] [m"GET /home/ HTTP/1.1" 200 1623[0m
+[07/Mar/2023 03:23:43] [32m"GET /favicon.ico HTTP/1.1" 302 0[0m
+[07/Mar/2023 03:23:45] [m"PUT /dt/1/ HTTP/1.1" 200 66[0m
+[07/Mar/2023 03:23:45] [m"PUT /mem/1/ HTTP/1.1" 200 65[0m
+[07/Mar/2023 03:23:46] [m"PUT /cpu/1/ HTTP/1.1" 200 51[0m
+[07/Mar/2023 03:23:53] [m"GET /dt/1/ HTTP/1.1" 200 66[0m
+[07/Mar/2023 03:23:54] [m"GET /mem/1/ HTTP/1.1" 200 65[0m
+[07/Mar/2023 03:23:55] [m"GET /cpu/1/ HTTP/1.1" 200 51[0m
+[07/Mar/2023 03:23:55] [m"GET /home/ HTTP/1.1" 200 1623[0m
+[07/Mar/2023 03:23:55] [32m"GET /favicon.ico HTTP/1.1" 302 0[0m
+[07/Mar/2023 03:23:56] [m"PUT /dt/1/ HTTP/1.1" 200 66[0m
+[07/Mar/2023 03:23:57] [m"PUT /mem/1/ HTTP/1.1" 200 66[0m
+[07/Mar/2023 03:23:58] [m"PUT /cpu/1/ HTTP/1.1" 200 51[0m
+[07/Mar/2023 03:24:06] [m"GET /dt/1/ HTTP/1.1" 200 66[0m
+[07/Mar/2023 03:24:07] [m"GET /mem/1/ HTTP/1.1" 200 66[0m
+[07/Mar/2023 03:24:07] [m"GET /cpu/1/ HTTP/1.1" 200 51[0m
+[07/Mar/2023 03:24:07] [m"GET /home/ HTTP/1.1" 200 1623[0m
+[07/Mar/2023 03:24:08] [32m"GET /favicon.ico HTTP/1.1" 302 0[0m
+[07/Mar/2023 03:24:08] [m"PUT /dt/1/ HTTP/1.1" 200 66[0m
+[07/Mar/2023 03:24:09] [m"PUT /mem/1/ HTTP/1.1" 200 66[0m
+[07/Mar/2023 03:24:09] [m"PUT /cpu/1/ HTTP/1.1" 200 51[0m
+[07/Mar/2023 03:24:19] [m"GET /dt/1/ HTTP/1.1" 200 66[0m
+[07/Mar/2023 03:24:19] [m"GET /mem/1/ HTTP/1.1" 200 66[0m
+^C[0m[0m                                                                                    ]0;kali@kali-raspberry-pi: ~/mycpu
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali-raspberry-pi[0m[34m[32m)-[[1m[32m[39m~/mycpu[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[1m[31me[0m[39m[1m[31me[0m[39m[38;2;153;153;153mmacs controller.py[39m[18D[0m[32me[32mx[39m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [17D[38;2;153;153;153mit script[39m[9D[1m[31me[1m[31mx[1m[31mi[0m[39m[0m[32me[0m[32mx[0m[32mi[32mt[39m[39m [39ms[39mc[39mr[39mi[39mp[39mt[?1l>[?2004l
+
+Script done on 2023-03-07 03:24:22+00:00 [COMMAND_EXIT_CODE="0"]

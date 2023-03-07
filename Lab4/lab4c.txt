@@ -1,0 +1,310 @@
+Script started on 2023-03-07 03:25:35+00:00 [TERM="xterm" TTY="/dev/pts/1" COLUMNS="84" LINES="48"]
+                                                                                    ]0;kali@kali-raspberry-pi: ~[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali-raspberry-pi[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[1m[31mc[0m[39m[1m[31mc[0m[39m[38;2;153;153;153mp ~/iot/lesson4/mycpu/controller.py .[39m[37D[0m[32mc[32md[39m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [36D[38;2;153;153;153m ~/mycpu[39m[8D[39m [39m[4m~[24m[4m~[39m[4m/[24m[4m/[39m[4mi[24m[39m [39m [39m [39m [38;2;153;153;153mot/lesson4/stevens[39m[18D[4mi[39m[4mo[24m[4mo[39m[4mt[24m[4mt[39m[4m/[24m[4m/[39m[4ml[24m[4ml[39m[4me[24m[4me[39m[4ms[24m[4ms[39m[4ms[24m[4ms[39m[4mo[24m[4mo[39m[4mn[24m[4mn[39m[4m4[24m[39m [39m [39m [39m [39m [39m [39m [39m [38;2;153;153;153m/stevens[39m[8D[39m [39m [39m [39m [39m [39m [39m [39m [8D[?1l>[?2004l
+                                                                                    ]0;kali@kali-raspberry-pi: ~/iot/lesson4
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali-raspberry-pi[0m[34m[32m)-[[1m[32m[39m~/iot/lesson4[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[32ml[39m[32ml[39m[38;2;153;153;153ms[39m[32ml[32ms[39m[?1l>[?2004l
+blinkatest.py      [0m[01;34mlighting[0m          [01;34mparking[0m    system_info.py  [01;35mwp-home.png[0m
+dht_simpletest.py  memory_game.json  README.md  templates.yaml  [01;35mwp-login.png[0m
+hello_world.json   memory_game.py    [01;34msensing[0m    [01;34mweather[0m         [01;34mxidian[0m
+hello_world.py     [01;34mmycpu[0m             [01;34mstatic[0m     [01;35mwordpress.png[0m
+index.php          [01;34mmyraspi[0m           [01;34mstevens[0m    [01;35mwp-config.png[0m
+                                                                                    ]0;kali@kali-raspberry-pi: ~/iot/lesson4
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali-raspberry-pi[0m[34m[32m)-[[1m[32m[39m~/iot/lesson4[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4mp[24m[4mp[24m[38;2;153;153;153mython manage.py runserver 0.0.0.0:8000[39m[38D[24m[1m[31mp[1m[31my[0m[39m[1m[31mp[1m[31my[1m[31mt[0m[39m[1m[31mt[1m[31mh[0m[39m[1m[31mh[1m[31mo[0m[39m[0m[32mp[0m[32my[0m[32mt[0m[32mh[0m[32mo[32mn[39m[32mn[32m3[39m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [32D[38;2;153;153;153m manage.py runserver 0.0.0.0:8000[39m[33D[39m [39m[4mh[24m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [31D[4mh[4me[24m[4me[4ml[24m[4ml[4ml[24m[4ml[4mo[24m[24mh[24me[24ml[24ml[24mow.world.py[?1l>[?2004l
+python3: can't open file '/home/kali/iot/lesson4/hellow.world.py': [Errno 2] No such file or directory
+                                                                                    ]0;kali@kali-raspberry-pi: ~/iot/lesson4
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali-raspberry-pi[0m[34m[32m)-[[1m[32m[39m~/iot/lesson4[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[32mpython3[39m hellow.world.py[P[9C [10D[?1l>[?2004l
+python3: can't open file '/home/kali/iot/lesson4/hello.world.py': [Errno 2] No such file or directory
+                                                                                    ]0;kali@kali-raspberry-pi: ~/iot/lesson4
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali-raspberry-pi[0m[34m[32m)-[[1m[32m[39m~/iot/lesson4[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[32mpython3[39m hello.world.py[1Cworld.py [9D[4mh[4me[4ml[4ml[4mo[4m_[4mw[4mo[4mr[4ml[4md[4m.[4mp[4my[24m[8D[?1l>[?2004l
+ * Serving Flask app 'hello_world' (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: off
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+^C                                                                                    ]0;kali@kali-raspberry-pi: ~/iot/lesson4
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali-raspberry-pi[0m[34m[32m)-[[1m[32m[39m~/iot/lesson4[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4md[24m[4md[24m[38;2;153;153;153mjango-admin startproject mycpu[39m[30D[24m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [31D[1m[31me[0m[39m[1m[31me[0m[39m[38;2;153;153;153mxit script[39m[10D[1m[31me[1m[31mm[0m[39m[39m [39m [39m [39m [39m [39m [39m [39m [39m [9D[38;2;153;153;153macs controller.py[39m[17D[1m[31me[1m[31mm[1m[31ma[0m[39m[1m[31ma[1m[31mc[0m[39m[0m[32me[0m[32mm[0m[32ma[0m[32mc[32ms[39m[39m [39m[4mh[24m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [12D[38;2;153;153;153mw2.s[39m[4mh[39m[4me[24m[39m [39m [39m [38;2;153;153;153maders[39m[4me[39m[4ml[24m[39m [39m [39m [39m [4ml[4ml[24m[4ml[4mo[24m[24mh[24me[24ml[24ml[24mow_w  [4mh[4me[4ml[4ml[4mo[24m [4mo[4m_[24m[4m_[4mw[24m[4mw[4mo[24m[4mo[4mr[24m[4mr[4ml[24m[4ml[4md[24m[4md[4m.[24m[4m.[4mp[24m[4mp[4my[24m[?1l>[?2004l
+[?1049h[22;0;0t[?12;25h[?1h=[H[2J[48d[K[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m[?1049h[22;0;0t[?12;25h[?1h=[H[2J[47d[?25l[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) -------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[48d[?25lLoading /etc/emacs/site-start.d/00debian.el (source)...done[K[H
+[?12l[?25h[?12;25h[48;33H[?25l50dictionaries-common.el (source)...[H
+[?12l[?25h[?12;25h[48;9H[?25ldebian-ispell...[K[H
+[?12l[?25h[?12;25h[48;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-default.el (source)...[H
+[?12l[?25h[?12;25h[48;77H[?25ldone[H
+[?12l[?25h[?12;25h[48;9H[?25ldebian-ispell...done[K[H
+[?12l[?25h[?12;25h[48;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-dicts.el (source)...[H
+[?12l[?25h[?12;25h[48;75H[?25ldone[H
+[?12l[?25h[?12;25h[48;10H[?25letc/emacs/site-start.d/50dictionaries-common[6P[H
+[?12l[?25h[?12;25h[48;35H[?25lfiglet.el (source)...[K[H
+[?12l[?25h[?12;25h[48;56H[?25ldone[H
+[?12l[?25h[?12;25h[>0c]11;?\[>4;1m[?2004h[?1004h[48d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H
+[?12l[?25h[?12;25h[48d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools Python Help                                         [0m[39;49m[27m
+[A
+[1m[36mfrom[0m[39;49m flask [1m[36mimport[0m[39;49m Flask[K
+[1m[36mfrom[0m[39;49m flask [1m[36mimport[0m[39;49m send_from_directory[K
+[1m[36mimport[0m[39;49m os[K
+[33mapp[39;49m = Flask([1m[34m__name__[0m[39;49m)[K
+[K
+[32m@app.route[39;49m([32m"/"[39;49m)[K
+[1m[36mdef[0m[39;49m [1m[34mhello[0m[39;49m():[K
+    [1m[36mreturn[0m[39;49m [32m"Hello World!"[39;49m[K
+[K
+[32m@app.route[39;49m([32m'/favicon.ico'[39;49m)[K
+[1m[36mdef[0m[39;49m [1m[34mfavicon[0m[39;49m():[K
+    [1m[36mreturn[0m[39;49m send_from_directory(os.path.join(app.root_path, [32m'static'[39;49m),[K
+                               [32m'favicon.ico'[39;49m,[K
+                               mimetype=[32m'image/vnd.microsoft.icon'[39;49m)[K
+[K
+[1m[36mif[0m[39;49m [1m[34m__name__[0m[39;49m == [32m"__main__"[39;49m:[K
+    app.run()[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UU-:----F1  [0m[39;49m[27m[7m[1mhello_world.py[0m[39;49m[27m[7m   All L1    [0m[39;49m[27m[7mGit-master[0m[39;49m[27m[7m  (Python ElDoc) -----------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[48d[K[47;36H[?25l[7m2[0m[39;49m[27m[H
+
+[?12l[?25h[?12;25h[47;36H[?25l[7m3[0m[39;49m[27m[4;1H[?12l[?25h[?12;25h[47;36H[?25l[7m4[0m[39;49m[27m[5;1H[?12l[?25h[?12;25h[47;36H[?25l[7m5[0m[39;49m[27m[6;1H[?12l[?25h[?12;25h[47;36H[?25l[7m6[0m[39;49m[27m[7;1H[?12l[?25h[?12;25h[47;36H[?25l[7m7[0m[39;49m[27m[8;1H[?12l[?25h[?12;25h[47;36H[?25l[7m8[0m[39;49m[27m[9;1H[?12l[?25h[?12;25h[47;36H[?25l[7m9[0m[39;49m[27m[10;1H[?12l[?25h[?12;25h[47;36H[?25l[7m10[0m[39;49m[27m[11;1H[?12l[?25h[?12;25h[48d[?25l(No changes need to be saved)[11;1H[?12l[?25h[?12;25h[48d[K[11d[48d[K[?1004l[?2004l[>4m[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m                                                                                    ]0;kali@kali-raspberry-pi: ~/iot/lesson4
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali-raspberry-pi[0m[34m[32m)-[[1m[32m[39m~/iot/lesson4[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[1m[31mf[0m[39m[1m[31mf[1m[31ml[0m[39m[1m[31mf[1m[31ml[1m[31ma[0m[39m[1m[31ma[1m[31ms[0m[39m[0m[32mf[0m[32ml[0m[32ma[0m[32ms[32mk[39m run [4mh[24m[4mh[4me[24m[4me[4ml[24m[4ml[4ml[24m[4ml[4mo[24m[24mh[24me[24ml[24ml[24mow[4mh[4me[4ml[4ml[4mo[24m [4mo[4m_[24m[4m_[4mw[24m[4mw[4mo[24m[4mo[4mr[24m[4mr[4ml[24m[4ml[4md[24m[4md[4m.[24m[4m.[4mp[24m[4mp[4my[24m [35m-[39m[35m-[35m-[39m[35m-[35mh[39m[35mh[35mo[39m[35mo[35ms[39m[35ms[35mt[39m[35mt[35m=[39m[35m=[35m0[39m[35m0[35m,[39m[35m0[39m[39m [35m0[35m.[39m[35m.[35mo[39m[35mo[35m.[39m[35m.[35mo[39m[35m.[39m[39m [35mo[39m[39m [35m.[39m[39m [35m.[35m0[39m[35m0[35m.[39m[35m.[35m0[39m[35m0[35m.[39m[35m.[35m0[39m[35m0[35m:[39m[35m:[35m8[39m[35m8[35m0[39m[35m0[35m0[39m[35m0[35m0[39m[?1l>[?2004l
+Usage: flask run [OPTIONS]
+Try 'flask run --help' for help.
+
+Error: Got unexpected extra argument (hello_world.py)
+                                                                                    ]0;kali@kali-raspberry-pi: ~/iot/lesson4
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali-raspberry-pi[0m[34m[32m)-[[1m[32m[39m~/iot/lesson4[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[1m[31mf[0m[39m[1m[31mf[0m[39m[38;2;153;153;153mlask run hello_world.py --host=0.0.0.0:8000[39m[43D[1m[31mf[1m[31ml[0m[39m[1m[31mf[1m[31ml[1m[31ma[0m[39m[1m[31ma[1m[31ms[0m[39m[0m[32mf[0m[32ml[0m[32ma[0m[32ms[32mk[39m[39m [39mr[39mu[39mn[39m [35m-[39m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [33D[35m-[35m-[39m[35m-[35mh[39m[35mh[35mo[39m[35mo[35ms[39m[35ms[35mt[39m[35mt[35m-[39m[35mt[39m[39m [35mt[35m=[39m[35m=[35m0[39m[35m0[35m.[39m[35m.[35mo[39m[35mo[35m.[39m[35mo[39m[39m [35m.[39m[39m [35m.[35m0[39m[35m0[35m.[39m[35m.[35m0[39m[35m0[35m.[39m[35m.[35m0[39m[35m0[35m:[39m[35m:[35m8[39m[35m8[35m0[39m[35m0[35m0[39m[35m0[35m0[39m[?1l>[?2004l
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: off
+Usage: flask run [OPTIONS]
+Try 'flask run --help' for help.
+
+Error: Could not locate a Flask application. You did not provide the "FLASK_APP" environment variable, and a "wsgi.py" or "app.py" module was not found in the current directory.
+                                                                                    ]0;kali@kali-raspberry-pi: ~/iot/lesson4
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali-raspberry-pi[0m[34m[32m)-[[1m[32m[39m~/iot/lesson4[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[?2004l
+                                                                                    ]0;kali@kali-raspberry-pi: ~/iot/lesson4
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali-raspberry-pi[0m[34m[32m)-[[1m[32m[39m~/iot/lesson4[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[32ml[39m[32ml[39m[38;2;153;153;153ms[39m[32ml[32ms[39m[?1l>[?2004l
+blinkatest.py      [0m[01;34mlighting[0m          [01;34mparking[0m    system_info.py  [01;35mwp-home.png[0m
+dht_simpletest.py  memory_game.json  README.md  templates.yaml  [01;35mwp-login.png[0m
+hello_world.json   memory_game.py    [01;34msensing[0m    [01;34mweather[0m         [01;34mxidian[0m
+hello_world.py     [01;34mmycpu[0m             [01;34mstatic[0m     [01;35mwordpress.png[0m
+index.php          [01;34mmyraspi[0m           [01;34mstevens[0m    [01;35mwp-config.png[0m
+                                                                                    ]0;kali@kali-raspberry-pi: ~/iot/lesson4
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali-raspberry-pi[0m[34m[32m)-[[1m[32m[39m~/iot/lesson4[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[1m[31me[0m[39m[1m[31me[0m[39m[38;2;153;153;153mmacs hello_world.py[39m[19D[1m[31me[1m[31mm[0m[39m[1m[31me[1m[31mm[1m[31ma[0m[39m[1m[31ma[1m[31mc[0m[39m[0m[32me[0m[32mm[0m[32ma[0m[32mc[32ms[39m[39m [39m[4mh[24m[4mh[39m[4me[24m[4me[39m[4ml[24m[4ml[39m[4ml[24m[4ml[39m[4mo[24m[24mh[24me[24ml[24ml[24mo[39mw[39m [39m [39m [39m [39m [39m [39m [39m [8D_ [4mh[4me[4ml[4ml[4mo[24m [38;2;153;153;153m_world.py[39m[9D[4mo[39m[4m_[24m[4m_[39m[4mw[24m[4mw[39m[4mo[24m[4mo[39m[4mr[24m[4mr[39m[4ml[24m[4ml[39m[4md[24m[4md[39m[4m.[24m[4m.[39m[4mp[24m[4mp[39m[4my[24m[?1l>[?2004l
+[?1049h[22;0;0t[?12;25h[?1h=[H[2J[48d[K[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m[?1049h[22;0;0t[?12;25h[?1h=[H[2J[47d[?25l[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) -------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[48d[?25lLoading /etc/emacs/site-start.d/00debian.el (source)...done[K[H
+[?12l[?25h[?12;25h[48;33H[?25l50dictionaries-common.el (source)...[H
+[?12l[?25h[?12;25h[48;9H[?25ldebian-ispell...[K[H
+[?12l[?25h[?12;25h[48;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-default.el (source)...[H
+[?12l[?25h[?12;25h[48;77H[?25ldone[H
+[?12l[?25h[?12;25h[48;9H[?25ldebian-ispell...done[K[H
+[?12l[?25h[?12;25h[48;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-dicts.el (source)...[H
+[?12l[?25h[?12;25h[48;75H[?25ldone[H
+[?12l[?25h[?12;25h[48;10H[?25letc/emacs/site-start.d/50dictionaries-common[6P[H
+[?12l[?25h[?12;25h[48;35H[?25lfiglet.el (source)...[K[H
+[?12l[?25h[?12;25h[48;56H[?25ldone[H
+[?12l[?25h[?12;25h[>0c]11;?\[>4;1m[?2004h[?1004h[48d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H
+[?12l[?25h[?12;25h[48d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools Python Help                                         [0m[39;49m[27m
+[A
+[1m[36mfrom[0m[39;49m flask [1m[36mimport[0m[39;49m Flask[K
+[1m[36mfrom[0m[39;49m flask [1m[36mimport[0m[39;49m send_from_directory[K
+[1m[36mimport[0m[39;49m os[K
+[33mapp[39;49m = Flask([1m[34m__name__[0m[39;49m)[K
+[K
+[32m@app.route[39;49m([32m"/"[39;49m)[K
+[1m[36mdef[0m[39;49m [1m[34mhello[0m[39;49m():[K
+    [1m[36mreturn[0m[39;49m [32m"Hello World!"[39;49m[K
+[K
+[32m@app.route[39;49m([32m'/favicon.ico'[39;49m)[K
+[1m[36mdef[0m[39;49m [1m[34mfavicon[0m[39;49m():[K
+    [1m[36mreturn[0m[39;49m send_from_directory(os.path.join(app.root_path, [32m'static'[39;49m),[K
+                               [32m'favicon.ico'[39;49m,[K
+                               mimetype=[32m'image/vnd.microsoft.icon'[39;49m)[K
+[K
+[1m[36mif[0m[39;49m [1m[34m__name__[0m[39;49m == [32m"__main__"[39;49m:[K
+    app.run()[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UU-:----F1  [0m[39;49m[27m[7m[1mhello_world.py[0m[39;49m[27m[7m   All L1    [0m[39;49m[27m[7mGit-master[0m[39;49m[27m[7m  (Python ElDoc) -----------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[48d[K[47;36H[?25l[7m2[0m[39;49m[27m[H
+
+[?12l[?25h[?12;25h[47;36H[?25l[7m3[0m[39;49m[27m[4;1H[?12l[?25h[?12;25h[47;36H[?25l[7m2[0m[39;49m[27m[H
+
+[?12l[?25h[?12;25h[47;36H[?25l[7m1[0m[39;49m[27m[H
+[?12l[?25h[?12;25h[47;36H[?25l[7m2[0m[39;49m[27m[H
+
+[?12l[?25h[?12;25h[47;36H[?25l[7m3[0m[39;49m[27m[4;1H[?12l[?25h[?12;25h[47;36H[?25l[7m4[0m[39;49m[27m[5;1H[?12l[?25h[?12;25h[47;36H[?25l[7m3[0m[39;49m[27m[4;1H[?12l[?25h[?12;25h[47;36H[?25l[7m4[0m[39;49m[27m[5;1H[?12l[?25h[?12;25h[47;36H[?25l[7m5[0m[39;49m[27m[6;1H[?12l[?25h[?12;25h[47;36H[?25l[7m6[0m[39;49m[27m[7;1H[?12l[?25h[?12;25h[47;36H[?25l[7m7[0m[39;49m[27m[8;1H[?12l[?25h[?12;25h[47;36H[?25l[7m8[0m[39;49m[27m[9;1H[?12l[?25h[?12;25h[47;36H[?25l[7m9[0m[39;49m[27m[10;1H[?12l[?25h[?12;25h[47;36H[?25l[7m10[0m[39;49m[27m[11;1H[?12l[?25h[?12;25h[47;37H[?25l[7m1[0m[39;49m[27m[12;1H[?12l[?25h[?12;25h[47;37H[?25l[7m2[0m[39;49m[27m[13;1H[?12l[?25h[?12;25h[47;37H[?25l[7m3[0m[39;49m[27m[14;1H[?12l[?25h[?12;25h[47;37H[?25l[7m4[0m[39;49m[27m[15;1H[?12l[?25h[?12;25h[47;37H[?25l[7m5[0m[39;49m[27m[16;1H[?12l[?25h[?12;25h[47;37H[?25l[7m6[0m[39;49m[27m[17;1H[?12l[?25h[?12;25h[47;37H[?25l[7m7[0m[39;49m[27m[18;1H[?12l[?25h[?12;25h[47;37H[?25l[7m6[0m[39;49m[27m[17;1H[?12l[?25h[?12;25h[47;37H[?25l[7m5[0m[39;49m[27m[16;1H[?12l[?25h[?12;25h[47;37H[?25l[7m4[0m[39;49m[27m[15;1H[?12l[?25h[?12;25h[47;37H[?25l[7m5[0m[39;49m[27m[16;1H[?12l[?25h[?12;25h[47;37H[?25l[7m6[0m[39;49m[27m[17;1H[?12l[?25h[?12;25h[47;37H[?25l[7m7[0m[39;49m[27m[18;1H[?12l[?25h[?12;25h[47;37H[?25l[7m6[0m[39;49m[27m[17;1H[?12l[?25h[?12;25h[47;37H[?25l[7m5[0m[39;49m[27m[16;1H[?12l[?25h[?12;25h[47;37H[?25l[7m4[0m[39;49m[27m[15;1H[?12l[?25h[?12;25h[47;37H[?25l[7m3[0m[39;49m[27m[14;1H[?12l[?25h[?12;25h[47;37H[?25l[7m2[0m[39;49m[27m[13;1H[?12l[?25h[?12;25h[47;37H[?25l[7m1[0m[39;49m[27m[12;1H[?12l[?25h[?12;25h[47;37H[?25l[7m0[0m[39;49m[27m[11;1H[?12l[?25h[?12;25h[47;36H[?25l[7m9 [0m[39;49m[27m[10;1H[?12l[?25h[?12;25h[47;36H[?25l[7m8[0m[39;49m[27m[9;1H[?12l[?25h[?12;25h[47;36H[?25l[7m7[0m[39;49m[27m[8;1H[?12l[?25h[?12;25h[47;36H[?25l[7m6[0m[39;49m[27m[7;1H[?12l[?25h[?12;25h[47;36H[?25l[7m5[0m[39;49m[27m[6;1H[?12l[?25h[?12;25h[47;36H[?25l[7m4[0m[39;49m[27m[5;1H[?12l[?25h[?12;25h[47;36H[?25l[7m5[0m[39;49m[27m[6;1H[?12l[?25h[?12;25h[47;36H[?25l[7m6[0m[39;49m[27m[7;1H[?12l[?25h[?12;25h[47;36H[?25l[7m7[0m[39;49m[27m[8;1H[?12l[?25h[?12;25h[47;36H[?25l[7m8[0m[39;49m[27m[9;1H[?12l[?25h[?12;25h[47;36H[?25l[7m9[0m[39;49m[27m[10;1H[?12l[?25h[?12;25h[47;36H[?25l[7m10[0m[39;49m[27m[11;1H[?12l[?25h[?12;25h[47;37H[?25l[7m1[0m[39;49m[27m[12;1H[?12l[?25h[?12;25h[47;37H[?25l[7m2[0m[39;49m[27m[13;1H[?12l[?25h[?12;25h[47;37H[?25l[7m3[0m[39;49m[27m[14;1H[?12l[?25h[?12;25h[47;37H[?25l[7m4[0m[39;49m[27m[15;1H[?12l[?25h[?12;25h[47;37H[?25l[7m5[0m[39;49m[27m[16;1H[?12l[?25h[?12;25h[47;37H[?25l[7m6[0m[39;49m[27m[17;1H[?12l[?25h[?12;25h[47;37H[?25l[7m7[0m[39;49m[27m[18;1H[?12l[?25h[?12;25h[47;37H[?25l[7m8[0m[39;49m[27m[19;1H[?12l[?25h[?12;25h[48d[?25lEnd of buffer[19;1H[?12l[?25h[?12;25h[48d[K[47;37H[?25l[7m7[0m[39;49m[27m[18;1H[?12l[?25h[?12;25h[C[C[C[C[C[C		[C[C[C[C[?25lh)[47;6H[7m**[0m[39;49m[27m[18;14H[?12l[?25h[?12;25h[?25lo)[?12l[?25h[?12;25h[?25ls)[?12l[?25h[?12;25h[?25lt)[?12l[?25h[?12;25h[?25l=)[?12l[?25h[?12;25h[?25l)[K[?12l[?25h[?12;25h[?25l)[K[?12l[?25h[?12;25h[?25l)[K[?12l[?25h[?12;25h[?25l)[K[?12l[?25h[?12;25h[?25l)[K[?12l[?25h[?12;25h[?25lh)[?12l[?25h[?12;25h[?25lo)[?12l[?25h[?12;25h[?25ls)[?12l[?25h[?12;25h[?25lt)[?12l[?25h[?12;25h[?25l=)[?12l[?25h[?12;25h[?25l[32m') [39;49m                                                                
+[18;19H[?12l[?25h[?12;25h[?25l[32m0) [39;49m[?12l[?25h[?12;25h[?25l[32m.) [39;49m[?12l[?25h[?12;25h[?25l[32m0) [39;49m[?12l[?25h[?12;25h[?25l[32m.) [39;49m[?12l[?25h[?12;25h[?25l[32m0) [39;49m[?12l[?25h[?12;25h[?25l[32m.) [39;49m[?12l[?25h[?12;25h[?25l[32m0) [39;49m[?12l[?25h[?12;25h[?25l[32m:) [39;49m[?12l[?25h[?12;25h[?25l[32m8) [39;49m[?12l[?25h[?12;25h[?25l[32m0) [39;49m[?12l[?25h[?12;25h[?25l[32m0) [39;49m[?12l[?25h[?12;25h[?25l[32m0) [39;49m[?12l[?25h[?12;25h[?25l[32m'[39;49m)[K[?12l[?25h[?12;25h[48;1H[?25lSaving file /home/kali/iot/lesson4/hello_world.py...[18;32H[?12l[?25h[?12;25h[48;1H[?25lWrote /home/kali/iot/lesson4/hello_world.py[K[18;32H[?12l[?25h[?12;25h[47;6H[?25l[7m----F1  [0m[39;49m[27m[7m[1mhello_world.py[0m[39;49m[27m[7m   All L17   [0m[39;49m[27m[7mGit:[0m[39;49m[27m[18;32H[?12l[?25h[?12;25h[48;1H[K[18;32H[48;1H[K[?1004l[?2004l[>4m[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m                                                                                    ]0;kali@kali-raspberry-pi: ~/iot/lesson4
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali-raspberry-pi[0m[34m[32m)-[[1m[32m[39m~/iot/lesson4[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[32memacs[39m [4mhello_world.py[24m[20D[39m [39m [39m [39m [39m  [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [20D[32memacs[39m [4mhello_world.py[24m[20D[32ml[32ms[39m[39m [39m [39m  [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [18D[32mf[32ml[32mask[39m run [35m--host=0.0.0.0:8000[39m[19D[39m[4mh[39m[4me[39m[4ml[39m[4ml[39m[4mo[39m[4m_[39m[4mw[39m[4mo[39m[4mr[39m[4ml[39m[4md[39m[4m.[39m[4mp[39m[4my[24m[39m [35m-[35m-[35mh[35mo[35mst=0.0.0.0:8000[39m[44D[32me[32mm[32ma[32mc[32ms[39m[4P[16C[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m     [24D[20D[32mp[32my[32mt[32mh[32mo[32mn[24m[32m3[39m[24m [4mh[4me[4ml[4ml[4mo[4m_[4mw[4mo[4mr[4ml[4md[4m.[4mpy[24m[14D[24mh[24me[24ml[24ml[24mo[24m.[24mw[24mo[24mr[24ml[24md[24m.[24mp[24my[14D[4mh[4me[4ml[4ml[4mo[4m_[4mw[4mo[4mr[4ml[4md[4m.[4mp[4my[24m[?1l>[?2004l
+ * Serving Flask app 'hello_world' (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: off
+Traceback (most recent call last):
+  File "/home/kali/iot/lesson4/hello_world.py", line 17, in <module>
+    app.run(host='0.0.0.0:8000')
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 922, in run
+    run_simple(t.cast(str, host), port, self, **options)
+  File "/usr/lib/python3/dist-packages/werkzeug/serving.py", line 1010, in run_simple
+    inner()
+  File "/usr/lib/python3/dist-packages/werkzeug/serving.py", line 950, in inner
+    srv = make_server(
+          ^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/werkzeug/serving.py", line 782, in make_server
+    return ThreadedWSGIServer(
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/werkzeug/serving.py", line 688, in __init__
+    super().__init__(server_address, handler)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/socketserver.py", line 456, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.11/http/server.py", line 136, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.11/socketserver.py", line 472, in server_bind
+    self.socket.bind(self.server_address)
+socket.gaierror: [Errno -2] Name or service not known
+                                                                                    ]0;kali@kali-raspberry-pi: ~/iot/lesson4
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali-raspberry-pi[0m[34m[32m)-[[1m[32m[39m~/iot/lesson4[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[1m[31me[0m[39m[1m[31me[0m[39m[38;2;153;153;153mmacs hello_world.py[39m[19D[1m[31me[1m[31mm[0m[39m[1m[31me[1m[31mm[1m[31ma[0m[39m[1m[31ma[1m[31mc[0m[39m[0m[32me[0m[32mm[0m[32ma[0m[32mc[32ms[39m[39m [39m[4mh[39m[4me[39m[4ml[39m[4ml[39m[4mo[39m[4m_[39m[4mw[39m[4mo[39m[4mr[39m[4ml[39m[4md[39m[4m.[39m[4mp[39m[4my[24m[?1l>[?2004l
+[?1049h[22;0;0t[?12;25h[?1h=[H[2J[48d[K[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m[?1049h[22;0;0t[?12;25h[?1h=[H[2J[47d[?25l[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) -------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[48d[?25lLoading /etc/emacs/site-start.d/00debian.el (source)...done[K[H
+[?12l[?25h[?12;25h[48;33H[?25l50dictionaries-common.el (source)...[H
+[?12l[?25h[?12;25h[48;9H[?25ldebian-ispell...[K[H
+[?12l[?25h[?12;25h[48;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-default.el (source)...[H
+[?12l[?25h[?12;25h[48;77H[?25ldone[H
+[?12l[?25h[?12;25h[48;9H[?25ldebian-ispell...done[K[H
+[?12l[?25h[?12;25h[48;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-dicts.el (source)...[H
+[?12l[?25h[?12;25h[48;75H[?25ldone[H
+[?12l[?25h[?12;25h[48;10H[?25letc/emacs/site-start.d/50dictionaries-common[6P[H
+[?12l[?25h[?12;25h[48;35H[?25lfiglet.el (source)...[K[H
+[?12l[?25h[?12;25h[48;56H[?25ldone[H
+[?12l[?25h[?12;25h[>0c]11;?\[>4;1m[?2004h[?1004h[48d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H
+[?12l[?25h[?12;25h[48d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools Python Help                                         [0m[39;49m[27m
+[A
+[1m[36mfrom[0m[39;49m flask [1m[36mimport[0m[39;49m Flask[K
+[1m[36mfrom[0m[39;49m flask [1m[36mimport[0m[39;49m send_from_directory[K
+[1m[36mimport[0m[39;49m os[K
+[33mapp[39;49m = Flask([1m[34m__name__[0m[39;49m)[K
+[K
+[32m@app.route[39;49m([32m"/"[39;49m)[K
+[1m[36mdef[0m[39;49m [1m[34mhello[0m[39;49m():[K
+    [1m[36mreturn[0m[39;49m [32m"Hello World!"[39;49m[K
+[K
+[32m@app.route[39;49m([32m'/favicon.ico'[39;49m)[K
+[1m[36mdef[0m[39;49m [1m[34mfavicon[0m[39;49m():[K
+    [1m[36mreturn[0m[39;49m send_from_directory(os.path.join(app.root_path, [32m'static'[39;49m),[K
+                               [32m'favicon.ico'[39;49m,[K
+                               mimetype=[32m'image/vnd.microsoft.icon'[39;49m)[K
+[K
+[1m[36mif[0m[39;49m [1m[34m__name__[0m[39;49m == [32m"__main__"[39;49m:[K
+    app.run(host=[32m'0.0.0.0:8000'[39;49m)[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UU-:----F1  [0m[39;49m[27m[7m[1mhello_world.py[0m[39;49m[27m[7m   All L1    [0m[39;49m[27m[7mGit:master[0m[39;49m[27m[7m  (Python ElDoc) -----------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[48d[K[47;36H[?25l[7m2[0m[39;49m[27m[H
+
+[?12l[?25h[?12;25h[47;36H[?25l[7m3[0m[39;49m[27m[4;1H[?12l[?25h[?12;25h[47;36H[?25l[7m4[0m[39;49m[27m[5;1H[?12l[?25h[?12;25h[47;36H[?25l[7m5[0m[39;49m[27m[6;1H[?12l[?25h[?12;25h[47;36H[?25l[7m6[0m[39;49m[27m[7;1H[?12l[?25h[?12;25h[47;36H[?25l[7m7[0m[39;49m[27m[8;1H[?12l[?25h[?12;25h[47;36H[?25l[7m8[0m[39;49m[27m[9;1H[?12l[?25h[?12;25h[47;36H[?25l[7m9[0m[39;49m[27m[10;1H[?12l[?25h[?12;25h[47;36H[?25l[7m10[0m[39;49m[27m[11;1H[?12l[?25h[?12;25h[47;37H[?25l[7m1[0m[39;49m[27m[12;1H[?12l[?25h[?12;25h[47;37H[?25l[7m2[0m[39;49m[27m[13;1H[?12l[?25h[?12;25h[47;37H[?25l[7m3[0m[39;49m[27m[14;1H[?12l[?25h[?12;25h[47;37H[?25l[7m4[0m[39;49m[27m[15;1H[?12l[?25h[?12;25h[47;37H[?25l[7m5[0m[39;49m[27m[16;1H[?12l[?25h[?12;25h[47;37H[?25l[7m6[0m[39;49m[27m[17;1H[?12l[?25h[?12;25h[47;37H[?25l[7m7[0m[39;49m[27m[18;1H[?12l[?25h[?12;25h[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[C[C[?25l[32m'[39;49m)[K[47;6H[7m**[0m[39;49m[27m[18;30H[?12l[?25h[?12;25h[?25l[32m'[39;49m)[K[?12l[?25h[?12;25h[?25l[32m'[39;49m)[K[?12l[?25h[?12;25h[?25l[32m'[39;49m)[K[?12l[?25h[?12;25h[?25l[32m'[39;49m)[K[?12l[?25h[?12;25h[48;1H[?25lSaving file /home/kali/iot/lesson4/hello_world.py...[18;26H[?12l[?25h[?12;25h[48;1H[?25lWrote /home/kali/iot/lesson4/hello_world.py[K[18;26H[?12l[?25h[?12;25h[47;6H[?25l[7m--[0m[39;49m[27m[18;26H[?12l[?25h[?12;25h[48;1H[K[18;26H[48;1H[K[?1004l[?2004l[>4m[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m                                                                                    ]0;kali@kali-raspberry-pi: ~/iot/lesson4
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali-raspberry-pi[0m[34m[32m)-[[1m[32m[39m~/iot/lesson4[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[32memacs[39m [4mhello_world.py[24m[20D[32mp[32my[32mt[32mh[32mo[32mn[24m[32m3[39m[24m [4mh[4me[4ml[4ml[4mo[4m_[4mw[4mo[4mr[4ml[4md[4m.[4mpy[24m[22D[32me[32mm[32ma[32mc[32ms[39m[P[P[15C  [20D[32ml[32ms[39m[39m [39m [39m  [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [18D[32me[32mm[32macs[39m [4mhello_world.py[24m[20D[32mp[32my[32mt[32mh[32mo[32mn[24m[32m3[39m[24m [4mh[4me[4ml[4ml[4mo[4m_[4mw[4mo[4mr[4ml[4md[4m.[4mpy[24m[22D[32me[32mm[32ma[32mc[32ms[39m[P[P[15C  [20D[32mp[32my[32mt[32mh[32mo[32mn[24m[32m3[39m[24m [4mh[4me[4ml[4ml[4mo[4m_[4mw[4mo[4mr[4ml[4md[4m.[4mpy[24m[?1l>[?2004l
+ * Serving Flask app 'hello_world' (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: off
+ * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://192.168.1.23:5000/ (Press CTRL+C to quit)
+192.168.1.153 - - [07/Mar/2023 03:42:00] "GET / HTTP/1.1" 200 -
+192.168.1.153 - - [07/Mar/2023 03:42:00] "GET /favicon.ico HTTP/1.1" 200 -
+^C                                                                                    ]0;kali@kali-raspberry-pi: ~/iot/lesson4
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali-raspberry-pi[0m[34m[32m)-[[1m[32m[39m~/iot/lesson4[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[1m[31me[0m[39m[1m[31me[0m[39m[38;2;153;153;153mmacs hello_world.py[39m[19D[0m[32me[32mx[39m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [18D[38;2;153;153;153mit script[39m[9D[1m[31me[1m[31mx[1m[31mi[0m[39m[0m[32me[0m[32mx[0m[32mi[32mt[39m[39m [39m[4ms[24m[24ms[39mc[39mr[39mi[39mp[39mt[?1l>[?2004l
+
+Script done on 2023-03-07 03:43:50+00:00 [COMMAND_EXIT_CODE="0"]
