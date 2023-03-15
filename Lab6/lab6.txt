@@ -1,0 +1,307 @@
+Script started on 2023-03-15 17:08:26-04:00 [TERM="xterm" TTY="/dev/pty0" COLUMNS="100" LINES="27"]
+[?2004h]0;~/CPE322/Lab6
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/CPE322/Lab6[0m
+$ cd
+[?2004l[?2004h]0;~
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~[0m
+$ c d[K[Kd ~/iot/lesson6
+[?2004l[?2004h]0;~/iot/lesson6
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/iot/lesson6[0m
+$ ls
+[?2004lMT7688.ino		blinky.js	mq135		    sound_detector_demo.ino  toggle.ino
+PM_Sensor_Kit_Code.ino	ds18b20		particle	    static		     variable.ino
+README.md		hello-world.js	publish.ino	    subscribe.ino	     xiao
+blink.gif		hello.js	say_hello.mustache  test.txt
+blink.ino		http.js		say_hello.py	    tinker.ino
+blink_on_duo.py		index.js	sound.ino	    toggle.html
+[?2004h]0;~/iot/lesson6
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/iot/lesson6[0m
+$ node -v
+[?2004l[0m[0Kv18.14.0[0K[?25l
+[0K[?25h[?2004h]0;~/iot/lesson6
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/iot/lesson6[0m
+$ node [K[K[K[Kpm -v
+[?2004l[6n[6n[m[?25h[6n[m[?25h]0;npm
+[?2004h]0;~/iot/lesson6
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/iot/lesson6[0m
+$ npm
+[?2004l[6n[m[?25h[6n[m[?25h]0;npm
+[?2004h]0;~/iot/lesson6
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/iot/lesson6[0m
+$ node hello-world.js
+[?2004l[0m[0KServer running at http://127.0.0.1:3000/[0K[?25l
+[0K[?25h[?2004h]0;~/iot/lesson6
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/iot/lesson6[0m
+$ h[Knode hello.js
+[?2004l[0m[0KServer running at http://127.0.0.1:8080/[0K[?25l
+[0K[?25h[?2004h]0;~/iot/lesson6
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/iot/lesson6[0m
+$ ls
+[?2004lMT7688.ino		blinky.js	mq135		    sound_detector_demo.ino  toggle.ino
+PM_Sensor_Kit_Code.ino	ds18b20		particle	    static		     variable.ino
+README.md		hello-world.js	publish.ino	    subscribe.ino	     xiao
+blink.gif		hello.js	say_hello.mustache  test.txt
+blink.ino		http.js		say_hello.py	    tinker.ino
+blink_on_duo.py		index.js	sound.ino	    toggle.html
+[?2004h]0;~/iot/lesson6
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/iot/lesson6[0m
+$ cat hellow.j[K[K[K.js
+[?2004lvar http = require('http');
+var path = require('path');
+var fs = require('fs');
+var url = require('url');
+var favicon = path.join(__dirname, 'static', 'favicon.ico');
+
+http.createServer(function (req, res) {
+                  var pathname = url.parse(req.url).pathname;
+                  if (req.method === 'GET' && pathname === '/favicon.ico') {
+                    res.setHeader('Content-Type', 'image/x-icon');
+                    fs.createReadStream(favicon).pipe(res);
+                    return;
+                  }
+                  req.on('end', function () {
+                         console.log('request end event fired');
+                         });
+                  res.writeHead(200, {'Content-Type': 'text/plain'});
+                  res.end('Hello World!\n');
+                  console.log('response end call done');
+                  }).listen(8080);
+
+console.log('Server running at http://127.0.0.1:8080/');
+[?2004h]0;~/iot/lesson6
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/iot/lesson6[0m
+$ d[Knode h[Khttp.js
+[?2004l[0m[0K[?2004h]0;~/iot/lesson6
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/iot/lesson6[0m
+$ cat http.js
+[?2004lvar http = require('http');
+var path = require('path');
+var fs = require('fs');
+var url = require('url');
+var favicon = path.join(__dirname, 'static', 'favicon.ico');
+
+http.createServer(function (req, res) {
+                  var pathname = url.parse(req.url).pathname;
+                  if (req.method === 'GET' && pathname === '/favicon.ico') {
+                    res.setHeader('Content-Type', 'image/x-icon');
+                    fs.createReadStream(favicon).pipe(res);
+                    return;
+                  }
+                  fs.readFile("test.txt", 'utf-8', function (error, data) {
+                              console.log(data);
+                              res.writeHead(200, {
+                                            'Content-Type': 'text/plain'
+                                            });
+                              if(!data){
+                              var data = 0;
+                              }
+                              data = (parseInt(data) + 1);
+                              var refresh = parseInt(data);
+                              fs.writeFile('test.txt', parseInt(refresh).toString(), (error) => { /* handle error */ });
+                              res.end('This page was refreshed ' + data + ' times!');
+                              var data = "";
+                              });
+                  }).listen(8080);
+[?2004h]0;~/iot/lesson6
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/iot/lesson6[0m
+$ ls
+[?2004lMT7688.ino		blinky.js	mq135		    sound_detector_demo.ino  toggle.ino
+PM_Sensor_Kit_Code.ino	ds18b20		particle	    static		     variable.ino
+README.md		hello-world.js	publish.ino	    subscribe.ino	     xiao
+blink.gif		hello.js	say_hello.mustache  test.txt
+blink.ino		http.js		say_hello.py	    tinker.ino
+blink_on_duo.py		index.js	sound.ino	    toggle.html
+[?2004h]0;~/iot/lesson6
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/iot/lesson6[0m
+$ cd ..
+[?2004l[?2004h]0;~/iot
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/iot[0m
+$ ls
+[?2004lREADME.md  economics  lesson10	lesson4  lesson7  make		    standards
+apps	   hype       lesson2	lesson5  lesson8  projects	    tools
+cases	   lesson1    lesson3	lesson6  lesson9  special_problems
+[?2004h]0;~/iot
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/iot[0m
+$ cd lesson6
+[?2004l[?2004h]0;~/iot/lesson6
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/iot/lesson6[0m
+$ cd ..
+[?2004l[?2004h]0;~/iot
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/iot[0m
+$ cd lesson56[K
+[?2004l[?2004h]0;~/iot/lesson5
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/iot/lesson5[0m
+$ ls
+[?2004lDockerfile  favicon.ico      pubcpu.py	  sub-multiple.py  subdata.py
+README.md   pub-multiple.py  pubdata.py   sub.py	   subraspi.py
+client.py   pub.py	     pubraspi.py  subcpu.py	   system_info.py
+[?2004h]0;~/iot/lesson5
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/iot/lesson5[0m
+$ cp favioc[K[Kcon.ci[K[Kico ~/iot/lesson6
+[?2004l[?2004h]0;~/iot/lesson5
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/iot/lesson5[0m
+$ cd ..
+[?2004l[?2004h]0;~/iot
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/iot[0m
+$ ls
+[?2004lREADME.md  economics  lesson10	lesson4  lesson7  make		    standards
+apps	   hype       lesson2	lesson5  lesson8  projects	    tools
+cases	   lesson1    lesson3	lesson6  lesson9  special_problems
+[?2004h]0;~/iot
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/iot[0m
+$ cd lse[K[Kesson6
+[?2004l[?2004h]0;~/iot/lesson6
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/iot/lesson6[0m
+$ ls
+[?2004lMT7688.ino		blinky.js	index.js	    sound.ino		     toggle.html
+PM_Sensor_Kit_Code.ino	ds18b20		mq135		    sound_detector_demo.ino  toggle.ino
+README.md		favicon.ico	particle	    static		     variable.ino
+blink.gif		hello-world.js	publish.ino	    subscribe.ino	     xiao
+blink.ino		hello.js	say_hello.mustache  test.txt
+blink_on_duo.py		http.js		say_hello.py	    tinker.ino
+[?2004h]0;~/iot/lesson6
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/iot/lesson6[0m
+$ node hellow.js[K[K[K[K.js
+[?2004l[0m[0KServer running at http://127.0.0.1:8080/[0K[?25l
+[0K[?25h[?2004h]0;~/iot/lesson6
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/iot/lesson6[0m
+$ cat hellow[K.js
+[?2004lvar http = require('http');
+var path = require('path');
+var fs = require('fs');
+var url = require('url');
+var favicon = path.join(__dirname, 'static', 'favicon.ico');
+
+http.createServer(function (req, res) {
+                  var pathname = url.parse(req.url).pathname;
+                  if (req.method === 'GET' && pathname === '/favicon.ico') {
+                    res.setHeader('Content-Type', 'image/x-icon');
+                    fs.createReadStream(favicon).pipe(res);
+                    return;
+                  }
+                  req.on('end', function () {
+                         console.log('request end event fired');
+                         });
+                  res.writeHead(200, {'Content-Type': 'text/plain'});
+                  res.end('Hello World!\n');
+                  console.log('response end call done');
+                  }).listen(8080);
+
+console.log('Server running at http://127.0.0.1:8080/');
+[?2004h]0;~/iot/lesson6
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/iot/lesson6[0m
+$ emacs hellow.[K[K.js
+[?2004l[6n[m[?25h[?2004h]0;~/iot/lesson6
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/iot/lesson6[0m
+$ cat hellow.js[K[K[K[K.js
+[?2004lvar http = require('http');
+var path = require('path');
+var fs = require('fs');
+var url = require('url');
+var favicon = path.join(__dirname, 'static', 'favicon.ico');
+
+http.createServer(function (req, res) {
+                  var pathname = url.parse(req.url).pathname;
+                  if (req.method === 'GET' && pathname === '/favicon.ico') {
+                    res.setHeader('Content-Type', 'image/x-icon');
+                    fs.createReadStream(favicon).pipe(res);
+                    return;
+                  }
+                  req.on('end', function () {
+                         console.log('request end event fired');
+                         });
+                  res.writeHead(200, {'Content-Type': 'text/plain'});
+                  res.end('Hello World!\n');
+                  console.log('response end call done');
+                  }).listen(3000);
+
+console.log('Server running at http://127.0.0.1:8080/');
+[?2004h]0;~/iot/lesson6
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/iot/lesson6[0m
+$ node hellow.[K[K.js
+[?2004l[0m[0KServer running at http://127.0.0.1:8080/[0K[?25l
+[0K[?25hresponse end call done[0K[?25l
+request end event fired[0K
+[0K[?25h[?2004h]0;~/iot/lesson6
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/iot/lesson6[0m
+$ emacs hht[K[Kttp.js
+[?2004l[6n[m[?25h[?2004h]0;~/iot/lesson6
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/iot/lesson6[0m
+$ node hellow.j[K[K[K.js
+[?2004l[0m[0KServer running at http://127.0.0.1:8080/[0K[?25l
+[0K[?25hresponse end call done[0K[?25l
+request end event fired[0K
+[0K[?25hresponse end call done[0K[?25l
+request end event fired[0K
+[0K[?25h[?2004h]0;~/iot/lesson6
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/iot/lesson6[0m
+$ nod [Ke http.s[Kjs
+[?2004l[0m[0K0[0K[?25l
+[0K
+[0K[?25h1[0K[?25l
+[0K[?25h2[0K[?25l
+[0K[?25h3[0K[?25l
+[0K[?25h4[0K[?25l
+[0K[?25h[?2004h]0;~/iot/lesson6
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/iot/lesson6[0m
+$ pip install pystache
+[?2004l[6n[m[?25hCollecting pystache
+  Downloading pystache-0.6.0.tar.gz (78 kB)
+     [38;2;58;58;58m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[m [32m0.0/78.2 kB[m [31m?[m eta [36m-:--:--[?25l[m     [38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[m [32m78.2/78.2 kB[m [31m2.1 MB/s[m eta [36m0:00:00[m[K[21C
+[?25h  Installing build dependencies ... -\|/-done
+  Getting requirements to build wheel ... -\done
+  Preparing metadata (pyproject.toml) ... -\done
+Building wheels for collected packages: pystache
+  Building wheel for pystache (pyproject.toml) ... -\|/-\|/-\|done
+  Created wheel for pystache: filename=pystache-0.6.0-py3-none-any.whl size=83719 sha256=76313db6676
+2cc31823924891b2f86953f44ab4349777539c40782309bbbe23d
+  Stored in directory: c:\users\thakk\appdata\local\pip\cache\wheels\85\d6\50\39ee0fc0f15b32c9a98467
+fefff466a68b5cb3a04a76401aca
+Successfully built pystache
+Installing collected packages: pystache
+Successfully installed pystache-0.6.0
+
+[1m[97m[[22m[34mnotice[1m[97m][m A new release of pip is available: [31m23.0[m -> [32m23.0.1[m
+[1m[97m[[22m[34mnotice[1m[97m][m To update, run: [32mpython.exe -m pip install --upgrade pip[m[K
+[?2004h]0;~/iot/lesson6
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/iot/lesson6[0m
+$ cat say_hello.mustache
+[?2004lHello, {{to}}!
+[?2004h]0;~/iot/lesson6
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/iot/lesson6[0m
+$ cat say_hello.py
+[?2004l# https://github.com/defunkt/pystache
+import pystache
+print(pystache.render('Hi {{person}}!', {'person': 'Alexa'}))
+
+# Create dedicated view classes to hold view logic
+class SayHello(object):
+    def to(self):
+        return "World"
+hello = SayHello()
+
+# Use template in say_hello.mustache
+renderer = pystache.Renderer()
+print(renderer.render(hello))
+
+# Pre-parse a template
+parsed = pystache.parse('Hey {{#who}}{{.}}!{{/who}}')
+print(parsed)
+print(renderer.render(parsed, {'who': 'Google'}))
+print(renderer.render(parsed, {'who': 'Siri'}))
+[?2004h]0;~/iot/lesson6
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/iot/lesson6[0m
+$ python say_hello.py
+[?2004l[6n[m[?25hHi Alexa!
+Hello, World!
+
+['Hey ', _SectionNode(key='who', index_begin=12, index_end=18, parsed=[_EscapeNode(key='.'), '!'])] 
+Hey Google!
+Hey Siri!
+[?2004h]0;~/iot/lesson6
+[32mthakk@DESKTOP-HRIQRGI [35mMINGW64[0m [33m~/iot/lesson6[0m
+$ [K$ exit script
+[?2004lexit
+bash: exit: script: numeric argument required
+
+Script done on 2023-03-15 17:23:44-04:00 [COMMAND_EXIT_CODE="2"]
