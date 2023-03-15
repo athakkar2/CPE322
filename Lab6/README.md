@@ -10,7 +10,7 @@ node hello_world.js
 
 This ran on my localhost on port 3000, which made the address 127.0.0.1:3000 look like this in my browser:
 
-![hello_world](Lab6_1.png)
+![hello_world](lab6_1.png)
 
 Then, I tried running the hello.js script but was getting a 404 not found error. I found out that this was because the hello.js script was trying to listen on port 8080 of my localhost which was being used by something else. So I changed the script to listen on port 3000, and ran the follwing command to start the server:
 
@@ -20,7 +20,7 @@ node hello.js
 
 When I refreshed the page, I saw the same hello_world.js screen but this time the script outputted on my terminal when someone tried to access the site, as can be seen below:
 
-![hello](Lab6_2.png)
+![hello](lab6_2.png)
 
 Finally, I tried to run http.js but ran into the same problem, so I changed the port to 3000 and ran the server using the following command:
 
@@ -30,7 +30,7 @@ node http.js
 
 After refreshing the page, I saw that the site was tracking how many times I refreshed the page and outputting it on both my browser and terminal. After refreshing the page a few times the site and terminal looked like this:
 
-![http](Lab6_3.png)
+![http](lab6_3.png)
 
 ## Pystache
 
@@ -44,6 +44,6 @@ python say_hello.py
 
 This resulted in the following terminal output:
 
-![stache](Lab6_4.png)
+![stache](lab6_4.png)
 
 For a full log dump of my terminal please click [here](lab6.txt).
